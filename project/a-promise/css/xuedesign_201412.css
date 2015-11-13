@@ -1,0 +1,482 @@
+/**********************************************************************************************
+
+	Title: CSS for NKUHT MicroMovie Site
+	Author: Elmo Wu (by xuedesign studio)
+	Author URL: http://www.xuedesign.tw/
+	Version: v1.0 (2014-12)
+
+***********************************************************************************************
+		1 通用
+		2.首頁
+		   2-1. 頂端列
+		   2-2. 主要內容區塊
+		   2-3. 首頁選單
+		   2-4. 版權列
+		3. 茶劇情
+		4. 茶劇照
+		5. 茶知識
+		6. 茶連結		
+***********************************************************************************************/
+
+/* 1. 通用 
+===============================================================================================*/
+body{
+	font-family:"微軟正黑體","Microsoft JhengHei","新細明體","PMingLiU", Arial, Helvetica, sans-serif;
+	font-size:100%;
+	line-height:25px;
+	color:#4b4608}
+a:link {text-decoration:underline; color:#00adee}
+a:visited {text-decoration:underline; color:#8c8c8c}
+a:hover {text-decoration:none; color:#00699a}
+form{margin:0; padding:0}
+image{border:0}
+
+.clean{ clear:both}
+.hidden{ display:none}
+::selection {
+   background:#4b4608;
+   color:#fffcdb}
+::-moz-selection {
+   background:#4b4608;
+   color:#fffcdb}
+
+/* 2. 首頁  
+===============================================================================================*/
+#bg { position: fixed; top: 0; left: 0}
+.bgwidth {width: 100%}
+.bgheight {height: 100%}
+#wrap{
+	display:block;
+	width:1240px;
+	margin:0 auto}
+#box_index{
+	display:block;
+	position: absolute;
+	top: 15px/*50%*/;
+    left: 50%;
+	width:1240px;
+	/*height:745px;*/
+	background:url(../images/pic_index.jpg) no-repeat;
+	margin: /*-379px*/ 0 0 0 -620px;
+	-webkit-box-shadow: 0 0 20px #4E4E4E;
+    -moz-box-shadow: 0 0 20px #4E4E4E;
+    box-shadow: 0 0 20px #4E4E4E;
+	-webkit-border-radius: 35px 35px 0px 0px;
+	-moz-border-radius: 35px 35px 0px 0px;
+	border-radius: 35px 35px 0px 0px}
+
+/* 2.1 頂端列 */	
+header{
+	display:block;
+	position:relative;
+	width:1240px;
+	height:110px/*99px*/}
+h1{
+	display:block;
+	margin:0}
+h1 a{
+	display:block;
+	position:absolute;
+	top:22px;
+	left:32px;
+	width:238px;
+	height:70px;
+	background:url(../images/pic_h1.png) no-repeat;
+	text-indent:-9999px}
+
+/* 2.2 主要內容區塊 */		
+#box_content{
+	display:block;
+	position:relative;
+	width:1240px;
+	height:600px}
+/*#box_content h2{
+	display:block;
+	position:absolute;
+	top:35px;
+	left:32px;
+	z-index:99;
+	width:544px;
+	height:179px;
+	text-indent:-9999px;
+	background:url(../images/pic_h2.png) no-repeat}
+#box_content h3{
+	display:block;
+	position:absolute;
+	top:280px;
+	left:115px;
+	z-index:99;
+	width:269px;
+	height:56px;
+	background:url(../images/pic_h3.png) no-repeat;
+	text-indent:-9999px}
+#box_file{
+	display:block;
+	position:relative;
+	float:right;
+	width:915px;
+	height:600px;
+	background:url(../images/pic_index.jpg) no-repeat}*/
+#box_file a{
+	display:block;
+	position:absolute;
+	top:230px;
+	left:545px;
+	width:150px;
+	height:150px;
+	background:url(../images/btn_play.png) no-repeat;
+	text-indent:-9999px}
+#box_file a:hover{
+	background:url(../images/btn_play.png) 0 -150px no-repeat}	
+
+/* 2.3 首頁選單 */	
+#box_menu{
+	display:block;
+	float:left;
+	width:1240px;
+	height:36px}
+#box_menu ul{
+	display:block;
+	width:506px;
+	height:36px;
+	padding:23px 0 0 734px}
+#box_menu li a{
+	display: block;
+	float:left;
+	width:115px;
+	height:36px;
+	text-indent:-9999px;
+	background:url(../images/btn_nav.png) no-repeat}
+#box_menu a.nav_01, #box_aside a.nav_01{ background-position: 0 0}
+#box_menu a.nav_01:hover, #box_aside a.nav_01:hover{ background-position: 0 -180px}
+#box_menu a.nav_02, #box_aside a.nav_02{ background-position: 0 -36px}
+#box_menu a.nav_02:hover, #box_aside a.nav_02:hover{ background-position: 0 -216px}
+#box_menu a.nav_03, #box_aside a.nav_03{ background-position: 0 -72px; width:150px}
+#box_menu a.nav_03:hover, #box_aside a.nav_03:hover{ background-position: 0 -252px; width:150px}
+#box_menu a.nav_04, #box_aside a.nav_04{ background-position: 0 -108px}
+#box_menu a.nav_04:hover, #box_aside a.nav_04:hover{ background-position: 0 -288px}
+#box_menu a.nav_05, #box_aside a.nav_05{ background-position: 0 -144px}
+#box_menu a.nav_05:hover, #box_aside a.nav_05:hover{ background-position: 0 -324px}	
+
+/* 2.4 版權列 */					
+footer{
+	clear:both;
+	display:block;
+	position:relative;
+	width:1240px;
+	height:46px;
+	background:url(../images/bg_footer.png) repeat-x}
+footer p{
+	text-align:center;
+	font-size:0.813em;
+	color:#fffcdb;
+	margin:0;
+	padding:0;
+	line-height:46px}
+footer .txt_ad{
+	display:block;
+	position:absolute;
+	top:14px;
+	right:48px;
+	width:52px;
+	height:24px;
+	background:url(../images/pic_ad.png) no-repeat;
+	text-indent:-9999px}			
+	
+/* 3. 茶劇情  
+===============================================================================================*/
+#box_container{
+	display:block;
+	position: absolute;
+	top: 15px;
+    left: 50%;
+	width:1240px;
+	background-color:#FFF;
+	margin: 0 0 0 -620px;
+	-webkit-box-shadow: 0 0 20px #4E4E4E;
+    -moz-box-shadow: 0 0 20px #4E4E4E;
+    box-shadow: 0 0 20px #4E4E4E;
+	-webkit-border-radius: 35px 35px 0px 0px;
+	-moz-border-radius: 35px 35px 0px 0px;
+	border-radius: 35px 35px 0px 0px}
+#box_container .bg_header{
+	display: block;
+	width:1240px;
+	height:110px;
+	background:url(../images/bg_box-1.png);
+	-webkit-border-radius: 35px 35px 0px 0px;
+	-moz-border-radius: 35px 35px 0px 0px;
+	border-radius: 35px 35px 0px 0px}
+#box_container h2{
+	display:block;
+	position:absolute;
+	top:17px;
+	right:48px;
+	background:url(../images/pic_h2-1.png) no-repeat;
+	width:360px;
+	height:83px;
+	text-indent:-9999px;
+	margin:0;
+	padding:0}
+#box_subcontent{
+	display:block;
+	width:1240px;
+	margin-bottom:20px}
+#box_aside{
+	display:block;
+	float:left;
+	width:310px;
+	height:520px;
+	background:url(../images/bg_box-2.png) no-repeat}
+#box_aside ul{
+	display:block;
+	width:200px;
+	padding:0 57px 0 53px}
+#box_aside li{
+	display:block;
+	width:200px;
+	height:59px; 
+	background:url(../images/bg_navline.png) bottom no-repeat;
+	padding-top:25px}	
+#box_aside li a{
+	display: block;
+	float:left;
+	width:115px;
+	height:36px;
+	text-indent:-9999px;
+	background:url(../images/bg_pagetitle.png) no-repeat;
+	margin:0 0 23px 0}	
+#box_pagemain{
+	display:block;
+	position:relative;
+	float:right;
+	width:930px;
+	min-height:500px;
+/*	border:5px solid #8d980b;
+	border-right:none;*/
+	background:url(../images/bg_pagedown.png)  0 0 no-repeat}
+#box_pagemain h3{
+	display:block;
+	position:absolute;
+	top:42px;
+	left:0;
+	background: url(../images/bg_pagetitle.png) no-repeat;
+	width:150px;
+	height:36px;
+	margin:0;
+	text-indent:-9999px}
+#box_pagemain .title_01{ background-position:0 0}
+#box_pagemain .title_02{ background-position:0 -36px}
+#box_pagemain .title_03{ background-position:0 -72px}
+#box_pagemain .title_04{ background-position:0 -108px}		
+#box_pageinfo{
+	display: block;
+	padding:80px 20px 0 75px}
+#box_pageinfo h4{margin:25px 0 5px 0}
+#box_pageinfo p{ 
+    font-size:0.938em;
+    line-height:25px}	
+#box_pageinfo.page_story{
+	display:block;
+	width:470px;
+	background: url(../images/pic_p1.jpg) right 120px no-repeat;
+	padding:80px 340px 0 75px}
+/*.page_story h4{
+	display:block;
+	position:absolute;
+	top:30px;
+	left:112px;
+	text-indent:-9999px;
+	background:url(../images/pic_h3.png) no-repeat;
+	width:269px;
+	height:56px}*/
+.page_story .btn_play{
+	display:block;
+	position:absolute;
+	top:322px;
+	right:155px;
+	background: url(../images/btn_subplay.png) no-repeat;
+	width:104px;
+	height:30px;
+	text-indent:-9999px}
+.page_story .btn_play:hover{ background-position: 0 -30px}
+
+.story_main{display:block}
+.story_main ul{
+	margin-left:-35px}
+.story_main li{
+	list-style:none;
+	padding-left:20px;
+	margin-bottom:15px;
+	background:url(../images/pot_blue.gif) 0 5px no-repeat}
+.pic{
+	display:block;
+	width:110px;
+	height:110px;
+	background:#f3f7fd;
+	margin:15px 13px;
+	list-style:none;
+	overflow:hidden;
+	padding:3px;
+	border:1px solid #738999}
+.page_story h5{
+	font-size:0.875em;
+	margin:20px 0 10px 0}
+.my_table{
+	display:block;
+	width:463px;
+	margin-bottom:10px;
+	font-size:0.875em}
+.my_table td{ padding:3px}
+.my_table .tdtop{ vertical-align:top}
+.my_table .fu{ padding-right:7px}	*/			 	 	
+			
+/* 4. 茶劇照 
+===============================================================================================*/
+#box_pageinfo .box_stills{
+	display:block;
+	width:763px;
+	padding-right:50px}
+#box_pageinfo .box_stills h4{
+	font-size:1em;
+	letter-spacing:1px;
+	margin:25px 0 5px 0}
+#box_pageinfo .box_stills ul{ margin:0; padding:0}
+#box_pageinfo .box_stills li{
+	display: inline-block;
+	/*float:left;*/
+	width:110px;
+	height:110px;
+	background:#f3f7fd;
+	margin:15px 13px;
+	list-style:none;
+	overflow:hidden;
+	padding:3px;
+	border:1px solid #738999}
+.subtitle{
+	display:block;
+	width:242px;
+	height:25px;
+	text-indent:-9999px;
+	background: url(../images/bg_subtitle.png) no-repeat}
+.st-01{
+	background-position: 0 0}
+.st-02{
+	background-position: 0 -25px}
+.st-03{
+	background-position: 0 -50px}
+.st-04{
+	background-position: 0 -75px}
+.st-05{
+	background-position: 0 -100px}
+.st-06{
+	background-position: 0 -125px}
+.st-07{
+	background-position: 0 -150px}
+/*.st-08{
+	background-position: 0 0}
+.st-09{
+	background-position: 0 -160px}
+.st-10{
+	width:60px;
+	background-position: 0 -225px}
+.st-11{
+	width:60px;
+	background-position: 0 -250px}
+.st-12{
+	width:90px;
+	background-position: 0 -275px}
+.st-13{
+	width:135px;
+	background-position: 0 -300px}		
+.st-14{
+	width:135px;
+	background-position: 0 -325px}
+.st-15{
+	width:242px;
+	background-position: 0 -350px}
+.st-16{
+	width:242px;
+	background-position: 0 -375px}
+.st-17{
+	width:242px;
+	background-position: 0 -400px}*/					
+.box_film{
+	display:block;
+	width:710px;
+	height:399px;
+	padding:15px 0 15px 24px}
+/*.box_film-02{
+	display:block;
+	width:657px;
+	height:369px;
+	padding:15px 0 30px 40px}	*/
+
+/* 5. 茶知識 
+===============================================================================================*/
+#box_process{
+	display: block;
+	width:470px;
+	padding-right:340px;
+	background: url(../images/pic_p2.jpg) right 10px no-repeat}
+/*#box_process li{
+	list-style:none;
+	display:block;
+	position:relative;
+	width:650px;
+	min-height:100px;
+	border:3px solid #8D980B;
+	margin-bottom:30px}
+#box_process .arrow_b_int{
+	width:0px;
+	height:0px;
+	border-width:15px;
+	border-style:solid;
+	border-color:#8D980B transparent transparent transparent ;
+	position:absolute;
+	bottom:-30px;
+	left:290px}
+#box_process .arrow_b_out{
+	width:0px;
+	height:0px;
+	border-width:15px;
+	border-style:solid;
+	border-color:#FAF7D5 transparent transparent transparent;
+	position:absolute;
+	bottom:-25px;
+	left:290px}
+#box_process .photo_process{
+	display:block;
+	position:absolute;
+	top:0;
+	right:0;
+	width:125px;
+	height:125px}
+#box_process .txt_padrig{ height:75px; padding-right:115px}			
+#box_process h5{ margin:5px 0 0 5px; padding:0}
+#box_process p{
+	font-size:0.938em;
+	line-height:25px;
+	padding-left:25px;
+	margin:5px 25px 15px 0}	*/
+
+/* 6. 茶連結  
+===============================================================================================*/
+#box_link ul{
+	display:block;
+	padding:0 50px 30px 0}
+#box_link li{
+	display: inline-block;
+	width:300px;
+	height:140px;
+	background:url(../images/pic_link.png) no-repeat;
+	font-size:0.938em;
+	line-height:160px;
+	padding:15px 0;
+	margin:0 30px 0 25px;
+	border-bottom:1px dashed #4b4608}
+#box_link .st-08{ background-position:0 0}
+#box_link .st-09{ background-position:0 -160px}
+#box_link li a:link {text-decoration:none; color:#00adee; padding-left:180px}
+#box_link li a:visited {text-decoration:none; color:#8c8c8c}
+#box_link li a:hover {text-decoration:none; color:#00699a}

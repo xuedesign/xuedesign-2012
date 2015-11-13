@@ -1,0 +1,256 @@
+/**********************************************************************************************
+
+	Title: CSS for xuedeisgn
+	Author: Elmo Wu (by xuedesign studio)
+	Build: v1
+	Date: 2013/04~20013/05
+
+***********************************************************************************************
+		1 通用
+		2 首頁
+		    2.1 頁首
+			2.2 Banner
+			2.3 服務介紹
+			2.4 我們的夥伴
+			2.5 完美底部佈局
+			2.6 頁尾
+			2.7 錯誤訊息		
+***********************************************************************************************/
+
+/* 1. 通用 
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+body{
+	margin: 0;
+	padding:0;
+	background: url(../images/bg_website.png) repeat-x;
+	font-family: "微軟正黑體","Microsoft JhengHei","新細明體","PMingLiU";
+	font-size:100%;
+	line-height:22px;
+	color:#434242}
+a:link {text-decoration:none; color:#3074b1}
+a:visited {text-decoration:none; color:#9b9c9b}
+a:hover {text-decoration:underline; color:#F50}
+form{margin:0; padding:0}
+image{border:0}
+.clean{clear:both}
+.hidden{display:none}
+.flot-img{ float:right}
+
+/* 2. 首頁 
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+#wrap{display:block; width:994px; margin:0 auto}
+
+/*2.1 頁首---------------------------*/
+header{ display:block; width:982px; padding:20px 6px 0 6px;}
+header h1 a{
+	display:block;
+	float:left;
+	background:url(../images/logo.png) no-repeat;
+	width:227px;
+	height:61px;
+	text-indent:-9999px;
+	margin-top:3px;
+	padding-left:15px;}
+header h2{ display:none}
+#top_right{	display:block; float:right; width:720px}	
+#top_login{ font-size:0.813em; text-align:right; color:#376585}
+#top_login .btn_login2{
+	display: inline-block;
+	text-align:left;
+	color:#FFF;
+	width:152px;
+	height:22px;
+	background:url(../images/btn_login.png) no-repeat;
+	padding-left:45px;}
+#top_login .btn_login2:hover{background:url(../images/btn_login.png) 0 -22px no-repeat; text-decoration:none}
+#top_login .btn_addnew, #top_login .btn_login, #top_login .btn_en, #top_login .btn_ch{
+	display: inline-block;
+	color:#FFF;
+	padding:0 15px;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px}
+#top_login .btn_addnew{ background:#f19092}
+#top_login .btn_login{ background:#93a084}
+#top_login .btn_en, #top_login .btn_ch{ background:#29B9DD}
+#top_login .btn_addnew:hover, #top_login .btn_login:hover, #top_login .btn_en:hover, #top_login .btn_ch:hover{ 
+      background:#3074b1; text-decoration:none}
+#top_login span{ padding:0 5px}
+#top_right nav{ padding:18px 0 0 102px;}
+#top_right nav li{ float:left;}
+#top_right nav li .nav_01, #top_right nav li .nav_02, #top_right nav li .nav_03, #top_right nav li .nav_04, #top_right nav li .nav_05, #top_right nav li .nav_06{ display: block; float:left; width:103px; height:21px; text-indent:-9999px}
+#top_right nav li .nav_01{ background:url(../images/bg_nav_tw.png) no-repeat}
+#top_right nav li .nav_01:hover, #top_right nav li .nav_01.navin{ background:url(../images/bg_nav_tw.png) 0 -21px no-repeat}
+#top_right nav li .nav_02{ background:url(../images/bg_nav_tw.png) 0 -42px no-repeat}
+#top_right nav li .nav_02:hover, #top_right nav li .nav_02.navin{ background:url(../images/bg_nav_tw.png) 0 -63px no-repeat}
+#top_right nav li .nav_03{ background:url(../images/bg_nav_tw.png) 0 -84px no-repeat}
+#top_right nav li .nav_03:hover, #top_right nav li .nav_03.navin{ background:url(../images/bg_nav_tw.png) 0 -105px no-repeat}
+#top_right nav li .nav_04{ background:url(../images/bg_nav_tw.png) 0 -126px no-repeat}
+#top_right nav li .nav_04:hover, #top_right nav li .nav_04.navin{ background:url(../images/bg_nav_tw.png) 0 -147px no-repeat}
+#top_right nav li .nav_05{ background:url(../images/bg_nav_tw.png) 0 -168px no-repeat}
+#top_right nav li .nav_05:hover, #top_right nav li .nav_05.navin{ background:url(../images/bg_nav_tw.png) 0 -189px no-repeat}
+#top_right nav li .nav_06{ background:url(../images/bg_nav_tw.png) 0 -210px no-repeat}
+#top_right nav li .nav_06:hover, #top_right nav li .nav_06.navin{ background:url(../images/bg_nav_tw.png) 0 -231px no-repeat}
+
+/*2.2 Banner---------------------------*/
+#mid_block{ display:block; width:962px; padding:49px 16px 0 16px; min-height:620px/*20130821改*/}
+#bannerbox{ display:block; position:relative; width:869px; height:374px; margin:0 auto}
+#bannerbox h3{ display:none}
+#banner_btn{
+	display:block;
+	position:absolute;
+	width:151px;
+	height:18px;
+	top:380px;
+	left:359px;
+	z-index:200;
+	text-indent:-9999px}
+#banner_btn a{
+	display:block;
+	float:left;
+	width:14px;
+	height:14px;
+	background: url(../images/btn_banner.png) 0 -14px no-repeat;
+	margin:0 8px}
+#banner_btn a.activeSlide, #banner_btn a:hover{ background: url(../images/btn_banner.png) no-repeat}
+#banner_main{
+	display:block; 
+	position:absolute; 
+	width:869px; 
+	height:355px; 
+	background:#FFF; 
+	top:0; 
+	left:0; 
+	z-index:99; 
+	overflow:hidden}
+#gray_box{
+	display:block; 
+	position:absolute; 
+	background: url(../images/bg_bannerbox.jpg) no-repeat; 
+	width:869px; 
+	height:19px; 
+	top:355px; 
+	left:0}
+#social_box{ display:block; width:869px; margin:0 auto}
+.btn_fb, .btn_gplus, .btn_twitter{ display:block; float:right}
+.btn_gplus, .btn_twitter{ width:70px; margin:0; padding:0}
+
+/*2.3 服務介紹---------------------------*/
+#service_box, #partner_box{ display:block; width:962px; margin:0 auto}
+#service_box{ margin-top:15px; padding-bottom:45px}
+.service_info{
+	display:block;
+	float:left;
+	width:320px;
+	background: url(../images/pic_symbol.png) no-repeat;
+	padding-left:200px}
+.service_info h3, #partner_box h3{ font-size:1.375em; font-weight: bold; color:#3074b1}	
+.service_info h3{ padding:10px 0 15px 0}
+.service_info p{ font-size:0.75em; color:#8c8b8b; line-height:22px}
+.blog_list{
+	display:block;
+	float:right;
+	width:252px;
+	background:url(../images/pic_skylock.png) 283px 75px no-repeat;
+	padding:48px 150px 20px 40px;}
+.blog_list li{
+	display:block;
+	font-size:0.813em;
+	line-height:22px;
+	padding:0 0 8px 23px;
+	background:url(../images/icon_star.png) 0 2px no-repeat}
+
+/*2.4 我們的夥伴---------------------------*/	
+#partner_box{padding-bottom:20px}
+#partner_box h3{ float:left; padding-left:15px}
+.usage_note{ display:block; float:right; width:850px; height:30px; border-bottom:1px solid #c0c0c0}
+.usage_note li{ 
+    float:right;
+	font-size:0.813em; 
+	margin-left:15px;
+	padding-left:20px;
+	background:url(../images/icon_bluepot.png) 0 5px no-repeat}
+.partner_list{ display:block; width:924px; padding:0 19px}
+.partner_list li{
+	display:block;
+	float:left;
+	height:80px;
+	padding:20px 42px 20px 0}
+.partner_list .btn_joinus{
+	display:block;
+	width:76px;
+	background:#f2f3f4;
+	padding:20px 0;
+	border:2px dashed #305b7b;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	text-align:center}
+.partner_list .btn_joinus:hover{ border:2px dashed #F50; text-decoration:none}			
+
+/*2.5 完美底部佈局---------------------------*/
+html, body, #wrap {height: 100%;}
+body > #wrap {height: auto; min-height: 100%;}
+#main_content{padding-bottom:61px}
+.clearfix:after {
+	content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;}
+.clearfix {display: inline-block;} /* Hides from IE-mac \*/
+* html .clearfix { height: 1%;}
+.clearfix {display: block;} /* End hide from IE-mac */
+
+/*2.6 頁尾--------------------------*/
+footer{
+	clear:both;
+	display:block;
+	position: relative;
+	width:100%;
+	height:61px;
+	background:url(../images/bg_footer.jpg) repeat-x;
+	margin-top: -61px}
+#down_block{ 
+    display:block; 
+	width:982px; 
+	padding:20px 6px 0 6px;
+	margin:0 auto; 
+	font-size:0.813em;
+	color:#656363}
+.down_left{ display:block; float:left}
+.down_left a, .down_left a:visited{ color:#656363; text-decoration:none}
+.down_left a:hover{ text-decoration:underline; color:#F50}
+.down_right{ display:block; float:right}
+.down_right li{ float:left}
+
+/*2.7 錯誤訊息*/
+.error_box{ display:block; position:relative}
+.error_box h3{
+	font-size:1.5em; 
+	font-weight:normal; 
+	color:#26aed0;
+	padding-bottom:25px}
+.error_box p{ font-size:0.813em; line-height:22px; padding:5px 0}
+.error_box ul{ padding:15px 0 15px 25px}
+.error_box li{font-size:0.813em; line-height:22px; list-style: disc inside}
+.error_box a{ font-weight:bold}
+.error_box span{
+	display:block;
+	position:absolute;
+	top:105px;
+	right:50px;
+	width:134px;
+	height:141px;
+	background:url(../images/bg_error.png) no-repeat}
+.error_bg{
+	display:block;
+	width:900px;
+	margin:0 auto;
+	background:#EEE;
+	padding:30px 15px;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;}

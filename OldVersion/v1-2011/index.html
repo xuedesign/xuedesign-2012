@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-tw" xml:lang="zh-tw">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="開始設計, xuedesign, 設計工作室, 網頁規劃設計, 平面視覺設計, 設計思考導向, 使用者體驗, W3C網頁標準, 設計職人"/>
+<meta name="Author" content="Elmo Wu" />
+<link rel="shortcut icon"  href="images/favicon.ico"/>
+<link rel="icon" href="images/favicon.ico" type="images/ico"/>
+<link rel="bookmark" href="images/favicon.ico"/>
+<title>開始設計工作室 XUEDESIGN STUDIO 是一個友善的設計工作室，提供平面視覺設計及網頁規劃設計等解決方案服務。</title>
+<link href="css/reset.css" type="text/css" rel="stylesheet" />
+<link href="css/newvision.css" type="text/css" rel="stylesheet"/>
+<link href="css/main.css" type="text/css" rel="stylesheet"/>
+<script type="text/javascript" src="script/google_analytics.js"></script> 
+<script type="text/javascript" src="script/jquery-1.4.1.js"></script>
+<!--[if lte IE 6]>
+<script type="text/javascript" src="script/letskillie6.zh_tw.js"></script>
+<![endif]-->
+</head>
+
+<body>
+   <div id="wrap">
+      <div id="header">
+         <div class="header_left">
+            <h1>開始設計工作室 xuedesign studio</h1>
+         </div>
+         <div class="header_right">
+            <ul>
+               <li><a href="index_old.html" title="舊版首頁" target="_blank">舊版首頁</a></li>
+               <li><a href="mailto:elmo@xuedesign.tw" title="連絡我們">連絡我們</a></li> 
+            </ul>
+         </div>
+      </div>
+      <br class="clean" />
+      <div id="bodyer">
+          <div class="banner">新的開始即將到來</div>
+          <div class="subtitle">"明年絕對不是世界末日；我們都期待有個好的開始"</div>
+          <div class="timebar">
+              <!-- Countdown dashboard start -->
+                <div id="countdown_dashboard">
+                    <div class="dash weeks_dash">
+                        <span class="dash_title">星期</span>
+                        <div class="digit">0</div>
+                        <div class="digit">0</div>
+                    </div>
+        
+                    <div class="dash days_dash">
+                        <span class="dash_title">天</span>
+                        <div class="digit">0</div>
+                        <div class="digit">0</div>
+                    </div>
+        
+                    <div class="dash hours_dash">
+                        <span class="dash_title">小時</span>
+                        <div class="digit">0</div>
+                        <div class="digit">0</div>
+                    </div>
+        
+                    <div class="dash minutes_dash">
+                        <span class="dash_title">分鐘</span>
+                        <div class="digit">0</div>
+                        <div class="digit">0</div>
+                    </div>
+        
+                    <div class="dash seconds_dash">
+                        <span class="dash_title">秒</span>
+                        <div class="digit">0</div>
+                        <div class="digit">0</div>
+                    </div>
+             </div>
+		     <!-- Countdown dashboard end -->
+                         
+          </div>
+      </div>
+   </div>
+   
+   <div id="footer">
+      <div id="footer_main">
+          <div id="copyright">
+            <p>COMING SOON</p>
+         </div>
+      </div>
+   </div>
+   
+   <script language="javascript" type="text/javascript" src="script/jquery.lwtCountdown-1.0.js"></script>
+   <script language="javascript" type="text/javascript" src="script/misc.js"></script>
+   <script language="javascript" type="text/javascript">
+			jQuery(document).ready(function() {
+				$('#countdown_dashboard').countDown({
+					targetDate: {
+						'day': 		1,
+						'month': 	1,
+						'year': 	2012,
+						'hour': 	00,
+						'min': 		0,
+						'sec': 		0
+					}
+				});
+				
+				$('#email_field').focus(email_focus).blur(email_blur);
+				$('#subscribe_form').bind('submit', function() { return false; });
+			});
+   </script>
+</body>
+</html>

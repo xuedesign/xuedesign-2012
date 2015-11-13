@@ -1,0 +1,101 @@
+@charset "utf-8";
+/*主選單*/
+#nav{
+	display:block;
+	position:absolute;
+	top:30px;
+	left:214px;
+	z-index:99;
+	width:770px;
+	height:34px
+	}
+#nav ul{list-style-type:none; margin:0; padding:0}
+#nav li{
+	display: inline;
+	float:left}
+#nav li ul{
+	position: relative;
+	top:2px;
+	left:15px;
+	z-index:99;
+	display:none
+	}
+#nav li li{
+	clear:both;
+	display:block;
+	width:115px;
+	height:30px;
+	background:#6f6e6d;
+	background-image:url(../images/icon_graybar.png);
+	background-repeat:no-repeat;
+	background-position:10px 10px;
+	margin-top:0;
+	font-size:0.91em;
+	color:#FFF;
+	text-indent:10px;
+	padding: 10px 0 0 10px;
+	border-bottom:1px dashed #FFF
+	}
+#nav .menu_1{
+	display:block;
+	width:154px;
+	height:34px;
+	background:url(../images/nav_01.png) no-repeat}
+#nav  .menu_1:hover{
+	display:block;
+	width:154px;
+	height:34px;
+	background:url(../images/nav_hover_01.png) no-repeat;
+	cursor: pointer}
+#nav li .menu_2{
+	display:block;
+	width:154px;
+	height:34px;
+	background:url(../images/nav_02.png) no-repeat}
+#nav li .menu_2:hover{
+	display:block;
+	width:154px;
+	height:34px;
+	background:url(../images/nav_hover_02.png) no-repeat}
+#nav li .menu_3{
+	display:block;
+	width:154px;
+	height:34px;
+	background:url(../images/nav_03.png) no-repeat}
+#nav li .menu_3:hover{
+	display:block;
+	width:154px;
+	height:34px;
+	background:url(../images/nav_hover_03.png) no-repeat}		
+#nav li .menu_4{
+	display:block;
+	width:154px;
+	height:34px;
+	background:url(../images/nav_04.png) no-repeat}
+#nav li .menu_4:hover{
+	display:block;
+	width:154px;
+	height:34px;
+	background:url(../images/nav_hover_04.png) no-repeat}
+#nav li .menu_5{
+	display:block;
+	width:154px;
+	height:34px;
+	background: url(../images/nav_05.png) no-repeat}
+#nav li .menu_5:hover{
+	display:block;
+	width:154px;
+	height:34px;
+	background: url(../images/nav_hover_05.png) no-repeat}
+#nav li a:link {
+	text-decoration:none; 
+	color: #FFF /*#484848*/
+	}
+#nav li a:visited {
+	text-decoration:none; 
+	color: #FFF /*#484848*/;
+	}
+#nav li a:hover {
+	text-decoration:none; 
+	color:#FC3}
+

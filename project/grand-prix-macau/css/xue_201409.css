@@ -1,0 +1,342 @@
+/**********************************************************************************************
+
+	Title: CSS for xuedeisgn
+	Author: Elmo Wu (by xuedesign studio)
+	Date: 2014/09
+
+***********************************************************************************************
+		1 通用
+		2.基本結構
+		3.單元結構
+		  3.1 頁首
+		  3.2 賽事介紹 
+		  3.3 旅行社行程
+		  3.4 相關報導
+		  3.5 會員獨家活動 		     		
+***********************************************************************************************/
+
+
+/* 1. 通用 
+===============================================================================================*/
+body{
+	background:#fff;
+	font-family: "微軟正黑體","Microsoft JhengHei","新細明體","PMingLiU", Arial, Helvetica, sans-serif;
+	font-size:100%;
+	line-height:20px;
+	color:#2c2c2c}
+a:link {text-decoration:none; color:#1c5ad2}
+a:visited {text-decoration:none; color:#8c8c8c}
+a:hover {text-decoration:none; color:#FD0D3A}
+h1{ display:none}
+form{margin:0; padding:0}
+img{border:0}
+.clean{ clear:both}
+.hidden{ display:none} 
+
+
+/* 2. 基本架構
+===============================================================================================*/
+#wrap{
+	display:block;
+	position: relative;
+	width: 100%}
+.section{
+	display:block;
+	position:relative;
+	width:100%}	
+.intro{
+	display:block;
+	width:994px;
+	height:100%;
+	background: #fff;
+	margin:0 auto}
+.box_title{
+	display:block;
+	width:938px;
+	padding:47px 0 0 56px}
+.box_title h2{
+	display:block;
+	float:left;
+	height:69px;
+	text-indent:-9999px}
+.bar_share{
+	display:block;
+	float:right;
+	width:243px;
+	height:46px;
+	background:url(../images/bg_sharebar.png) 8px 0 no-repeat;
+	padding:23px 0 0 180px;
+	text-align:left}
+.bar_share span{
+	float:left;
+	font-size:1em;
+	line-height:20px;
+	color:#FFF;
+	font-weight:bold;
+	padding-right:15px}			
+
+/*主選單*/
+nav{
+	display:block;
+	position:fixed;
+	top:8%;
+	left:0;
+	z-index:99;
+	background: url(../images/bg_nav.png) no-repeat;
+	width:231px;
+	height:692px}
+#menu{
+	display:block;
+	padding-top:26px}	
+#menu li{display:block}
+.nav_01 a, .nav_01 a:hover, .nav_01.active{
+	display:block;
+	background:url(../images/btn_flag.png) no-repeat;
+	width:231px;
+	height:183px;
+	text-indent:-9999px}
+.nav_02 a, .nav_03 a, .nav_04 a, .nav_05 a{
+	display:block;
+	width:160px;
+	height:99px;
+	text-indent:-9999px}
+.nav_02 a{ background:url(../images/bg_navlist.png) 0 0 no-repeat}
+.nav_02 a:hover, .nav_02.active{ background:url(../images/bg_navlist.png) -160px 0 no-repeat}
+.nav_03 a{ background:url(../images/bg_navlist.png) 0 -99px no-repeat}
+.nav_03 a:hover, .nav_03.active{ background:url(../images/bg_navlist.png) -160px -99px no-repeat}	
+.nav_04 a{ background:url(../images/bg_navlist.png) 0 -198px no-repeat}
+.nav_04 a:hover, .nav_04.active{ background:url(../images/bg_navlist.png) -160px -198px no-repeat}	
+.nav_05 a{ background:url(../images/bg_navlist.png) 0 -297px no-repeat}
+.nav_05 a:hover, .nav_05.active{ background:url(../images/bg_navlist.png) -160px -297px no-repeat}
+
+/*側邊小圓點*/
+.nowin{
+	display:block;
+	position:absolute;
+	top:38%;
+	right:24px;
+	background: url(../images/bg_nowin.png) no-repeat;
+	width:15px;
+	height:98px;
+	text-indent:-9999px}
+.in_01{ background-position: 0 0}
+.in_02{ background-position: -15px 0}
+.in_03{ background-position: -30px 0}
+.in_04{ background-position: -45px 0}
+.in_05{ background-position: -60px 0}
+
+		
+/* 3. 單元架構
+===============================================================================================*/
+/*3.1 頁首*/
+#banner{ background:url(../images/bg_banner.jpg); background-size:cover}
+#banner h2, #banner h3, #banner h4, #banner p{
+	display:block;
+	position:absolute;
+	text-indent:-9999px}
+#banner h2{
+	bottom:296px;
+	right:280px;
+	background:url(../images/bg_banner-h2.png) no-repeat;
+	width:319px;
+	height:103px}
+#banner h3{
+	bottom:104px;
+	right:0;
+	z-index:5;
+	background:url(../images/bg_banner-h3.png) no-repeat;
+	width:607px;
+	height:307px}
+#banner h4{
+	bottom:39px;
+	right:193px;
+	background: url(../images/bg_banner-h4.png) no-repeat;
+	width:653px;
+	height:37px}	
+#banner p{
+	top:24px;
+	right:31px;
+	background:url(../images/bg_banner-p.png) no-repeat;
+	width:152px;
+	height:73px}
+#banner .box_share{
+	display:block;
+	position:absolute;
+	right:50px;
+	bottom:45px}
+#banner .race_flag{
+	display:block;
+	position:absolute;
+	bottom:104px;
+	left:0;
+	width:1194px;
+	height:102px;
+	background:url(../images/raceflag.png) no-repeat}
+
+/*3.2 賽事介紹*/ 
+#about{ background:url(../images/bg_about.jpg); background-size:cover}
+.bg_01, .bg_04{ 
+    background:url(../images/bg_intro-01.jpg); 
+	background-size:cover;
+	-webkit-box-shadow: 1px 0 20px #000;
+    -moz-box-shadow: 1px 0 20px #000;
+    box-shadow: 1px 0 20px #000}
+#about h2, #travel h2, #news h2, #event h2{ background: url(../images/bg_pagetitle.png) no-repeat}
+#about h2{ width:306px; background-position:0 0}
+.raceinfo{
+	display:block;
+	width:788px;
+	margin:0 auto;
+	padding-top:15px;
+	font-size:1em;
+	line-height:25px;
+	color:#0e0e0e}
+.raceinfo a{ color:#1c5ad2; padding-left:10px; text-decoration:underline}
+.raceinfo a:visited {text-decoration:none; color:#1c5ad2/*#8c8c8c*/}
+.raceinfo a:hover {text-decoration:none; color:#FD0D3A}
+
+/*3.3 旅行社行程*/
+#travel{ background:url(../images/bg_travel.jpg); background-size:cover}
+.bg_02{ 
+    background:url(../images/bg_intro-02.jpg); 
+	background-size:cover;
+	-webkit-box-shadow: 1px 0 20px #000;
+    -moz-box-shadow: 1px 0 20px #000;
+    box-shadow: 1px 0 20px #000}
+#travel h2{ width:305px; background-position: 0 -69px}
+#box_travel{ display:block; position:relative}	
+#box_travel h3{
+	display:block;
+	position:absolute;
+	right:115px;
+	bottom:30px;
+	background:url(../images/pic_travelsub.png) no-repeat;
+	width:543px;
+	height:50px;
+	text-indent:-9999px}
+#travel_list{
+	display:block;
+	position:relative;
+	width:800px;
+	margin:50px auto 0 auto}		
+#travel_list ul{}
+#travel_list li a{
+	display:block;
+	float:right;
+	width:122px;
+	height:80px;
+	background:url(../images/btn_travel.png) no-repeat;
+	margin:0 14px 18px;
+	text-decoration:none;
+	text-align:right;
+	padding:70px 10px 0 0}
+#travel_list li a:hover{
+	background:url(../images/btn_travel.png) 0 -150px no-repeat;
+	text-decoration:none}
+#travel_list li a>h4, #travel_list li a>span, #travel_list li a:hover>h4, #travel_list li a:hover>span{ color:#444; text-decoration:none}
+#travel_list li a>.tel, #travel_list li a:hover>.tel{ color:#fff; text-decoration:none}
+#travel_list h4{
+	font-size:1.6em;
+	line-height:30px;
+	color:#444}
+#travel_list span{
+	font-size:1em;
+	line-height:20px}	
+#travel_list .tel{
+	display:block;
+	font-size:0.75em;
+	line-height:30px;
+	text-align:center;
+	padding-left:12px}		
+
+/*3.4 相關報導*/
+#news{ background:url(../images/bg_news.jpg); background-size:cover}
+.bg_03{ 
+    background:url(../images/bg_intro-03.jpg); 
+	background-size:cover;
+	-webkit-box-shadow: 1px 0 20px #000;
+    -moz-box-shadow: 1px 0 20px #000;
+    box-shadow: 1px 0 20px #000}
+#news h2{ width:274px; background-position: 0 -138px}
+#news_list{
+	display:block;
+	width:802px;
+	margin:40px auto 0 auto}
+#news_list li, #news_list .longnews{
+	display:block;
+	float:right;
+	background:url(../images/bg_newitem.png) no-repeat;
+	margin: 0 18px 22px;
+	color:#444;
+	text-decoration:none}
+#news_list li{
+	width:173px;
+	height:235px;
+	padding:55px 28px 0}	
+#news_list .longnews{
+	width:173px;
+	height:248px;
+	padding:42px 28px 0}	
+#news_list h4{
+	font-size:1.125em;
+	line-height:22px;
+	text-align:center}
+#news_list a>h4{ color:#221815; text-decoration:none; text-shadow:1px 1px 0 #D7CD9F}
+#news_list a:hover>h4{ color:#A03C3A; text-decoration:none; text-shadow:1px 1px 0 #D7CD9F}		
+#news_list a>.img-01, #news_list a>.img-02, #news_list a>.img-03, #news_list a>.img-04, #news_list a>.img-05{
+	display:block;
+	width:173px;
+	height:113px;
+	margin:23px 0 0 4px}
+#news_list .longnews .newsimg{ margin:14px 0 0 4px}
+.img-01{ background:url(../images/pic_news-01.jpg) 0 0 no-repeat}
+.img-02{ background:url(../images/pic_news-02.jpg) no-repeat}
+.img-03{ background:url(../images/pic_news-03.jpg) no-repeat}
+.img-04{ background:url(../images/pic_news-04.jpg) no-repeat}
+.img-05{ background:url(../images/pic_news-05.jpg) no-repeat}
+#news_list a:hover>.img-01, #news_list a:hover>.img-02, #news_list a:hover>.img-03, #news_list a:hover>.img-04, #news_list a:hover>.img-05{
+	background-position: 0 -113px}
+	
+/*3.5 會員獨家活動*/ 
+#event{ background:url(../images/bg_event.jpg); background-size:cover}
+#event h2{ width:369px; background-position: 0 -207px}
+#box_event{
+	display:block;
+	width:710px;
+	margin:60px auto 0 auto}
+.event_01, .event_02{
+	display:block;
+	position:relative;
+	width:333px;
+	height:134px}	
+.event_01{
+	float:left;
+	background:url(../images/bg_eventinfo-01.png) no-repeat}
+.event_02{
+	float:right;
+	background:url(../images/bg_eventinfo-02.png) no-repeat}
+.gift{
+	display:block;
+	width:710px;
+	height:382px;
+	background:url(../images/bg_eventgift.jpg) no-repeat;
+	margin-top:20px}
+.event_01 p, .event_02 p, .gift p{ display:none}
+.event_01 a, .event_02 a{
+	display:block;
+	position:absolute;
+	top:55px;
+	right:16px;
+	width:64px;
+	height:66px;
+	background:url(../images/btn_go.png) no-repeat;
+	text-indent:-9999px}	
+.event_01 a:hover, .event_02 a:hover{ background-position: 0 -66px}
+/*.event_02 a:hover{ background-position: 0 -66px}*/
+
+/*動畫設定*/
+.my_about, #news_list, #box_event{
+	position:relative;
+	left: -130%;}
+#travel_list{
+	left:-130%}				

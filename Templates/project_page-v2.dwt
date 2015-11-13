@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" lang="zh-tw">
+<meta name="description" content="開始設計工作室 XUEDESIGN STUDIO 是一個友善的設計工作室，位於台北，提供企業品牌識別整合設計服務，包含網頁設計及平面設計等解決方案。"/>
+<meta name="keywords" content="開始設計, xuedesign, 台北, 設計工作室, 網頁設計, 網站設計, 平面設計, W3C網頁標準, 設計職人"/>
+<meta name="Author" content="Elmo Wu" />
+<link rel="shortcut icon"  href="../images/favicon.ico"/>
+<link rel="icon" href="../images/favicon.ico"/>
+<link rel="apple-touch-icon" href="../images/icon@2x.png">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>作品介紹│開始設計工作室 XUEDESIGN STUDIO 是一個友善的設計工作室，位於台北，提供企業品牌識別整合設計服務，包含網頁設計及平面設計等解決方案。</title>
+<!-- TemplateEndEditable -->
+<link href="../css/reset.css" rel="stylesheet">
+<link href="../css/xuedesign_201210.css" rel="stylesheet"/>
+<script src="../script/detectmobilebrowser.js"></script>
+<script src="../script/google_analytics.js"></script> 
+<script src="../script/jquery-1.8.2.min.js"></script>
+<script src="../script/jquery.retina.js"></script>
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if lte IE 6]>
+<script type="text/javascript" src="../../script/letskillie6.zh_tw.js"></script>
+<![endif]-->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+   <div id="wrap">
+     <div id="main_content" class="clearfix">
+          <header id="header">
+            <div id="head_left"><h1><a href="../index.html" title="返回首頁">開始設計工作室 xuedesign studio</a></h1></div>
+            <div id="head_right">
+               <nav id="nav">
+                 <h3>【開始選單】</h3>
+                   <ul id="navv">
+                       <li><a class="nav_00" href="../index.html" title="">首頁：開始設計的品牌精神</a></li>
+                       <li><a class="nav_01" href="../content/about_us.html" title="">開始介紹：公司簡介及設計理念</a></li>
+                       <li><a class="nav_02" href="../content/project_web.html#pg_01" title="">開始作品：專案展示及設計說明</a></li>
+                       <li><a class="nav_03" href="../content/blog.html#pg_01" title="">設計觀點：設計新知及趨勢分析</a></li>
+                       <li><a class="nav_04" href="../content/contact.html" title="">聯絡我們：聯絡資訊及問題詢問</a></li>
+                   </ul>
+               </nav>
+               <article id="main_image">
+<div id="page_main">
+            <div id="page_top">
+              <h3 class="pato_left pato_02">【開始作品】</h3>
+              <!-- TemplateBeginEditable name="bar_cookie" -->
+              <p class="pato_right"><a href="../index.html" title="返回首頁">首頁</a>&gt;<a href="../content/project_web.html#pg_01">開始作品</a>&gt;案例名稱</p>
+              <!-- TemplateEndEditable -->
+            </div>
+            
+            
+            <div id="page_middle">
+               <div id="pj_title_left">
+                  <!-- TemplateBeginEditable name="project_title" -->  
+                  <h5>網頁設計</h5>
+                  <!-- TemplateEndEditable -->
+               </div>
+                      
+               <div id="pj_tag_list">
+                  <ul>
+                    <!-- TemplateBeginEditable name="project_tags" -->  
+                    <li>科技類</li>
+                    <li>企業形象展示</li> 
+                    <li>電信電機工程</li> 
+                    <!-- TemplateEndEditable -->
+                 </ul>
+               </div>
+              <br class="clean">
+                    
+              <article class="pj_info">
+                 <!-- TemplateBeginEditable name="project_info" -->  
+                 <p>柏兆科技是一家專業的電信電機工程公司，以無線網路、光纖網路等線路統籌規劃施工為主要營運項目。在版面上，我以藍、灰色系的組合搭配來突顯其公司位居科技及工程的產業屬性，搭配大量的圖片列表來呈現公司多元的工程實績，藉以展示其豐富的施工經驗。</p>
+                 <p class="btn_link"><a href="#">進入網站</a></p>
+                 <!-- TemplateEndEditable -->
+              </article>
+              
+              <section class="pj_photo">
+                 <!-- TemplateBeginEditable name="project_photo" --> 
+                 <img src="http://lorempixel.com/output/business-q-c-685-480-4.jpg" alt="*">
+                 <img src="http://lorempixel.com/output/business-q-c-685-300-8.jpg" alt="*">
+                 <!-- TemplateEndEditable -->
+              </section>
+              
+              <div class="box_pagetools">
+                 <div class="page_control">
+                    <ul>
+                        <!-- TemplateBeginEditable name="pagetools" -->
+                    	<li><a href="#" class="btn_preview" title="前一個專案">前一個專案</a></li>
+                    	<li><a href="../content/project_web.html#pg_01" class="btn_backlist" title="返回作品列表">返回作品列表</a></li>
+                    	<li><a href="#" class="btn_next" title="下一個專案">下一個專案</a></li>
+                        <!-- TemplateEndEditable -->
+                    </ul>
+                    <p class="to_top"><a href="#wrap" title="返回頁首">返回頁首</a></p>
+                 </div>
+                 
+              </div>
+              <br class="clean">
+            </div>
+            
+            <div id="page_down"></div>
+            </div>
+              </article>
+           </div>
+        </header>
+       <br class="clean">       
+      </div>    
+   </div><!--end #wrap-->
+   
+   <footer id="footer">
+      <div id="footer_main">
+         <div id="copyright">
+            <p>COPYRIGHT 2010-2015 Xuedesign Studio. ALL RIGHT RESERVED.</p>
+         </div>
+         <div id="w3c_tag">
+            <p><a href="http://gplus.to/xuedesign" title="前往開始設計的社群" rel="external" class="w03">前往開始設計的社群</a></p>
+            <p><a href="http://blog.xuedesign.tw" title="前往開始設計部落格" rel="external" class="w04">前往開始設計部落格</a></p>
+            <p><a href="http://validator.w3.org/check?uri=referer" title="本網站通過HTML5網頁標準認證" rel="external" class="w01">本網站已通過網頁標準w3c認證</a></p>
+            <p><a href="http://jigsaw.w3.org/css-validator/check/referer" title="本網站通過CSS3網頁標準認證" rel="external" class="w02">本網站已通過網頁標準w3c認證</a></p>
+         </div>
+      </div>
+   </footer><!--end #footer-->
+  
+  <script src="../script/jquery.lazyload.js"></script>
+  <script src="../script/scrollTo.js"></script>
+  <script> $(function(){$(".to_top").scrollTo(700)}); </script>
+  <script src="../script/all.js"></script>
+</body>
+</html>

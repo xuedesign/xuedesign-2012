@@ -1,0 +1,13 @@
+/**********************************************************************************************
+
+	Title: CSS for xuedeisgn
+	Author: Elmo Wu (by xuedesign studio)
+	Build: v1
+	Date: 2013/02    
+***********************************************************************************************/
+
+#wrap{ background: url(../images/bg.jpg) repeat}
+#bakg{ display:block; width:100%; background:url(../images/bg_main.png) center top no-repeat}
+#main_content, #foot_content{ display:block; width:994px; margin:0 auto}
+#main_content img, #foot_content img{ vertical-align:top}
+

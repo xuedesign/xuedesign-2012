@@ -1,0 +1,96 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/passpac_temp_nonelogin.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8" lang="en">
+<meta name="description" content=""/>
+<meta name="keywords" content="passpac, pass, "/>
+<meta name="Author" content="QZ Tap inc." />
+<link rel="shortcut icon"  href="../../images/favicon.ico"/>
+<link rel="icon" href="../../images/favicon.ico"/>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Passpac Web</title>
+<!-- InstanceEndEditable -->
+<link href="../../css/reset.css" rel="stylesheet">
+<link href="../../css/xue201304.css" rel="stylesheet"/>
+<script src="../../script/jquery.min.js"></script>
+<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if IE 6]>
+	<script src="http://letskillie6.googlecode.com/svn/trunk/2/zh_TW.js"></script>
+<![endif]-->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<div id="wrap">
+  <div id="main_content" class="clearfix"> 
+     
+     
+     <header>
+        <h1><a href="../../index.html" title="back to index">Passpac</a></h1>
+        <h2>NFC for SmartPhone</h2>
+        <div id="top_right">
+           <div id="top_login">
+             <!-- 登入前狀態-->
+              <a href="info_member.html" title="Create New Accout" class="btn_addnew">Create New Accout</a> or
+              <a href="#" title="login" class="btn_login">Login</a>
+              <!--Hi! <a href="content/account/info_brand.html" title="to my accout">QZ Tap</a>
+              <a href="../index.html" title="logout" class="btn_login">Logout</a>-->
+           </div>
+           <!-- InstanceBeginEditable name="main_nav" -->
+           <nav>
+             <ul>
+               <li><a href="../profile/What_PassPac.html" title="What's PassPac" class="nav_01">What's PassPac</a></li>
+               <li><a href="../creator/pass_select.html" title="Pass Creator" class="nav_02">Pass Creator</a></li>
+               <li><a href="pass_manager.html" title="Pass Manager" class="nav_03">Pass Manager</a></li>
+               <li><a href="info_brand.html" title="My Account" class="nav_04">My Account</a></li>
+               <li><a href="../mobile/app_info.html" title="Mobile APP" class="nav_05">Mobile APP</a></li>
+               <li><a href="../deal/nfc_deal.html" title="NFC Deal" class="nav_06">NFC Deal</a></li>
+             </ul>
+           </nav>
+           <!-- InstanceEndEditable -->
+           </div>
+        <br class="clean" />
+     </header>
+     
+     <div id="mid_block">
+     <!-- InstanceBeginEditable name="main_content" -->
+        <div id="member_first">
+            <h3>Welcome Join to Passpac !</h3>
+            <p>Register for a free account to start create a pass, easily turn facebook fan page and increasing on-line marketing KPI.</p>
+            <a href="info_member.html" class="btn_signup" title="Register with Facebook">Register with Facebook</a>
+            <div class="txt_somin">
+               <p>If you already have an account, <a href="login.html" title="log in">log in</a> here</p>
+            </div>   
+         </div>
+     <!-- InstanceEndEditable -->
+     </div>
+     
+   </div>   
+</div>
+
+<footer>
+  <div id="down_block">
+    <p class="down_left">&copy;2013 <a href="http://www.qztap.com/" title="Qztap Inc." rel="external">PassPac Inc.</a> All Rights Reserved.</p>
+    <ul class="down_right">
+       <li><a href="../profile/What_PassPac.html" title="What's PassPac">What's PassPac</a>│</li>
+       <li><a href="../creator/pass_select.html" title="Pass Creator">Pass Creator</a>│</li>
+       <li><a href="pass_manager.html" title="Pass Manager">Pass Manager</a>│</li>
+       <li><a href="info_company.html" title="My Account">My Account</a>│</li>
+       <li><a href="../mobile/app_info.html" title="Mobile APP">Mobile APP</a>│</li>
+       <li><a href="../deal/nfc_deal.html" title="NFC Deal">NFC Deal</a>│</li>
+       <li><a href="../profile/faq.html" title="FAQ">FAQ</a>│</li>
+       <li><a href="../profile/contact.html" title="Contact us">Contact us</a>│</li>
+       <li><a href="http://www.qztap.com/" title="Blog" rel="external">Blog</a></li>
+    </ul>
+  </div>  
+</footer>
+
+<!-- InstanceBeginEditable name="scriptbox" -->
+<script src="../../script/jquery.lazyload.js"></script>
+<script src="../../script/other_set.js"></script>
+<!-- InstanceEndEditable -->
+</body>
+<!-- InstanceEnd --></html>

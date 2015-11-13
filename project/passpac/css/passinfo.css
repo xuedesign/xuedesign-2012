@@ -1,0 +1,262 @@
+/**********************************************************************************************
+
+	Title: CSS for xuedeisgn
+	Author: Elmo Wu (by xuedesign studio)
+	Build: v1
+	Date: 2013/04~20013/05
+
+***********************************************************************************************
+		6 O2O平台
+		7 Mobile APP
+		8 NFC Deal
+		9 FAQ
+	   10 聯絡我們
+	   11 其餘說明頁	
+***********************************************************************************************/
+#web_info{ display:block; width:725px; margin:0 auto}
+#web_info h3, #app_info h3{
+	font-size:1.5em; 
+	font-weight:normal; 
+	color:#26aed0;
+	padding-bottom:25px}
+#web_info p{ font-size:0.813em; line-height:22px; padding:0 0 25px 30px}	
+
+/* 6. O2O平台 
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+#about_box h4{ width:170px; padding:0 10px; margin-bottom:15px; letter-spacing:1px; text-align:center}
+#about_box h5{ display:none/*font-size:0.938em; line-height:24px; font-weight:normal; padding-left:20px*/}
+#about_box p{ padding-left:20px}
+#about_box img{ margin:5px 0 30px 20px}
+
+
+
+/* 7. Mobile APP
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+#app_info{ display:block; position:relative; width:900px; margin:0 auto}
+.phone_markup{
+	display:block;
+	position:absolute;
+	z-index:99;
+	float:left;
+	width:229px;
+	height:443px;
+	background: url(../images/mobile_markup.png) no-repeat}
+.useapp{
+	display:block;
+	float:right;
+	width:640px}
+.useapp p{ font-size:0.813em; line-height:24px}
+.useapp .padleft{ padding:10px 0 0 15px}	
+.useapp ul{	margin-top:20px}
+.useapp li a{
+	display:block;
+	float:left;
+	/*width:90px;*/
+	width:126px;
+	font-size:0.813em;
+	line-height:30px;
+	text-align: center;
+	border-top:1px solid #b8b8b8;
+	border-left:1px solid #b8b8b8;}
+.useapp li a:hover{ background:#29B9DD; color:#FFF; text-decoration:none; font-weight:bold}
+.useapp .start{
+	-webkit-border-top-left-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    border-top-left-radius: 10px;}			
+.useapp .end{
+	border-right:1px solid #b8b8b8;
+	-webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-right-radius: 10px;}
+.tabs li.active a{ background:#29B9DD; color:#FFF; text-decoration:none; font-weight:bold}
+.tabs li.active a:hover {background:#29B9DD}	
+
+.main_info{
+	clear:both;
+	display:block;
+	width:594px;
+	border:1px solid #b8b8b8;
+	padding:20px}
+.appshot{
+	display:block;
+	position:absolute;
+	top:119px;
+	left:23px;
+	width:189px;
+	height:296px}
+.shot_01{ background:url(../images/appshot_01.jpg) no-repeat}
+.shot_02{ background:url(../images/appshot_02.jpg) no-repeat}	
+.shot_03{ background:url(../images/appshot_03.jpg) no-repeat}	
+.shot_04{ background:url(../images/appshot_04.jpg) no-repeat}	
+.shot_05{ background:url(../images/appshot_05.jpg) no-repeat}	
+.shot_06{ background:url(../images/appshot_06.jpg) no-repeat}	
+.shot_07{ background:url(../images/appshot_07.jpg) no-repeat}
+.shot_08{ background:url(../images/appshot_08.jpg) no-repeat}		
+
+.main_info p{ font-size:0.813em}
+.applogo, .appname{ display:block; float:left}
+.applogo img{ padding:0 20px 15px 0}
+.appname h4{ padding-top:15px}
+.appname h5{ font-size:0.813em; padding-top:5px}
+.appstore{ 
+    display:block; 
+	width:149px;
+	margin:20px 0 10px 220px}
+.main_info ol{ padding:0 20px}
+.main_info ol li{ 
+    list-style: decimal outside; 
+	font-size:0.813em; 
+	line-height:24px; 
+	border-bottom:1px dashed #CACACA;
+	margin-bottom:15px}
+.main_info ul{ padding-left:35px; margin-top:5px}	
+.main_info ol li li{ 
+    list-style: disc inside; 
+	font-size:1em; 
+	line-height:20px;
+	border-bottom: none;
+	margin-bottom:5px}	
+
+/* 8. NFC Deal 
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+#deal_box{}
+#deal_box h4{ line-height:25px; padding:0 10px; margin-bottom:15px; letter-spacing:1px; text-align:center}
+#deal_box .title_01{ width:440px}
+#deal_box .title_02{ width:220px}
+#deal_box .title_03{ width:290px}
+#deal_box p{ padding-left:20px}
+#deal_box ul{ padding-left:20px}
+#deal_box img{ padding-bottom:40px}
+#deal_box .info_left{
+	display:block;
+	width:309px;
+	margin-left:10px}
+#deal_box .info_left img{ padding-bottom:10px}	
+#deal_box .info_right{
+	display:block;
+	width:700px;
+	background:#e6e7e7;
+	margin:0 0 20px 15px;
+	padding:15px;
+	border-radius:10px;
+   -moz-border-radius:10px;
+   -webkit-border-radius:10px}
+#deal_box .info_right li{
+	font-size:0.813em;
+	line-height:35px;
+	border-bottom:1px dashed #FFFFFF;
+	list-style:url(../images/pot_blue.png);
+	list-style-position:inside}
+.bg_marketing{
+	display:block;
+	position:relative;
+	width:757px;
+	height:350px;
+	background:url(../images/nfc_deal_03-en.jpg) no-repeat;
+	margin-bottom:35px}
+.bg_marketing h5{ display:none}
+.program_info{
+	display:block;
+	position:absolute;
+	width:215px}
+.pinfo_left{ top:110px; left:25px}
+.pinfo_right{ top:110px; left:515px}		 
+
+/* 9. FAQ
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+#faqlist ol{ padding-bottom:30px}
+#faqlist li{ padding-bottom:20px}
+#faqlist ul{ padding:10px 0 0 30px}
+#faqlist li li{ font-size:0.813em; list-style: decimal; padding-bottom:15px}
+#faqlist h5, #contact_box h4, #about_box h4, #deal_box h4{
+   display:block;
+   background:#28B6D9;
+   font-size:0.938em; 
+   color:#FFF;
+   padding:3px 0;
+   border-radius:10px;
+   -moz-border-radius:10px;
+   -webkit-border-radius:10px;
+   	border-top:2px solid #79E4FE}
+#faqlist h5:hover{ cursor:pointer}	
+#faqlist span{
+	width:30px;
+	background:#2DCBF2;
+	padding:4px 15px !important;
+	padding:5px 15px;
+	margin-right:10px;
+	-webkit-border-top-left-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px}
+#faqlist p{
+   display:none; 
+   font-size:0.813em; 
+   line-height:25px; 
+   padding:10px 20px;}
+
+/* 10. 聯絡我們
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+#contact_box, #about_box, #info_box{ display:block; width:695px; padding:0 15px 40px}
+#contact_box h4{ width:95px; padding:0 10px; margin-bottom:15px; letter-spacing:1px; text-align:center}
+#contact_box p, #about_box p, #deal_box p{ font-size:0.813em; line-height:22px; padding-bottom:15px}
+#contact_box .about_logo{ float:left; margin:0 15px 20px 15px}
+#contact_box .ppleft{ margin-left:15px}
+#contact_box ul{
+	display:block;
+	background:#E9E8E8;
+	border-top:2px solid #EEE;
+	border-left:2px solid #EEE;
+	border-right:2px solid #C5C4C4;
+	border-bottom:2px solid #C5C4C4;
+	padding:15px;
+	margin-left:25px;
+	border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;}
+#contact_box li{ padding:10px 0 10px 25px}
+#contact_box li h5{ width:95px; font-size:0.813em; letter-spacing:1px; float:left; text-align:right}
+#contact_box .textarea_01{
+	width:70%; 
+	font-size:0.813em;
+	margin:0 5px 0 10px;
+	padding:5px 10px;
+	border:1px solid #a7a7a7;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px}
+#contact_box .ipu_left{ float:left; margin-left:15px}	
+a.btn_empty{
+	display:block;
+	width:90px;
+	height:29px;
+	background:url(../images/btn_blue.png) no-repeat;
+	padding-top:7px;
+	color:#134b58;
+	text-align:center;
+	text-decoration:none;
+	text-shadow: 1px 0 1px #FFFFFF}
+a.btn_empty:visited{color:#134b58; text-decoration:none}	
+a.btn_empty:hover{
+	background:url(../images/btn_blue.png) 0 -36px no-repeat;
+	color:#134b58; 
+	text-decoration:none}
+.layset-02{ display:block; width:90px; margin:15px auto}	
+
+/* 11. 其餘說明頁
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+#info_box{}
+#info_box h4{ font-size:1em; line-height:25px; color:#28B6D9; padding:15px 0 0 0}
+#info_box h5{ font-size:1em; line-height:25px; color:#28B6D9; padding-top:10px}
+#info_box p{ font-size:0.813em; line-height:22px; padding:10px 0 10px 30px}
+#info_box ol{ padding-left:50px}
+#info_box ol li{ font-size:0.813em; line-height:22px; list-style:decimal; padding:5px 0}
+#info_box ol li li{ font-size:1em; list-style:none}

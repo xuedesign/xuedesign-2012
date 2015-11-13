@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><!-- InstanceBegin template="/Templates/page_temp.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8" lang="zh-tw">
+<meta name="Author" content="e-innovator" />
+<link rel="shortcut icon"  href="../images/favicon.ico"/>
+<link rel="icon" href="../images/favicon.ico"/>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>::八方雲集進銷存管理系統::</title>
+<!-- InstanceEndEditable -->
+<link rel="stylesheet" href="../../css/reset.css" />
+<link rel="stylesheet" href="../../css/xue-content_201311.css"/>
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<header>
+   <div class="btn_hide">
+     <span id="leftFrame_display">隱藏選單</span>
+     <input type="hidden" name="left_staus" id="left_staus" value="打開">
+   </div>  
+   <div class="box_loginfo">
+      歡迎登入，騰冠科技
+      <a href="#" title="登出" class="mybtn btn_red">登出</a>
+   </div>
+</header>
+
+
+<section class="main_content">
+<!-- InstanceBeginEditable name="main_content" -->
+  
+  <div class="page_title">
+    <h3>客戶基本資料</h3>
+  </div>
+    
+    <form action="" method="post">
+    <div class="table-bg">
+      <table width="100%" class="mytable_search">
+        <tr>
+          <th colspan="2">客戶基本資料查詢</th>
+        </tr>
+        <tr>
+          <td class="tdr">客戶代碼：</td>
+          <td><input id="custIDA" name="custIDA" type="text" class="mytxtarea w160"> ~ <input id="custIDB" name="custIDB" type="text" class="mytxtarea w160"></td>
+        </tr>
+        <tr>
+          <td class="tdr">客戶名稱：</td>
+          <td><input id="custName" name="custName" type="text" class="mytxtarea w350"></td>
+        </tr>
+        <tr>
+          <td class="tdr">縣市/區域：</td>
+          <td><input id="city" name="city" type="text" class="mytxtarea w350"></td>
+        </tr>
+        <tr>
+          <td class="tdr">聯絡地址：</td>
+          <td><input id="address" name="address" type="text" class="mytxtarea w350"></td>
+        </tr>
+        <tr>
+          <td class="tdr">直營店：</td>
+          <td><input name="dss" type="radio" value="y">是
+              <input name="dss" type="radio" value="n">否
+          </td>
+        </tr>
+      </table>
+      
+      <a href="custList.html" title="搜尋" class="mybtn btn_gray btmc">搜尋</a> 
+    </div>  
+    </form>
+  
+<!-- InstanceEndEditable -->
+</section>
+
+
+<script src="../../scripts/hide_show.js"></script><!-- 隱藏選單 -->
+</body>
+<!-- InstanceEnd --></html>

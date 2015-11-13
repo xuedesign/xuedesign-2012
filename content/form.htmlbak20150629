@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" lang="zh-tw">
+<meta name="description" content="開始設計工作室 XUEDESIGN STUDIO 是一個友善的設計工作室，提供平面視覺設計及網頁規劃設計等解決方案服務。"/>
+<meta name="keywords" content="開始設計, xuedesign, 設計工作室, 設計導向, 網頁視覺規劃, 平面視覺設計"/>
+<meta name="Author" content="Elmo Wu" />
+<meta itemprop="name" content="&#27489;&#36814;&#20358;&#21040;&#12300;&#38283;&#22987;&#35373;&#35336;&#12301;&#24037;&#20316;&#23460; &#65281;">
+<meta itemprop="embedUrl" content="https://docs.google.com/spreadsheet/embeddedform?formkey=dC1VQmxlem82Umw4M3JJNlJ4R0pyWmc6MQ">
+<meta itemprop="faviconUrl" content="//ssl.gstatic.com/docs/spreadsheets/forms/favicon_jfk2.png">
+<link rel="shortcut icon"  href="../images/favicon.ico"/>
+<link rel="icon" href="../images/favicon.ico"/>
+<title>聯絡我們表單│開始設計工作室 XUEDESIGN STUDIO 是一個友善的設計工作室，位於台北，提供企業品牌識別整合設計服務，包含網頁設計及平面設計等解決方案。</title>
+<link href="../css/reset.css" rel="stylesheet">
+<link href="../css/form.css" rel="stylesheet">
+<script src="../script/google_analytics.js"></script>
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]--> 
+</head>
+
+<body>
+  <div id="wrap">
+     <div class="ss-form-container">
+        <div class="ss-form-heading">
+           <h1 class="ss-form-title">請填妥下方表單，讓我們能夠在最短時間內，<br>瞭解您的需求：</h1>
+           <div class="ss-required-asterisk  tt-right">*號為必填</div>
+        </div>
+                
+       <div class="ss-form">
+	    <script type="text/javascript">
+		  var submitted_myoaehlt=false;function checkRequiredFields_myoaehlt(requiredFields)
+{
+	var errorMessage='Required field left blank.';
+	
+	for(var x in requiredFields)
+	{
+		var fieldNum=requiredFields[x];
+		
+		if(document.getElementById('entry_'+fieldNum))
+		{
+			if(!document.getElementById('entry_'+fieldNum).value.length)
+			{
+				alert(errorMessage);
+				
+				document.getElementById('entry_'+fieldNum).focus();
+				
+				return false;
+			}
+		}
+		else if(document.getElementById('group_'+fieldNum+'_1'))
+		{
+			var counter=1;
+			
+			var selected=false;
+			
+			while(document.getElementById('group_'+fieldNum+'_'+counter))
+			{
+				if(document.getElementById('group_'+fieldNum+'_'+counter).checked)
+				{
+					selected=true;
+				}
+				
+				counter++;
+			}
+			
+			if(document.getElementById('other_option:'+fieldNum))
+			{
+				if(document.getElementById('other_option:'+fieldNum).checked)
+				{
+					selected=true;
+					
+					if(!document.getElementsByName('entry.'+fieldNum+'.group.other_option_').item(0).value.length)
+					{
+						alert(errorMessage);
+						
+						document.getElementsByName('entry.'+fieldNum+'.group.other_option_').item(0).focus();
+						
+						return false;
+					}
+				}
+			}
+			
+			if(!selected)
+			{
+				alert(errorMessage);
+				
+				document.getElementById('group_'+fieldNum+'_1').focus();
+				
+				return false;
+			}
+		}
+	}
+	
+	return true;}
+        </script>
+      <iframe name="hidden_iframe_myoaehlt" id="hidden_iframe_myoaehlt" style="display:none;" onload="if(submitted_myoaehlt){window.location='form_success.html';}"></iframe>
+      <form action="https://docs.google.com/spreadsheet/formResponse?formkey=dC1VQmxlem82Umw4M3JJNlJ4R0pyWmc6MQ&amp;ifq" method="post" target="hidden_iframe_myoaehlt" onsubmit="if(checkRequiredFields_myoaehlt([0,3,4])){submitted_myoaehlt=true;}else{return false;}" id="ss-form">
+
+     <div class="errorbox-good">
+       <div class="ss-item ss-item-required ss-text">
+          <div class="ss-form-entry">
+            <label class="ss-q-title txt_bluee" for="entry_0">[ 貴姓大名 ]<span class="ss-required-asterisk rr_point">*</span></label>
+           <label class="ss-q-help" for="entry_0"></label>
+           <input type="text" name="entry.0.single" class="ss-q-short" id="entry_0" value="">
+         </div>
+       </div>
+     </div>
+
+   <div class="errorbox-good">
+    <div class="ss-item  ss-text">
+      <div class="ss-form-entry">
+        <label class="ss-q-title txt_bluee" for="entry_1">[ 公司單位 ]</label>
+        <label class="ss-q-help" for="entry_1"></label>
+          <input type="text" name="entry.1.single" class="ss-q-short" id="entry_1" value="">
+      </div>
+     </div>
+   </div>
+
+   <div class="errorbox-good">
+     <div class="ss-item  ss-text">
+        <div class="ss-form-entry">
+          <label class="ss-q-title txt_bluee" for="entry_2">[ 連絡電話 ]</label>
+          <label class="ss-q-help" for="entry_2"></label>
+          <input type="text" name="entry.2.single" class="ss-q-short" id="entry_2" value="">
+        </div>
+     </div>
+   </div>
+  
+  <div class="errorbox-good">
+    <div class="ss-item ss-item-required ss-text">
+       <div class="ss-form-entry">
+         <label class="ss-q-title txt_bluee" for="entry_3">[ 電子信箱 ]<span class="ss-required-asterisk rr_point">*</span></label>
+         <label class="ss-q-help" for="entry_3"></label>
+         <input type="text" name="entry.3.single" class="ss-q-short" id="entry_3" value="">
+       </div>
+    </div>
+  </div>
+
+  <div class="errorbox-good">
+     <div class="ss-item ss-item-required ss-paragraph-text">
+        <div class="ss-form-entry">
+           <label class="ss-q-title txt_bluee" for="entry_4">[ 聯絡訊息 ]<span class="ss-required-asterisk rr_point">*</span></label>
+           <label class="ss-q-help" for="entry_4"></label>
+           <textarea name="entry.4.single" rows="8" cols="75" class="ss-q-long" id="entry_4"></textarea>
+        </div>
+     </div>
+  </div>
+  <input type="hidden" name="pageNumber" value="0">
+  <input type="hidden" name="backupCache" value="">
+
+  <div class="ss-item ss-navigate">
+    <div class="ss-form-entry">
+      <input type="submit" name="submit" value="留言給我們" class="btn_send">
+    </div>
+  </div>
+</form>
+
+	<script type="text/javascript">      
+    (function() {
+    var divs = document.getElementById('ss-form').
+    getElementsByTagName('div');
+    var numDivs = divs.length;
+    for (var j = 0; j < numDivs; j++) {
+    if (divs[j].className == 'errorbox-bad') {
+    divs[j].lastChild.firstChild.lastChild.focus();
+    return;}
+    }
+    for (var i = 0; i < numDivs; i++) {
+    var div = divs[i];
+    if (div.className == 'ss-form-entry' &&
+    div.firstChild &&
+    div.firstChild.className == 'ss-q-title') {
+    div.lastChild.focus();
+    return;}
+    }
+    })();
+    </script>
+    </div>
+   </div>
+  </div>
+</body>
+</html>

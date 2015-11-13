@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+<meta charset="utf-8" lang="zh-tw">
+<meta name="Author" content="e-innovator" />
+<link rel="shortcut icon"  href="../../admin/images/favicon.ico"/>
+<link rel="icon" href="../../admin/images/favicon.ico"/>
+<title>::八方雲集進銷存管理系統::</title>
+<link rel="stylesheet" href="../../css/reset.css" />
+<link rel="stylesheet" href="../../css/xue-content_201311.css"/>
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<header>
+   <div class="btn_hide">
+     <span id="leftFrame_display">隱藏選單</span>
+     <input type="hidden" name="left_staus" id="left_staus" value="打開">
+   </div>  
+   <div class="box_loginfo">
+      歡迎登入，騰冠科技
+      <a href="#" title="登出" class="mybtn btn_red">登出</a>
+   </div>
+</header>
+
+
+<section class="main_content">
+<div class="page_title">
+      <h3 class="lay-left">店家名稱：台北八德店</h3>
+      <ul class="lay-right">
+          <li><a href="#box_search" title="切換店家" class="mybtn btn_gray fancybox">切換店家</a></li>
+          <li><input name="" type="button" class="btn_gray-02" value="取消整張訂單"></li>
+          <li><input name="" type="button" class="btn_gray-02" value="上傳訂單"></li>
+      </ul>
+  </div>
+   
+  
+  <link rel="stylesheet" href="../../css/jquery.fancybox.css"><!-- lightbox效果 -->
+  <script src="../../scripts/jquery.fancybox.pack.js"></script><!-- lightbox效果 -->
+  <script src="../../scripts/web_set.js"></script><!-- 綜合效果 -->
+  <script src="../../scripts/user.js"></script>
+  
+  <div class="abgne_tab clean">
+      <ul class="tabs">
+          <li><a href="#tab1">今日訂單</a></li>
+          <li><a href="#tab2">訂單操作紀錄</a></li>
+      </ul>
+      
+  <div class="table-bg-02">
+    
+    <!-- 今日訂單 -->
+    <div id="tab1">
+        
+        <style>
+            #tab1 .mytable_list-02{ width:100%}
+			#tab1 .mytable_list-02 .txt_unit{ text-align:left; padding-left:14px}
+			.w60{width:20px}
+			.btn_gray-02{ float:left}
+        </style>
+        <div class="box_chk"><input type="checkbox" name="buyInvoice" class="chk">顯示前日購買數量</div>
+        <table width="100%" class="mytable_list-02 clean">
+          <thead>
+            <tr>
+              <th width="70">產品代號</th>
+              <th width="100">產品名稱</th>
+              <th width="70" class="yesterday">前日數量</th><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <th width="70">當日數量</th>
+              <th align="left">單位</th>
+              <!--<th align="left"><span style="padding-left:18px">訂購</span></th>-->
+            </tr>
+          </thead>
+          <tbody>   
+            <tr>
+              <td>101</td>
+              <td>菜肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            
+            <tr>
+              <td>101</td>
+              <td>菜肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+            <tr>
+              <td>101</td>
+              <td>菜肉餡</td>
+              <td class="yesterday">15</td><!-- 要隱藏的欄位請增加class="yesterday" -->
+              <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w60" value="10"></td>
+              <td class="txt_unit">袋</td>
+              <!--<td><input name="" type="button" class="btn_gray-02" value="訂購"></td>-->
+            </tr>
+           </tbody>
+          </table>
+       </div>
+       
+       <!-- 訂單操作紀錄 -->
+       <div id="tab2">
+          
+       </div>   
+    </div>
+  </div>  
+    
+    <!-- LightBox 區塊說明：目前有一個隱藏區塊，"#box_search"是切換店家-->
+    <div id="box_search">
+       <table width="100%" class="mytable_search-02">
+        <tr>
+          <th colspan="2">切換店家</th>
+        </tr>
+        <tr>
+          <td>店家名稱：
+            <select name="" class="mytxtarea w250">
+               <option selected>請選擇</option>
+               <option>店家名稱-01</option>
+               <option>店家名稱-02</option>
+               <option>店家名稱-03</option>
+               <option>店家名稱-04</option>
+               <option>店家名稱-05</option>
+            </select>
+          </td>
+        </tr>
+      </table>
+      <a href="index.html" title="確定" class="mybtn btn_gray btmc">確定</a> 
+    </div>
+    
+</section>
+
+
+<script src="../../scripts/hide_show.js"></script><!-- 隱藏選單 -->
+</body>
+</html>

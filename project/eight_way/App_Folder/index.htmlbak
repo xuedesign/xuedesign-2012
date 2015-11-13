@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+<meta charset="utf-8" lang="zh-tw">
+<meta name="Author" content="e-innovator" />
+<link rel="shortcut icon"  href="images/favicon.ico"/>
+<link rel="icon" href="images/favicon.ico"/>
+<title>::八方雲集進銷存管理系統::</title>
+<link rel="stylesheet" href="css/reset.css" />
+<link rel="stylesheet" href="css/xue_201311.css"/>
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body>
+   <div id="wrap">
+      <h1>八方雲集</h1>
+      <div class="box_login">
+         <h2>進銷存管理系統</h2>
+         
+         <form action="login.jsp" method="post">
+            <select name="area" class="text_area">
+              <option selected>請選擇使用者所屬地區</option>
+              <option>地區名稱 1</option>
+              <option>地區名稱 2</option>
+              <option>地區名稱 3</option>
+              <option>地區名稱 4</option>
+              <option>地區名稱 5</option>
+            </select>
+            
+            <div class="text_member">
+               <input id="username" name="username" type="text" class="text_input" onfocus="if (this.value=='請輸入使用者帳號') this.value='';" onblur="if (this.value=='') this.value='請輸入使用者帳號';" value="請輸入使用者帳號" >
+               
+               <input id="password" name="password" type="text" class="text_input" onfocus="if (this.value=='請輸入使用者密碼') this.value='';" onblur="if (this.value=='') this.value='請輸入使用者密碼';" value="請輸入使用者密碼" >
+            </div>
+            
+            <input id="loginbtu" name="loginbtu" type="submit" class="btn_login" value="登入" onclick="javascript:location.href='admin.html';">
+        </form>
+        
+      </div>
+      <p class="copyright">&copy; 2013 八方雲集國際股份有限公司　版權所有</p>
+   </div>
+ 
+</body>
+</html>

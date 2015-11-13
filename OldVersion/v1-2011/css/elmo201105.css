@@ -1,0 +1,143 @@
+/*=======================================
+This CSS editing completed by Elmo Wu 
+@2011/06 Xuedesign studio. All rights reserved
+=========================================*/
+
+/*==================== layout ====================*/
+body{
+	margin: 0;
+	padding:0;
+	background: url(../images/bg_line.png) repeat-x;
+	font-family:"微軟正黑體","Microsoft JhengHei","新細明體","PMingLiU", Helvetica, Arial, sans-serif;
+	font-size:100%;
+	line-height:22px;
+	color:#444343}
+a:link {text-decoration:none; color:#dd8824}
+a:visited {text-decoration:none; color:#999}
+a:hover {text-decoration: underline; color:#F50}
+form{margin:0; padding:0}
+image{border:0}
+
+.clean{ clear:both}
+.hidden{ display:none}
+.txt_pp{ padding-left:10px}
+.txt_small{ font-size:0.75em; padding-right:5px}
+
+/*網頁主體*/
+#wrap{
+	display:block;
+	width:994px;
+	margin:0 auto;
+	background:url(../images/bg_pagebody.jpg) no-repeat}
+#header{display:block}
+#head_left{
+	display:block;
+	width:470px;
+	float:left;
+	padding-left:27px}
+#head_right{
+	display:block;
+	width:417px;
+	float:right;
+	text-align:right;
+	padding:13px 80px 0 0}
+#header h1{
+	display:block;
+	background:url(../images/bg_h1.png) no-repeat;
+	width:314px;
+	height:62px;
+	text-indent:-9999px}
+#header h2{ display:none}
+#head_right ul{}
+#head_right li{ font-size:0.813em}
+#bodyer{ display:block;	width:900px; margin:0 auto}
+#myskill{ display:block; padding-top:10px}
+#myskill h3{
+	display:block;
+	background:url(../images/title_01.png) no-repeat;
+	width:151px;
+	height:46px;
+	text-indent:-9999px}
+#myskill ul{padding-left:42px; margin-bottom:15px}
+#myskill li{font-size:0.938em; line-height:25px}
+#album_list{ display:block}
+#album_list h3{
+	display:block;
+	background:url(../images/title_02.png) no-repeat;
+	width:151px;
+	height:46px;
+	text-indent:-9999px}
+#albumbox{display:block; padding-left:42px}
+#albumbox ul{
+	display:block;
+	width:858px;
+	margin-bottom:15px}
+#albumbox li{
+	display:block;
+	float:left;
+	width:208px;
+	height:133px;
+	padding:10px;
+	margin:5px 56px 30px 0;
+	border:1px solid #e1d7c3;
+	background:#FFF} 	
+#footer{
+	display:block;
+	width:900px;
+	margin:0 auto 15px auto;
+	padding:15px 20px 0;
+	border-top:1px solid #f5c34b}
+#footer p{ font-size:0.813em; line-height:22px; margin:0}
+#copyright{
+	display:block;
+	width:50%;
+	float:left}
+#w3cbox{
+	display:block;
+	width:50%;
+	float:right;
+	text-align:right;
+	padding-top:10px}
+	
+/*縮圖圖說設定*/
+.abgne_tip_gallery_block {
+	margin: 0;
+	padding: 0;
+	width: 208px;
+	height: 133px;
+	overflow: hidden;
+	position: relative}
+.abgne_tip_gallery_block img {
+	position: absolute;
+	border: 0}
+.abgne_tip_gallery_block .caption {
+	position: absolute;
+	top: 83px;	/* .abgne_tip_gallery_block 的高 - 想顯示 title 的高(這邊是設 55) */
+	width: 148px;	/* .abgne_tip_gallery_block 的寬 - .caption 的左右 padding */
+	padding: 15px 30px 10px;
+	cursor: pointer;
+	color: #fff;
+	background: url(../images/1px_black.png) repeat}
+.abgne_tip_gallery_block .caption h4 {
+	font-size:1.063em;
+	letter-spacing:1px;
+	margin: 0 auto;
+	padding: 0 0 10px;
+	color: #fc6;
+	text-align:center}
+.desc{ font-size:0.813em; text-align:center}	
+.desc a{text-decoration:none; color:#FFF}
+.desc a:visited{text-decoration:none; color:#FFF}
+.desc a:hover{ text-decoration: underline; color:#F50}
+
+/*版權說明*/
+.txt_somin{
+  display:block;
+  width:342px;
+  height:23px;
+  font-size:0.68em;
+  text-indent:-9999px;
+  margin:0 0 0 45px; 
+  padding:0; 
+  color:#999;
+  background:url(../images/bg_ccinfo.png) no-repeat}

@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><!-- InstanceBegin template="/Templates/page_temp.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8" lang="zh-tw">
+<meta name="Author" content="e-innovator" />
+<link rel="shortcut icon"  href="../images/favicon.ico"/>
+<link rel="icon" href="../images/favicon.ico"/>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>::八方雲集進銷存管理系統::</title>
+<!-- InstanceEndEditable -->
+<link rel="stylesheet" href="../../css/reset.css" />
+<link rel="stylesheet" href="../../css/xue-content_201311.css"/>
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<header>
+   <div class="btn_hide">
+     <span id="leftFrame_display">隱藏選單</span>
+     <input type="hidden" name="left_staus" id="left_staus" value="打開">
+   </div>  
+   <div class="box_loginfo">
+      歡迎登入，騰冠科技
+      <a href="#" title="登出" class="mybtn btn_red">登出</a>
+   </div>
+</header>
+
+
+<section class="main_content">
+<!-- InstanceBeginEditable name="main_content" -->
+  
+  <div class="page_title">
+      <h3 class="lay-left">產品基本資料</h3>
+      <ul class="lay-right">
+          <li><a href="#" title="刪除" class="mybtn btn_gray">刪除</a></li>
+          <li><a href="#box_add" title="新增產品基本資料" class="mybtn btn_gray fancybox">新增</a></li>
+          <li><a href="#box_search" title="搜尋產品基本資料" class="mybtn btn_gray fancybox">搜尋</a></li>
+      </ul>
+  </div>
+   
+  
+  <link rel="stylesheet" href="../../css/jquery.fancybox.css"><!-- lightbox效果 -->
+  <script src="../../scripts/jquery.fancybox.pack.js"></script><!-- lightbox效果 -->
+  <script src="../../scripts/web_set.js"></script><!-- 綜合效果 -->
+  <div class="table-bg clean">
+    <table width="100%" class="mytable_list">
+      <thead>
+        <tr>
+          <th class="w15">&nbsp;</th>
+          <th>產品代號</th>
+          <th>產品名稱</th>
+          <th>單位</th>
+          <th>庫存量</th>
+          <th>安全庫存量</th>
+          <th>零售價</th>
+          <th class="w60">明細</th>
+        </tr>
+      </thead>
+      <tbody>   
+        <tr>
+          <td><input name="s" type="checkbox" value=""></td>
+          <td>101</td>
+          <td>菜肉餡</td>
+          <td>袋</td>
+          <td>952525</td>
+          <td>0</td>
+          <td>200</td>
+          <td>
+             <a href="#box_view" title="檢視產品基本資料" class="btn_view fancybox">檢視</a>
+             <a href="#box_edit" title="編輯產品基本資料" class="btn_edit fancybox">編輯</a>
+          </td>
+        </tr>
+        <tr>
+          <td><input name="s" type="checkbox" value=""></td>
+          <td>101</td>
+          <td>菜肉餡</td>
+          <td>袋</td>
+          <td>952525</td>
+          <td>0</td>
+          <td>200</td>
+          <td>
+             <a href="#box_view" title="檢視產品基本資料" class="btn_view fancybox">檢視</a>
+             <a href="#box_edit" title="編輯產品基本資料" class="btn_edit fancybox">編輯</a>
+          </td>
+        </tr>
+        <tr>
+          <td><input name="s" type="checkbox" value=""></td>
+          <td>101</td>
+          <td>菜肉餡</td>
+          <td>袋</td>
+          <td>952525</td>
+          <td>0</td>
+          <td>200</td>
+          <td>
+             <a href="#box_view" title="檢視產品基本資料" class="btn_view fancybox">檢視</a>
+             <a href="#box_edit" title="編輯產品基本資料" class="btn_edit fancybox">編輯</a>
+          </td>
+        </tr>
+        <tr>
+          <td><input name="s" type="checkbox" value=""></td>
+          <td>101</td>
+          <td>菜肉餡</td>
+          <td>袋</td>
+          <td>952525</td>
+          <td>0</td>
+          <td>200</td>
+          <td>
+             <a href="#box_view" title="檢視產品基本資料" class="btn_view fancybox">檢視</a>
+             <a href="#box_edit" title="編輯產品基本資料" class="btn_edit fancybox">編輯</a>
+          </td>
+        </tr>
+        <tr>
+          <td><input name="s" type="checkbox" value=""></td>
+          <td>101</td>
+          <td>菜肉餡</td>
+          <td>袋</td>
+          <td>952525</td>
+          <td>0</td>
+          <td>200</td>
+          <td>
+             <a href="#box_view" title="檢視產品基本資料" class="btn_view fancybox">檢視</a>
+             <a href="#box_edit" title="編輯產品基本資料" class="btn_edit fancybox">編輯</a>
+          </td>
+        </tr>
+        <tr>
+          <td><input name="s" type="checkbox" value=""></td>
+          <td>101</td>
+          <td>菜肉餡</td>
+          <td>袋</td>
+          <td>952525</td>
+          <td>0</td>
+          <td>200</td>
+          <td>
+             <a href="#box_view" title="檢視產品基本資料" class="btn_view fancybox">檢視</a>
+             <a href="#box_edit" title="編輯產品基本資料" class="btn_edit fancybox">編輯</a>
+          </td>
+        </tr>
+        <tr>
+          <td><input name="s" type="checkbox" value=""></td>
+          <td>101</td>
+          <td>菜肉餡</td>
+          <td>袋</td>
+          <td>952525</td>
+          <td>0</td>
+          <td>200</td>
+          <td>
+             <a href="#box_view" title="檢視產品基本資料" class="btn_view fancybox">檢視</a>
+             <a href="#box_edit" title="編輯產品基本資料" class="btn_edit fancybox">編輯</a>
+          </td>
+        </tr>
+        <tr>
+          <td><input name="s" type="checkbox" value=""></td>
+          <td>101</td>
+          <td>菜肉餡</td>
+          <td>袋</td>
+          <td>952525</td>
+          <td>0</td>
+          <td>200</td>
+          <td>
+             <a href="#box_view" title="檢視產品基本資料" class="btn_view fancybox">檢視</a>
+             <a href="#box_edit" title="編輯產品基本資料" class="btn_edit fancybox">編輯</a>
+          </td>
+        </tr>
+        <tr>
+          <td><input name="s" type="checkbox" value=""></td>
+          <td>101</td>
+          <td>菜肉餡</td>
+          <td>袋</td>
+          <td>952525</td>
+          <td>0</td>
+          <td>200</td>
+          <td>
+             <a href="#box_view" title="檢視產品基本資料" class="btn_view fancybox">檢視</a>
+             <a href="#box_edit" title="編輯產品基本資料" class="btn_edit fancybox">編輯</a>
+          </td>
+        </tr>
+        <tr>
+          <td><input name="s" type="checkbox" value=""></td>
+          <td>101</td>
+          <td>菜肉餡</td>
+          <td>袋</td>
+          <td>952525</td>
+          <td>0</td>
+          <td>200</td>
+          <td>
+             <a href="#box_view" title="檢視產品基本資料" class="btn_view fancybox">檢視</a>
+             <a href="#box_edit" title="編輯產品基本資料" class="btn_edit fancybox">編輯</a>
+          </td>
+        </tr>
+       </tbody>
+      </table>
+    </div>
+    
+    <div class="sabrosus"><!-- 頁碼組 -->
+        <span class="disabled">上一頁</span>
+        <span class="current">1</span><!-- span class="current"為目前頁面數 -->
+        <a href="#?page=2" title="第2頁">2</a>
+        <a href="#?page=3" title="第3頁">3</a>
+        <a href="#?page=4" title="第4頁">4</a>
+        <a href="#?page=5" title="第5頁">5</a>
+        <a href="#?page=6" title="第6頁">6</a>
+        <a href="#?page=7" title="第7頁">7</a>
+        <a href="#?page=2" title="下一頁">下一頁</a>
+    </div>
+    <p class="addup">共<span>9999</span>筆資料</p>
+    <br class="clean" />  
+    
+    
+    <!-- LightBox 區塊說明：
+         目前有四個隱藏區塊，"#box_search"是搜尋區塊
+         "#box_add"新增產品資料, "#box_view"檢視產品資料, "#box_edit"編輯產品資料 ，三組欄位皆相同
+         差別在於區塊內的按鈕編制不同，可以稍微留意一下
+         另外在 "#box_view"中，每個input都要加上 disabled 屬性，鎖住編輯功能 
+    -->
+    
+    
+    <div id="box_search"><!-- 搜尋區塊 -->
+       <form action="" method="post">
+           <table width="100%" class="mytable_search">
+            <tr>
+              <th colspan="2">產品基本資料查詢</th>
+            </tr>
+            <tr>
+              <td class="tdr">產品代號：</td>
+              <td><input id="prodIDA" name="prodIDA" type="text" class="mytxtarea w160"> ~ <input id="prodIDB" name="prodIDB" type="text" class="mytxtarea w160"></td>
+            </tr>
+            <tr>
+              <td class="tdr">產品名稱：</td>
+              <td><input id="prodName" name="prodName" type="text" class="mytxtarea w350"></td>
+            </tr>
+            <tr>
+              <td class="tdr">產品類別：</td>
+              <td><input id="prodType" name="prodType" type="text" class="mytxtarea w350"></td>
+            </tr>
+            <tr>
+              <td class="tdr">產品性質：</td>
+              <td><input id="prodProperty" name="prodProperty" type="text" class="mytxtarea w350"></td>
+            </tr>
+          </table>
+          <div class="down_btn">
+            <input name="" type="button" class="btn_gray-02" value="庫存量查詢" onclick="javascript:location.href='prodList.html';">
+            <input name="" type="button" class="btn_gray-02" value="確定" onclick="javascript:location.href='prodList.html';">
+          </div>
+      </form>  
+    </div>
+    
+    
+    
+    
+    <div id="box_add"><!-- 新增區塊 -->
+       <ul class="lay-right">
+              <li><a href="prodList.html" title="取消" class="mybtn btn_gray">取消</a></li>
+              <li><a href="prodList.html" title="儲存" class="mybtn btn_gray">儲存</a></li>
+          </ul>
+       <br class="clean"/>
+       
+       <form action="" method="post">
+          <table width="100%" class="mytable_info">
+              <tr>
+                <th colspan="6">新增產品基本資料</th>
+              </tr>
+              <tr>
+                <td>產品代號：</td>
+                <td><input id="pdId" name="pdId" type="text" class="mytxtarea w100" value=""></td>
+                <td>產品名稱：</td>
+                <td><input id="pdName" name="pdName" type="text" class="mytxtarea w100" value=""></td>
+                <td>單位：</td>
+                <td><input id="Unit" name="Unit" type="text" class="mytxtarea w100" value=""></td>
+              </tr>
+              <tr>
+                <td>產品性質：</td>
+                <td><input id="Category" name="Category" type="text" class="mytxtarea w100" value=""></td>
+                <td>零售價：</td>
+                <td colspan="3"><input id="Price" name="Price" type="text" class="mytxtarea w100" value=""></td>
+              </tr>
+              <tr>
+                <td>最大值：</td>
+                <td><input id="maxValue" name="maxValue" type="text" class="mytxtarea w100" value=""></td>
+                <td>最小值：</td>
+                <td><input id="minValue" name="minValue" type="text" class="mytxtarea w100" value=""></td>
+                <td>缺貨：</td>
+                <td><input id="isNoStock" name="isNoStock" type="text" class="mytxtarea w100" value=""></td>
+              </tr>
+              <tr>
+                <td>中單位：</td>
+                <td><input id="midPackage" name="midPackage" type="text" class="mytxtarea w100" value=""></td>
+                <td>中換算量：</td>
+                <td colspan="3"><input id="" name="" type="text" class="mytxtarea w100" value=""></td>
+              </tr>
+              <tr>
+                <td>大單位：</td>
+                <td><input id="bigPackage" name="bigPackage" type="text" class="mytxtarea w100" value=""></td>
+                <td>大換算量：</td>
+                <td colspan="3"><input id="" name="" type="text" class="mytxtarea w100" value=""></td>
+              </tr>
+              <tr>
+                <td>庫存量：</td>
+                <td><input id="Stock" name="Stock" type="text" class="mytxtarea w100" value=""></td>
+                <td>安全庫存量：</td>
+                <td colspan="3"><input id="" name="" type="text" class="mytxtarea w100" value=""></td>
+              </tr>
+              <tr>
+                <td>備註：</td>
+                <td colspan="5"><textarea id="notes" name="notes" cols="58" rows="3"  class="mytxtarea"></textarea></td>
+              </tr>
+            </table>
+
+       </form>
+        
+        <ul class="lay-right">
+              <li><a href="prodList.html" title="取消" class="mybtn btn_gray">取消</a></li>
+              <li><a href="prodList.html" title="儲存" class="mybtn btn_gray">儲存</a></li>
+          </ul>
+       <br class="clean"/>
+    </div>
+    
+    
+    
+    
+    <div id="box_view"><!-- 檢視區塊 -->
+       <ul class="lay-right">
+          <li><a href="prodList.html" title="刪除" class="mybtn btn_gray">刪除</a></li>
+          <li><a href="#box_edit" title="編輯" class="mybtn btn_gray fancybox">編輯</a></li>
+       </ul>
+       <br class="clean"/>
+       
+       <form action="" method="post">
+       <table width="100%" class="mytable_info">
+          <tr>
+            <th colspan="6">檢視產品基本資料</th>
+          </tr>
+          <tr>
+            <td>產品代號：</td>
+            <td><input id="pdId" name="pdId" type="text" class="mytxtarea w100" value="101" disabled></td>
+            <td>產品名稱：</td>
+            <td><input id="pdName" name="pdName" type="text" class="mytxtarea w100" value="菜肉餡" disabled></td>
+            <td>單位：</td>
+            <td><input id="Unit" name="Unit" type="text" class="mytxtarea w100" value="袋" disabled></td>
+          </tr>
+          <tr>
+            <td>產品性質：</td>
+            <td><input id="Category" name="Category" type="text" class="mytxtarea w100" value="B01" disabled></td>
+            <td>零售價：</td>
+            <td colspan="3"><input id="Price" name="Price" type="text" class="mytxtarea w100" value="200" disabled></td>
+          </tr>
+          <tr>
+            <td>最大值：</td>
+            <td><input id="maxValue" name="maxValue" type="text" class="mytxtarea w100" value="30" disabled></td>
+            <td>最小值：</td>
+            <td><input id="minValue" name="minValue" type="text" class="mytxtarea w100" value="1" disabled></td>
+            <td>缺貨：</td>
+            <td><input id="isNoStock" name="isNoStock" type="text" class="mytxtarea w100" value="否" disabled></td>
+          </tr>
+          <tr>
+            <td>中單位：</td>
+            <td><input id="midPackage" name="midPackage" type="text" class="mytxtarea w100" value="100" disabled></td>
+            <td>中換算量：</td>
+            <td colspan="3"><input id="" name="" type="text" class="mytxtarea w100" value="100" disabled></td>
+          </tr>
+          <tr>
+            <td>大單位：</td>
+            <td><input id="bigPackage" name="bigPackage" type="text" class="mytxtarea w100" value="100" disabled></td>
+            <td>大換算量：</td>
+            <td colspan="3"><input id="" name="" type="text" class="mytxtarea w100" value="100" disabled></td>
+          </tr>
+          <tr>
+            <td>庫存量：</td>
+            <td><input id="Stock" name="Stock" type="text" class="mytxtarea w100" value="952525" disabled></td>
+            <td>安全庫存量：</td>
+            <td colspan="3"><input id="" name="" type="text" class="mytxtarea w100" value="0" disabled></td>
+          </tr>
+          <tr>
+            <td>備註：</td>
+            <td colspan="5"><textarea id="notes" name="notes" cols="58" rows="3"  class="mytxtarea" disabled>一袋2.5公斤</textarea></td>
+          </tr>
+        </table>
+        </form>
+        
+        <ul class="lay-right">
+          <li><a href="prodList.html" title="刪除" class="mybtn btn_gray">刪除</a></li>
+          <li><a href="#box_edit" title="編輯" class="mybtn btn_gray fancybox">編輯</a></li>
+       </ul>
+       <br class="clean"/>
+    </div>
+    
+    
+    
+    
+    <div id="box_edit"><!-- 編輯區塊 -->
+       <ul class="lay-right">
+          <li><a href="prodList.html" title="刪除" class="mybtn btn_gray">刪除</a></li>
+          <li><a href="prodList.html" title="取消" class="mybtn btn_gray">取消</a></li>
+          <li><a href="prodList.html" title="儲存" class="mybtn btn_gray">儲存</a></li>
+       </ul>
+       <br class="clean"/>
+       
+       <form action="" method="post">
+       <table width="100%" class="mytable_info">
+          <tr>
+            <th colspan="6">編輯產品基本資料</th>
+          </tr>
+          <tr>
+            <td>產品代號：</td>
+            <td><input id="pdId" name="pdId" type="text" class="mytxtarea w100" value="101"></td>
+            <td>產品名稱：</td>
+            <td><input id="pdName" name="pdName" type="text" class="mytxtarea w100" value="菜肉餡"></td>
+            <td>單位：</td>
+            <td><input id="Unit" name="Unit" type="text" class="mytxtarea w100" value="袋"></td>
+          </tr>
+          <tr>
+            <td>產品性質：</td>
+            <td><input id="Category" name="Category" type="text" class="mytxtarea w100" value="B01"></td>
+            <td>零售價：</td>
+            <td colspan="3"><input id="Price" name="Price" type="text" class="mytxtarea w100" value="200"></td>
+          </tr>
+          <tr>
+            <td>最大值：</td>
+            <td><input id="maxValue" name="maxValue" type="text" class="mytxtarea w100" value="30"></td>
+            <td>最小值：</td>
+            <td><input id="minValue" name="minValue" type="text" class="mytxtarea w100" value="1"></td>
+            <td>缺貨：</td>
+            <td><input id="isNoStock" name="isNoStock" type="text" class="mytxtarea w100" value="否"></td>
+          </tr>
+          <tr>
+            <td>中單位：</td>
+            <td><input id="midPackage" name="midPackage" type="text" class="mytxtarea w100" value="100"></td>
+            <td>中換算量：</td>
+            <td colspan="3"><input id="" name="" type="text" class="mytxtarea w100" value="100"></td>
+          </tr>
+          <tr>
+            <td>大單位：</td>
+            <td><input id="bigPackage" name="bigPackage" type="text" class="mytxtarea w100" value="100"></td>
+            <td>大換算量：</td>
+            <td colspan="3"><input id="" name="" type="text" class="mytxtarea w100" value="100"></td>
+          </tr>
+          <tr>
+            <td>庫存量：</td>
+            <td><input id="Stock" name="Stock" type="text" class="mytxtarea w100" value="952525"></td>
+            <td>安全庫存量：</td>
+            <td colspan="3"><input id="" name="" type="text" class="mytxtarea w100" value="0"></td>
+          </tr>
+          <tr>
+            <td>備註：</td>
+            <td colspan="5"><textarea id="notes" name="notes" cols="58" rows="3"  class="mytxtarea">一袋2.5公斤</textarea></td>
+          </tr>
+        </table>
+        </form>
+        
+        <ul class="lay-right">
+          <li><a href="prodList.html" title="刪除" class="mybtn btn_gray">刪除</a></li>
+          <li><a href="prodList.html" title="取消" class="mybtn btn_gray">取消</a></li>
+          <li><a href="prodList.html" title="儲存" class="mybtn btn_gray">儲存</a></li>
+       </ul>
+       <br class="clean"/>
+    </div>
+    
+<!-- InstanceEndEditable -->
+</section>
+
+
+<script src="../../scripts/hide_show.js"></script><!-- 隱藏選單 -->
+</body>
+<!-- InstanceEnd --></html>

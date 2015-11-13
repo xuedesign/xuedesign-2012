@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-tw" xml:lang="zh-tw">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="copyright" content="開始設計工作室 Xuedesign studio" />
+<meta name="description" content="開始設計，開始給您好看。我們是專業的視覺設計SOHO團隊，秉持「Handmade」精神，親手打造符合W3C網頁標準的網站，無繁雜多餘的程式碼拖累您的網站速度，讓您的網站在一片茫茫網海之中脫穎而出、搶得先機。"/>
+<meta name="keywords" content="開始設計,xuedesign,台北網頁設計,SOHO,W3C網頁標準,平面設計,手工網頁,無障礙網站" />
+<link rel="shortcut icon"  href="../images/favicon.ico"/>
+<link rel="icon" href="../images/favicon.ico" type="images/ico"/>
+<link rel="bookmark" href="../images/favicon.ico"/>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>:::CECI世曦工會:::</title>
+<!-- TemplateEndEditable -->
+<link href="../css/reset.css" type="text/css" rel="stylesheet" media="all"/>
+<link href="../css/iframe.css" type="text/css" rel="stylesheet" media="screen" />
+<script type="text/javascript" src="../script/jquery_1.6.1.js"></script>
+<script type="text/javascript" src="../script/runpic.js"></script>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+   <div id="wrap"><!-- TemplateBeginEditable name="album_info" -->
+     <div id="elmo_album">
+       <div class="abgne-player">
+         <ul class="abgne-list">
+           <li><img src="../images/pic_ceci_01.jpg" width="738" height="471" alt="世曦工會畫面截圖" /></li>
+           <li><img src="../images/pic_ceci_02.jpg" width="738" height="471" alt="世曦工會畫面截圖" /></li>
+           <li><img src="../images/pic_ceci_03.jpg" width="738" height="471" alt="世曦工會畫面截圖" /></li>
+           <li><img src="../images/pic_ceci_04.jpg" width="738" height="471" alt="世曦工會畫面截圖" /></li>
+           <li><img src="../images/pic_ceci_05.jpg" width="738" height="471" alt="世曦工會畫面截圖" /></li>
+         </ul>
+       </div>
+       <div class="abgne-control">
+         <ul class="arrows">
+           <li class="prev">&lt;</li>
+           <li class="next">&gt;</li>
+         </ul>
+       </div>
+       <div id="album_info">
+         <p>開始設計開始設計開始設計開始設計開始設計開始設計開始設計開始設計開始設計開始設計開始設計開始設計開始設計開始設計開始設計開始設計開始設計開始設計開始設計</p>
+       </div>
+     </div>
+   <!-- TemplateEndEditable --></div>
+</body>
+</html>

@@ -1,0 +1,502 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/edit_passtemp.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8" lang="en">
+<meta name="description" content=""/>
+<meta name="keywords" content="passpac, pass, "/>
+<meta name="Author" content="QZ Tap inc." />
+<link rel="shortcut icon"  href="../../images/favicon.ico"/>
+<link rel="icon" href="../../images/favicon.ico"/>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Passpac Web</title>
+<!-- InstanceEndEditable -->
+<link href="../../css/reset.css" rel="stylesheet">
+<link href="../../css/xue201304.css" rel="stylesheet"/>
+<link href="../../css/passet.css" rel="stylesheet"/>
+<link href="../../css/jquery.fancybox.css" rel="stylesheet"/>
+<link href="../../css/tooltipster.css" rel="stylesheet"/>
+<link href="http://code.jquery.com/ui/jquery-ui-git.css" rel="stylesheet"/>
+<script src="../../script/jquery.min.js"></script>
+<script src="http://code.jquery.com/ui/jquery-ui-git.js"></script>
+<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if IE 6]>
+	<script src="http://letskillie6.googlecode.com/svn/trunk/2/zh_TW.js"></script>
+<![endif]-->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<div id="wrap">
+  <div id="main_content" class="clearfix"> 
+     
+     
+     <header>
+        <h1><a href="../../index.html" title="back to index">Passpac</a></h1>
+        <h2>NFC for SmartPhone</h2>
+        <div id="top_right">
+           <div id="top_login">
+             <!-- 登入前狀態
+              <a href="../content/account/info_member.html" title="Create New Accout" class="btn_addnew">Create New Accout</a> or
+              <a href="#" title="login" class="btn_login">Login</a>
+              <span>│</span>-->
+              Hi! <a href="../account/info_brand.html" title="to my accout">QZ Tap</a>
+              <a href="../../index.html" title="logout" class="btn_login">Logout</a>
+              <!--<span>│</span>
+              <a href="../index.html" title="English vision" class="btn_en">EN</a>
+              <a href="../tw/index.html" title="Chinese vision" class="btn_ch">CH</a>-->
+           </div>
+         <nav>
+          <ul>
+            <li><a href="../profile/What_PassPac.html" title="What's PassPac" class="nav_01">What's PassPac</a></li>
+            <li><a href="pass_select.html" title="Pass Creator" class="nav_02 navin">Pass Creator</a></li>
+            <li><a href="../account/pass_manager.html" title="Pass Manager" class="nav_03">Pass Manager</a></li>
+            <li><a href="../account/info_brand.html" title="My Account" class="nav_04">My Account</a></li>
+            <li><a href="../mobile/app_info.html" title="Mobile APP" class="nav_05">Mobile APP</a></li>
+            <li><a href="../deal/nfc_deal.html" title="NFC For APP" class="nav_06">NFC For APP</a></li>
+          </ul>
+          </nav>
+          </div>
+        <br class="clean" />
+     </header>
+     
+     <div id="mid_block">
+       <section id="pass_edit-top">
+        <div class="editop_left">
+          <!-- InstanceBeginEditable name="pass_title" -->
+             <h3>Generic edit</h3>
+          <!-- InstanceEndEditable -->
+           <p>Pass Builder is the most powerful and accurate visual tool for building Apple Passbook passes.</p>
+        </div>
+        <div class="editop_right">
+          <div class="select_in">
+            <h4>Selected</h4>
+            <!-- InstanceBeginEditable name="pass_now" -->
+               <a href="edit_generic.html" title="Generic" class="btn_pass-04 passin">Generic</a>
+			<!-- InstanceEndEditable -->
+          </div>
+          <div class="select_other">
+            <h4>Select Other</h4>
+            <!-- InstanceBeginEditable name="pass_select" -->
+            <ul>
+              <li><a href="#box_outedit-01" class="btn_pass-01 fancybox screenshot" rel="../../images/preview_coupan.jpg">Coupon</a></li>
+              <li><a href="#box_outedit-02" class="btn_pass-02 fancybox screenshot" rel="../../images/preview_event.jpg">Event</a></li>
+              <li><a href="#box_outedit-03" class="btn_pass-03 fancybox screenshot" rel="../../images/preview_store.jpg">Store</a></li>
+              <li><a href="#box_outedit-05" class="btn_pass-05 fancybox screenshot" rel="../../images/preview_boarding.jpg">Boarding</a></li>
+            </ul>
+            <!-- InstanceEndEditable -->
+          </div>
+        </div>
+        <br class="clean" />   
+       </section>
+       
+       <section id="pass_edit-main">
+          <div class="pass_show"><!-- pass卡預覽區 -->
+         <!-- InstanceBeginEditable name="pass_show" -->
+           <div class="pass_bg" style="background-color:#60bb33"><!-- [預覽]背景設定 -->
+             <div class="pass_mask-03">
+               <div class="coupon_top">
+                 <div class="coupon_logo"><img id="pass-logo" src="../../images/logo-sample_04.png" alt="*"></div>
+                 <h5 id="logo-text" style="color:#32591e">PacGym</h5>
+               </div>
+               <div class="bg_line"></div>
+               <div class="generic_primary"> 
+                 <div id="pic_thumbnail"><img id="pic_member" src="../../images/pic_member.jpg" alt="*"></div>
+                 <h4 id="primary_label" style="color:#32591e">會員姓名</h4>
+                 <p id="primary_value" style="color:#FFF">Judy Pan</p>
+               </div>
+               <div class="coupon_secondary pdtop_01">
+                 <div class="secondary_03">
+                   <h5 id="sec01-label" style="color:#32591e">MEMBER SINCE</h5>
+                   <p id="sec01-value" style="color:#FFF">Aug. 2013</p>
+                 </div>
+                 <div class="secondary_04">
+                   <h5 id="sec02-label" style="color:#32591e">會員等級</h5>
+                   <p id="sec02-value" style="color:#FFF">藍寶級</p>
+                 </div>
+               </div>
+               <div class="pass_barcode"> <img src="../../images/pic_qrcode.jpg" width="117" height="117" alt="*">
+                 <p id="barcode-text">PacGym</p>
+               </div>
+             </div>
+           </div>
+           <!-- InstanceEndEditable -->
+             <a href="#box_save" class="btn_save fancybox">Save</a> 
+           <a href="#box_send" class="btn_distribution fancybox">Distribution</a> 
+          </div>
+                 
+       
+          <div class="pass_tools"><!-- pass卡編輯區 -->
+             <div class="abgne_tab">
+		        <ul class="tabs">
+		          <!-- InstanceBeginEditable name="pass_tools" -->
+		            <li><a href="#tab1" class="tabicon_01" title="Edit Metadata">Edit Metadata</a></li>
+		            <li><a href="#tab2" class="tabicon_08" title="Edit Appearance">Edit Appearance</a></li>
+		            <li><a href="#tab3" class="tabicon_02" title="Edit Color">Edit Color</a></li>
+		            <li><a href="#tab4" class="tabicon_03" title="Edit Primary Fields">Edit Primary Fields</a></li>
+		            <li><a href="#tab5" class="tabicon_04" title="Edit Secondary Fields">Edit Secondary Fields</a></li>
+		            <li><a href="#tab6" class="tabicon_05" title="Edit Barcode Text">Edit Barcode Text</a></li>
+		            <li><a href="#tab7" class="tabicon_06" title="Edit Back Fields">Edit Back Fields</a></li>
+		            <li><a href="#tab8" class="tabicon_07" title="Edit Relevant Location &amp; Place">Edit Relevant Location &amp; Place</a></li>
+	              <!-- InstanceEndEditable -->
+	           </ul>
+	           <!-- InstanceBeginEditable name="pass_edit" -->
+		        <form action="" method="get">
+		          <div class="tab_container">
+		            <div id="tab1" class="tab_content">
+		              <h4>Edit Metadata</h4>
+		              <div class="note_bar">Be sure to save any editing actions.</div>
+		              <div class="box_input">
+		                <h5>Description</h5>
+		                <p>Provide a short description of your pass, which will be used by Apple for accessibility.</p>
+		                <div class="input_value"> <span>Description</span>
+		                  <textarea id="input-backvalue-01" name="textarea" cols="" rows="3" class="textarea_01"></textarea>
+		                  <a href="#" class="tooltip btn_help" title="<p>Provide a short description of your pass. The description is used by iOS Accessibility to differentiate your pass from others.</p>">Help</a> <br class="clean" />
+	                    </div>
+	                  </div>
+	                </div>
+		            
+                    <div id="tab2" class="tab_content">
+		              <h4>Visual Appearance</h4>
+		              <div class="box_input">
+		                <h5>Upload Images</h5>
+		                <p>Upload your 2x sized images, and we'll create the 1x size and rename them for you.</p>
+		                <div class="input_value"> <span>Logo</span>
+                          <div class="picup">
+		                     <input id="file_logo" type="file"><a href="#" title="delete" class="btn_del">delete</a>
+                          </div>   
+		                  <a href="#" class="tooltip btn_help" title="<p><strong>Required Image.</strong> Logo images can either be a square or a horizontal rectangle.<br /><br />Square images are best if using logotext, and must be 100x100px.<br /><br />Rectangular images can be a max of 300x70px, but we recommend closer to 70x70px.</p>">Help</a> <br class="clean" />
+	                    </div>
+		                <div class="input_value"> <span>Logo-text</span>
+		                  <input id="input-logotext" name="input-logotext" type="text" class="textarea_01 input_note" value="PacGym">
+		                  <a href="#" class="tooltip btn_help" title="<p>Provide a short description of your pass. The description is used by iOS Accessibility to differentiate your pass from others.</p>">Help</a> <br class="clean" />
+	                    </div>
+		                <div class="input_value"> <span>Thumbnail</span>
+                          <div class="picup"> 
+		                     <input id="file_Strip" type="file"><a href="#" title="delete" class="btn_del">delete</a>
+                          </div>   
+		                  <a href="#" class="tooltip btn_help" title="<p><strong>Optional Image.</strong> Thumbnail images fit in a 200x200px area.</p>">Help</a> <br class="clean" />
+                          <p class="sub_note">Thumbnail images fit in a 200x200px area.</p>
+	                    </div>
+	                  </div>
+	                </div>
+		            
+                    <div id="tab3" class="tab_content">
+		              <h4>Color Appearance</h4>
+		              <div class="box_input">
+		                <h5>Colors</h5>
+		                <p>Choose the colors for this pass.</p>
+		                <div class="input_value"> <span>Background</span>
+		                  <input id="color_bg" name="color_bg" type="text" value="#60bb33" class="iColorPicker textarea_02">
+		                  <a href="#" class="tooltip btn_help" title="<p>Sets the background color for the pass. It will render with a gradient effect on the actual pass.</p>">Help</a> <br class="clean" />
+	                    </div>
+		                <div class="input_value"> <span>Label Text</span>
+		                  <input id="color_label" name="color_label" type="text" value="#32591e" class="iColorPicker textarea_02">
+		                  <a href="#" class="tooltip btn_help" title="<p>Set the color of the label text. On some primary fields, this color will be ignored.</p>">Help</a> <br class="clean" />
+	                    </div>
+		                <div class="input_value"> <span>Value Text</span>
+		                  <input id="color_value" name="color_value" type="text" value="#FFFFFF" class="iColorPicker textarea_02">
+		                  <a href="#" class="tooltip btn_help" title="<p>Set the color of the value text (also called Foreground Color).</p>">Help</a> <br class="clean" />
+	                    </div>
+	                  </div>
+	                </div>
+		            
+                    <div id="tab4" class="tab_content">
+		              <div class="tip_coupon-07"></div>
+		              <h4>Edit Primary Fields</h4>
+		              <!--<div class="note_bar">Optional field — Appears in the center over the strip image</div>-->
+		              <div class="box_input">
+		                <h5>Primary Field</h5>
+		                <p>The Primary field value appears in large text above the label.</p>
+		                <div class="input_value"> <span>Label</span>
+		                  <input id="input-prilabel" name="Primary-Label" type="text" class="textarea_01" value="會員姓名">
+		                  <a href="#" class="tooltip btn_help" title="<p>Set a default label to appear on the pass. A different label can replace this default during pass creation.<br /><br />If you don't want a default, just leave the field empty.</p>">Help</a> <br class="clean" />
+	                    </div>
+		                <div class="input_value"> <span>Value</span>
+		                  <input id="input-privalue" name="Primary-Value" type="text" class="textarea_01" value="Judy Pan">
+		                  <a href="#" class="tooltip btn_help" title="<p>Set a default value to appear on the pass. A different value can replace this default during pass creation.<br /><br />If you don't want a default, just leave the field empty.</p>">Help</a> <br class="clean" />
+	                    </div>
+	                  </div>
+	                </div>
+		            
+                    <div id="tab5" class="tab_content">
+		              <div class="tip_coupon-02"></div>
+		              <h4>Edit Secondary Fields</h4>
+		              <!--<div class="note_bar">Optional field — Appears on the left under the Strip Image</div>-->
+		              <div class="box_input">
+		                <h5>Secondary Field 1 of 2</h5>
+		                <p>Secondary fields and Auxiliary fields appear on the same line.</p>
+		                <div class="input_value"> <span>Label</span>
+		                  <input id="input-seclabel-01" name="Sec_Left_Label" type="text" class="textarea_01" value="MEMBER SINCE">
+		                  <a href="#" class="tooltip btn_help" title="<p>Set a default label to appear on the pass. A different label can replace this default during pass creation.<br /><br />If you don't want a default, just leave the field empty.</p>">Help</a> <br class="clean" />
+	                    </div>
+		                <div class="input_value"> <span>Value</span>
+		                  <input id="input-secvalue-01" name="Sec_Left_value" type="text" class="textarea_01" value="Aug. 2013">
+		                  <a href="#" class="tooltip btn_help" title="<p>Set a default value to appear on the pass. A different value can replace this default during pass creation.<br /><br />If you don't want a default, just leave the field empty.</p>">Help</a> <br class="clean" />
+	                    </div>
+	                  </div>
+		              <div class="box_input">
+		                <h5>Secondary Field  2 of 2</h5>
+		                <p>Secondary fields and Auxiliary fields appear on the same line.</p>
+		                <div class="input_value"> <span>Label</span>
+		                  <input id="input-seclabel-02" name="Sec_Right_Label" type="text" class="textarea_01" value="會員等級">
+		                  <a href="#" class="tooltip btn_help" title="<p>Set a default label to appear on the pass. A different label can replace this default during pass creation.<br /><br />If you don't want a default, just leave the field empty.</p>">Help</a> <br class="clean" />
+	                    </div>
+		                <div class="input_value"> <span>Value</span>
+		                  <input id="input-secvalue-02" name="Sec_Right_Value" type="text" class="textarea_01" value="藍寶級">
+		                  <a href="#" class="tooltip btn_help" title="<p>Set a default value to appear on the pass. A different value can replace this default during pass creation.<br /><br />If you don't want a default, just leave the field empty.</p>">Help</a> <br class="clean" />
+	                    </div>
+	                  </div>
+	                </div>
+		            
+                    <div id="tab6" class="tab_content">
+		              <div class="tip_coupon-03"></div>
+		              <h4>Edit Barcode Text</h4>
+		              <!--<div class="note_bar">Optional field — Appears at the bottom of the pass</div>-->
+		              <div class="box_input">
+		                <h5>Barcode</h5>
+		                <p>Add the under the barcode.</p>
+		                <div class="input_value"> <span>Alt Text</span>
+		                  <input id="input-altext" name="Barcode_Alt Text" type="text" class="textarea_01" value="PacGym">
+		                  <a href="#" class="tooltip btn_help" title="<p>This message will be encoded into the barcode graphic.</p>">Help</a> <br class="clean" />
+	                    </div>
+	                  </div>
+	                </div>
+                    
+		            <div id="tab7" class="tab_content">
+                      <div class="tip_coupon-04">
+                        <div id="scrollbar1">
+                           <div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+                           <div class="viewport">
+                             <div class="overview">
+                                 <div class="sample_btn"></div>
+                                     <div class="back_content">
+                                        <h5 id="backlabel_01">注意事項</h5>
+                                        <p id="backvalue_01">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae velit at velit pretium sodales. Maecenas egestas imperdiet mauris, vel elementum turpis iaculis eu. Duis egestas augue quis ante ornare eu tincidunt magna interdum.</p>
+                                        <span></span>
+                                        <h5 id="backlabel_02">商家資訊</h5>
+                                        <p id="backvalue_02">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque eget mauris libero. Nulla sit amet felis in sem posuere laoreet ut quis elit. Aenean mauris massa, pretium non bibendum eget, elementum sed nibh. Nulla ac felis et purus adipiscing rutrum. Pellentesque a bibendum sapien.</p>
+                                        <span></span>
+                                    </div>
+                            
+                              </div>
+                             </div>  
+                          </div> 
+                      </div>
+                      
+		              <h4>Edit Back Fields</h4>
+		              <!--<div class="note_bar">Optional field — Appears on the back of the pass</div>-->
+		              <div class="box_input">
+		                <h5>Back Field 1 of 2</h5>
+		                <p>Back field content can be very long.</p>
+		                <div class="input_value"> <span>Label</span>
+		                  <input id="input-backlabel-01" name="Back Field_Label-01" type="text" class="textarea_01" value="注意事項">
+		                  <a href="#" class="tooltip btn_help" title="<p>Set a default label to appear on the pass. A different label can replace this default during pass creation.<br /><br />If you don't want a default, just leave the field empty.</p>">Help</a> <br class="clean" />
+	                    </div>
+		                <div class="input_value"> <span>Value</span>
+		                  <textarea id="input-backvalue-01" name="textarea" cols="" rows="5" class="textarea_01">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae velit at velit pretium sodales. Maecenas egestas imperdiet mauris, vel elementum turpis iaculis eu. Duis egestas augue quis ante ornare eu tincidunt magna interdum.
+                          </textarea>
+		                  <a href="#" class="tooltip btn_help" title="<p>Set a value to appear on the pass.</p>">Help</a> <br class="clean" />
+	                    </div>
+	                  </div>
+                      <div class="box_input">
+		                <h5>Back Field  2 of 2</h5>
+		                <p>Back field content can be very long.</p>
+		                <div class="input_value"> <span>Label</span>
+		                  <input id="input-backlabel-02" name="Back Field_Label-02" type="text" class="textarea_01" value="商家資訊">
+		                  <a href="#" class="tooltip btn_help" title="<p>Set a default label to appear on the pass. A different label can replace this default during pass creation.<br /><br />If you don't want a default, just leave the field empty.</p>">Help</a> <br class="clean" />
+	                    </div>
+		                <div class="input_value"> <span>Value</span>
+		                  <textarea id="input-backvalue-02" name="textarea" cols="" rows="5" class="textarea_01">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque eget mauris libero. Nulla sit amet felis in sem posuere laoreet ut quis elit. Aenean mauris massa, pretium non bibendum eget, elementum sed nibh. Nulla ac felis et purus adipiscing rutrum. Pellentesque a bibendum sapien.
+                          </textarea>
+		                  <a href="#" class="tooltip btn_help" title="<p>Set a value to appear on the pass.</p>">Help</a> <br class="clean" />
+	                    </div>
+                      </div> 
+	                </div>
+                    
+		            <div id="tab8" class="tab_content">
+		              <h4>Edit Relevant Location &amp; Place</h4>
+		              <div class="note_bar">For Coupons you can specify up to 10 Relevant Locations with Relevant Text that will display on the customer's phone when they are close to a Relevant Location.</div>
+		              <div class="box_input">
+		                <h5>Relevant Location</h5>
+		                <p>Specify Relevant Location to display Relevant Text on a customer's phone at a specific location.</p>
+		                <div class="input_value"> <span>Address</span>
+		                  <input name="Address" type="text" class="textarea_01" placeholder="Enter a location">
+		                  <a href="#" class="tooltip btn_help" title="<p>Relevant location requires GPS coordinates. To find the coordinates for your location, start typing your address in the Address field, then click on your address in the dropdown menu.<br /><br />This action will select the proper coordinates and display them next to the Location title.</p>">Help</a> <br class="clean" />
+	                    </div>
+		                <div class="input_value"> <span>Relevant Text</span>
+		                  <input name="Relevant Text" type="text" class="textarea_01" placeholder="Enter custom text to display on the phone">
+		                  <a href="#" class="tooltip btn_help" title="<p>Set the text that appears on the lockscreen when a passholder is near your location.<br/><br/><strong>Example:</strong> Store nearby on 3rd and Main.</p>">Help</a> <br class="clean" />
+		                  <p class="sub_note">If left blank, the phone will say "Nearby" when the customer is near this location.</p>
+	                    </div>
+	                  </div>
+	                </div>
+	              </div>
+	            </form>
+	           <!-- InstanceEndEditable -->
+            </div>
+         </div>
+         
+         <!-- InstanceBeginEditable name="page_leave" -->
+         <div id="box_outedit-01" class="box_light">
+           <h3>Attention</h3>
+           <div class="mylightbox bg_pop-02">
+               <p><span class="icon_info"></span>The information has not been stored, the need to
+archive and then leave ?</p>
+               <a href="edit_coupon.html" class="btn_blue_02 ppl-03">No, Directly leave</a> 
+               <a href="#box_save" class="fancybox btn_blue_02 ppl-03">Yes, Save the file</a> 
+               <br class="clean" />
+           </div>
+         </div>
+         
+         <div id="box_outedit-02" class="box_light">
+           <h3>Attention</h3>
+           <div class="mylightbox bg_pop-02">
+               <p><span class="icon_info"></span>The information has not been stored, the need to
+archive and then leave ?</p>
+               <a href="edit_event.html" class="btn_blue_02 ppl-03">No, Directly leave</a> 
+               <a href="#box_save" class="fancybox btn_blue_02 ppl-03">Yes, Save the file</a> 
+               <br class="clean" />
+           </div>
+         </div>
+         
+         <div id="box_outedit-03" class="box_light">
+           <h3>Attention</h3>
+           <div class="mylightbox bg_pop-02">
+               <p><span class="icon_info"></span>The information has not been stored, the need to
+archive and then leave ?</p>
+               <a href="edit_store.html" class="btn_blue_02 ppl-03">No, Directly leave</a> 
+               <a href="#box_save" class="fancybox btn_blue_02 ppl-03">Yes, Save the file</a> 
+               <br class="clean" />
+           </div>
+         </div>
+         
+         <div id="box_outedit-05" class="box_light">
+           <h3>Attention</h3>
+           <div class="mylightbox bg_pop-02">
+               <p><span class="icon_info"></span>The information has not been stored, the need to
+archive and then leave ?</p>
+               <a href="edit_boarding.html" class="btn_blue_02 ppl-03">No, Directly leave</a> 
+               <a href="#box_save" class="fancybox btn_blue_02 ppl-03">Yes, Save the file</a> 
+               <br class="clean" />
+           </div>
+         </div>
+         
+         <div id="box_save" class="box_light">
+           <h3>Save File</h3>
+             <div class="mylightbox bg_pop-01">
+	            <h4>File Name</h4>
+                <input name="myfile" type="text" class="textarea_03" placeholder="Enter File Name">
+                <br class="clean"/>
+                <a href="edit_generic.html" class="btn_blue ppl-03">Save</a>
+             </div>   
+          </div>
+         <!-- InstanceEndEditable -->
+          <div id="box_send" class="box_light-02">
+           <h3>Distribution</h3>
+           <div class="dete_set">
+              <h4>Start date</h4>
+                <input id="datepicker-01" name="startdate" type="text" class="textarea_03" placeholder="Select start date">
+                
+              <h4>Expiry date</h4>
+                <input id="datepicker-02" name="expirydate" type="text" class="textarea_03" placeholder="Select expiry date">
+                
+              <h4>Passes quantity</h4>
+                 <input id="datepicker-02" name="expirydate" type="text" class="textarea_03" placeholder="Enter quantity" value="1">
+           </div>
+           <div class="distribu_set">
+	            <div class="mylightbox">
+                   <input name="select_send" type="radio" class="send_item" value="email">
+                   <h4>Email</h4>
+                   <input name="myemail" type="text" class="textarea_03" placeholder="Enter Your Email">
+                   <p>send this Passbook pass to yourself or someone else. The recipient must have an iPhone or iPod touch with Passbook (ios6) to view this pass.</p>
+                   <a href="#" class="btn_blue">Send Mail</a> 
+                </div>
+                <div class="mylightbox">
+                   <input name="select_send" type="radio" class="send_item" value="facebook">
+                   <h4>Facebook</h4>
+                   <span class="fbfn">FB Fanspage name</span>
+                   <p>Distnbute this Passbook pass to your fans of Facebook. The users must have an iPhone or iPod touch with passbook (ios6) to view this pass.</p>
+                   <a href="#" class="btn_blue">Publish</a>  
+                </div>
+            </div>
+            <br class="clean" />    
+          </div>
+           
+         <br class="clean" />   
+       </section>
+     </div>
+     
+   </div>   
+</div>
+
+<footer>
+  <div id="down_block">
+    <p class="down_left">&copy;2013 <a href="http://www.qztap.com/" title="Qztap Inc." rel="external">QzTap Inc.,</a> All Rights Reserved.</p>
+    <ul class="down_right">
+       <li><a href="../profile/What_PassPac.html" title="What's PassPac">What's PassPac</a>│</li>
+       <li><a href="pass_select.html" title="Pass Creator">Pass Creator</a>│</li>
+       <li><a href="../account/pass_manager.html" title="Pass Manager">Pass Manager</a>│</li>
+       <li><a href="../account/info_brand.html" title="My Account">My Account</a>│</li>
+       <li><a href="../mobile/app_info.html" title="Mobile APP">Mobile APP</a>│</li>
+       <li><a href="../deal/nfc_deal.html" title="NFC For APP">NFC For APP</a>│</li>
+       <li><a href="../profile/faq.html" title="FAQ">FAQ</a>│</li>
+       <li><a href="../profile/contact.html" title="Contact us">Contact us</a>│</li>
+       <li><a href="http://www.qztap.com/" title="Blog" rel="external">Blog</a></li>
+    </ul>
+  </div>  
+</footer>
+
+<!-- InstanceBeginEditable name="pass_scriptedit" -->
+<script src="../../script/passedit_generic.js"></script><!-- 票卡編輯 -->
+<!-- InstanceEndEditable -->
+<script>
+   $(function() {
+    $( "#datepicker-01" ).datepicker();
+	$( "#datepicker-02" ).datepicker();
+   });
+</script>
+<script src="../../script/tinyscrollbar.js"></script><!-- 視窗拉BAR -->
+<script><!-- 視窗拉BAR -->
+		$(document).ready(function(){
+			$('#scrollbar1').tinyscrollbar();	
+		});
+</script>		
+<script><!-- 頁籤切換 -->
+   $(function(){
+		var _showTab = 0;
+		var $defaultLi = $('ul.tabs li').eq(_showTab).addClass('active');
+		$($defaultLi.find('a').attr('href')).siblings().hide();
+		
+		$('ul.tabs li').click(function() {
+			var $this = $(this),
+				_clickTab = $this.find('a').attr('href');
+			$this.addClass('active').siblings('.active').removeClass('active');
+			$(_clickTab).stop(false, true).fadeIn().siblings().hide();
+
+			return false;
+		}).find('a').focus(function(){
+			this.blur();
+		});
+	});	  
+</script>
+<script src="../../script/screenshot.js"></script><!-- 滑過預覽-->
+<script src="../../script/iColorPicker.js"></script><!-- 選色器 -->
+<script src="../../script/jquery.tooltipster.min.js"></script><!-- 提示框 -->
+<script> $(document).ready(function() { $('.tooltip').tooltipster(); }) </script><!-- 提示框 -->
+<script src="../../script/jquery.placeholder.js"></script><!-- 輸入框提醒文字 -->
+<script src="../../script/jquery.fancybox.pack.js"></script><!-- Lightbox -->
+<script>
+		$(document).ready(function() {
+			$('.fancybox').fancybox();
+            $(".fancybox-effects-a").fancybox({
+				helpers:{
+					title:{type : 'outside'},
+					overlay:{speedOut : 0}  }  });  });
+</script>
+<script src="../../script/jquery.lazyload.js"></script><!-- 圖片延遲載入 -->
+<script src="../../script/other_set.js"></script>
+</body>
+<!-- InstanceEnd --></html>

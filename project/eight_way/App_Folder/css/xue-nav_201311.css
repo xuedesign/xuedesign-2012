@@ -1,0 +1,82 @@
+/**********************************************************************************************
+
+	Title: CSS for 8-way
+	Author: Elmo Wu (by xuedesign studio)
+	Date: 2013 / 11   
+
+***********************************************************************************************
+		1 通用
+		2.網站主選單		
+***********************************************************************************************/
+
+/* 1. 通用 
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+body{
+	background:url(../images/bg_nav.png) repeat-y;
+	font-family:"新細明體","PMingLiU", Arial, Helvetica, sans-serif;
+	font-size:100%;
+	line-height:20px;
+	color:#1b1b1b}
+a:link {text-decoration:underline; color:#00adee}
+a:visited {text-decoration:underline; color:#140d0a}
+a:hover {text-decoration:none; color:#F50}
+form{margin:0; padding:0}
+image{border:0}
+
+.clean{ clear:both}
+.hidden{ display:none}
+
+/* 2. 登入頁  
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+#wrap{ display:block; position:relative; width:202px}
+h1{ 
+    display:block; 
+    width:150px; 
+    height:71px;
+	margin:10px auto 35px auto; 
+    background: url(../images/logo_nav.png) no-repeat; 
+    text-indent:-9999px}
+nav{ display:block; margin-bottom:70px}
+nav a:link, nav a:visited{
+	display:block;
+	width:125px;
+	margin:15px auto 0 auto;
+	padding:4px 10px 4px 15px;
+	font-size:0.813em;
+	line-height:22px;
+	text-decoration:none; 
+	color:#140d0a;
+	text-shadow: 1px 1px 0 #fffef8;
+	border:1px solid #beac76;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-o-border-radius: 30px;
+	-ms-border-radius: 30px;
+	border-radius: 30px;
+	-webkit-box-shadow: 1px 1px 0 #fffef8;
+	-moz-box-shadow: 1px 1px 0 #fffef8;
+	-o-box-shadow: 1px 1px 0 #fffef8;
+	-ms-box-shadow: 1px 1px 0 #fffef8;
+	box-shadow: 1px 1px 0 #fffef8}
+nav a:hover{ 
+	background: -webkit-gradient(linear, left top, right top, from(#dc454c), to(#aa0e15));
+	background: -webkit-linear-gradient(top, #dc454c, #aa0e15);
+	background: -moz-linear-gradient(top, #dc454c, #aa0e15);
+	background: -o-linear-gradient(top, #dc454c, #aa0e15);
+	background: -ms-linear-gradient(top, #dc454c, #aa0e15);
+	background: linear-gradient(top, #dc454c, #aa0e15);
+	background-color: #dc454c; 
+	color:#fff;
+	border:1px solid #fff;
+	text-shadow: none;
+	box-shadow: none}	
+.copyright{
+	display:block;
+	position:absolute;
+	top:580px;
+	left:15px;
+	font-size:0.813em; 
+	line-height:22px; 
+	text-align:center}			

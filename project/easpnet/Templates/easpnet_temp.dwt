@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-tw" xml:lang="zh-tw">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="copyright" content="數位通國際網路股份有限公司 eASPNet" />
+<meta name="description" content="本公司由台灣及亞太地區頂尖高科技公司所合資組成的網際網路商務公司，為台灣第一個電信級的網際網路資料中心及應用服務供應商。主幹服務包括：資料中心代管及加值、專案委外、無線網路建置整合維運、網管及網路加值等。"/>
+<meta name="keywords" content="數位通,eASPNet,資料中心代管,無線網路建置整合,網路加值,通信工程,產品設計,電腦設備安裝。" />
+<meta name="Author" content="ifun, 魁亨科技"/>
+<link rel="shortcut icon"  href="../images/favicon.ico"/>
+<link rel="icon" href="../images/favicon.ico" type="images/ico"/>
+<link rel="bookmark" href="../images/favicon.ico"/>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>產品與服務│數位通國際eASPNet，台灣第一個電信級的網際網路資料中心及應用服務供應商</title>
+<!-- TemplateEndEditable -->
+<link type="text/css" rel="stylesheet" href="../css/reset.css" media="all"/>
+<link type="text/css" rel="stylesheet" href="../css/elmo201102_cc.css" media="all"/>
+<link type="text/css" rel="stylesheet" href="../css/lightbox.css" media="all"/>
+<style type="text/css">
+#service .ser_01 a:link{
+	display:block; 
+	width:230px;
+	height:43px;
+	background: url(../images/service_cc01.png)}
+#service .ser_01 a:visited{
+	display:block; 
+	width:230px;
+	height:43px;
+	background: url(../images/service_cc01.png)}	
+#service .ser_01 a:hover{background: url(../images/service_cc01_hover.png)}
+#service .ser_02 a:link{
+	display:block; 
+	width:230px; 
+	height:43px; 
+	background: url(../images/service_cc02.png)}
+#service .ser_02 a:visited{
+	display:block; 
+	width:230px; 
+	height:43px; 
+	background: url(../images/service_cc02.png)}		
+#service .ser_02 a:hover{background: url(../images/service_cc02_hover.png)}	
+#service .ser_03 a:link{
+	display:block; 
+	width:230px; 
+	height:43px; 
+	background: url(../images/service_cc03.png)}
+#service .ser_03 a:visited{
+	display:block; 
+	width:230px; 
+	height:43px; 
+	background: url(../images/service_cc03.png)}	
+#service .ser_03 a:hover{background: url(../images/service_cc03_hover.png)}	
+#service .ser_04 a:link{
+	display:block; 
+	width:230px; 
+	height:43px; 
+	background: url(../images/service_cc04.png)}
+#service .ser_04 a:visited{
+	display:block; 
+	width:230px; 
+	height:43px; 
+	background: url(../images/service_cc04.png)}	
+#service .ser_04 a:hover{background: url(../images/service_cc04_hover.png)}
+</style>
+<script type="text/javascript" src="../script/jquery 1.3.2 jquery.min.js"></script>
+<script type="text/javascript" src="../script/swfobject.js"></script>
+<!--[if lte IE 6]>
+<script type="text/javascript" src="../../script/letskillie6.zh_tw.js"></script>
+<![endif]-->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+   <div id="wrap">
+       <div id="toper">
+           <div id="logo">
+               <h1><a href="../index.html" title="回首頁">數位通國際eASPNet</a></h1>
+               <h2>台灣第一個電信級的網際網路資料中心及應用服務供應商。</h2>
+           </div>
+           <div id="sub_menu">
+               <ul>
+                  <li><a href="../index.html" title="回到首頁">回到首頁</a>│</li>
+                  <li><a href="#" title="前往英文版">English vision</a></li>
+               </ul>
+           </div>
+           <div id="nav">
+               <h3>【網站主選單】</h3>
+               <ul>
+                   <li class="n01"><a href="../content/about/porfile.html" title="關於我們">關於我們</a></li>
+                   <li class="n02"><a href="../content/products/information.html" title="產品與服務">產品與服務</a></li>
+                   <li class="n03"><a href="../content/news/news_list.html" title="新聞中心">新聞中心</a></li>
+                   <li class="n04"><a href="../content/charity/charity_list.html" title="企業社會責任">企業社會責任</a></li>
+                   <li class="n05"><a href="../content/download/download_list.html" title="下載專區">下載專區</a></li>
+               </ul>
+           </div>
+       </div>
+       <div id="bodyer">
+           <div id="mainbtn">
+               <ul>
+                  <li class="tab_01"><a href="../content/about/superiority.html" title="機房優勢">機房優勢</a></li>
+                  <li class="tab_02"><a href="../content/contact/contactus.html" title="線上服務">線上服務</a></li> 
+               </ul>
+           </div>
+           <!-- TemplateBeginEditable name="banner" -->
+           <div id="bannerbox" class="pitem_02">
+             <h2>專業服務導向</h2>
+             <p>數位通國際係以專業服務為導向，提供全系列加值服務包含基本維護、設備、DBA軟體、監控、系統管理、系統維護服務及客製化服務等，以全方位服務及品質成功維持客戶忠誠度。</p>
+           </div>
+           <!-- TemplateEndEditable -->
+           <div id="service">
+           <h3>【我們的產品與服務】</h3>
+               <ul>
+                  <li class="ser_01"><a href="../content/products/information.html" title="資料中心代管與加值服務">資料中心代管與加值服務</a></li>
+                  <li class="ser_02"><a href="../content/products/network.html" title="電信網路管理暨系統規劃服務">電信網路管理暨系統規劃服務</a></li>
+                  <li class="ser_03"><a href="../content/products/fortel.html" title="專業電信人立委外">專業電信人立委外</a></li>
+                  <li class="ser_04"><a href="../content/products/forcloud.html" title="整合式雲端服務解決方案">整合式雲端服務解決方案</a></li>
+               </ul>
+           </div>
+           
+           <div id="contenter">
+               <div id="main_content">
+                   <div id="cont_left">
+                 <!-- TemplateBeginEditable name="sub_nav" -->
+                     <div id="sub_nav">
+                       <h3 class="ptitle_02">【產品與服務】</h3>
+                       <ul>
+                         <li class="page_in"><a href="../content/products/information.html" title="資料中心代管與加值服務">資料中心代管與加值服務</a></li>
+                         <li><a href="../content/products/network.html" title="電信網路管理暨系統規劃服務">電信網路管理暨系統規劃服務系統規劃服務</a></li>
+                         <li><a href="../content/products/fortel.html" title="專業電信人員委外">專業電信人員委外</a></li>
+                         <li><a href="../content/products/forcloud.html" title="整合式雲端服務解決方案">整合式雲端服務解決方案</a></li>
+                       </ul>
+                     </div>
+                   <!-- TemplateEndEditable -->
+                     <div id="service_box">
+                     <h3>【客服專區】</h3>
+                           <p>如果您對數位通的產品與服務有任何疑問或建議，竭誠歡迎您與我們聯繫。</p>
+                        <p><span class="ppbar">客服專線</span>
+                          <span class="service_info">0800-880-668</span>
+                   </p>
+                           <p><span class="ppbar">客服信箱</span>
+                              <span class="service_info"><a href="mailto:customerservice@easpnet.com" title="聯絡我們">customerservice<br />@easpnet.com</a></span> 
+                           </p>
+                       </div>    
+                   </div>
+                   <!-- TemplateBeginEditable name="main_content" -->
+                   <div id="cont_right">
+                     <div id="bread_box"> <img src="../images/icon_house.png" width="12" height="10" alt="*" /><a href="../index.html" title="首頁">首頁</a> &gt; <a href="../content/products/information.html" title="產品與服務">產品與服務</a> &gt; <span class="txt_plure">資料中心代管與加值服務</span> </div>
+                     <div id="content_box">
+                       <p>sdfsdfsdfsdfsdfsd</p>
+                     </div>
+                   </div>
+                   <!-- TemplateEndEditable --><br class="clean" />
+               </div>
+           </div><!-- end #contenter //-->
+       </div><!-- end #bodyer //-->
+       
+       <div id="footer">
+             COPYRIGHT 2011 eASPNet Taiwan Inc. ALL RIGHT RESERVED.CREATED BY <a href="http://www.iifun.com.tw/" rel="external" title="魁亨科技製作">I-FUN</a><br />
+             地址：台北市114內湖區瑞湖街101號4樓<br />
+             電話：886-2-26597754  傳真：886-2-26598286
+       </div>
+   </div>
+   <script type="text/javascript" src="../script/lightbox.js"></script>
+   <script type="text/javascript" src="../script/webscript.js"></script>
+</body>
+</html>

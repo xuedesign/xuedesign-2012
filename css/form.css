@@ -1,0 +1,90 @@
+/**********************************************************************************************
+
+	Title: CSS for xuedeisgn
+	Author: Elmo Wu (by xuedesign studio)
+	Build: v1.5
+	Date: 2011/10~2012/11   
+
+**********************************************************************************************/
+body{
+	margin: 0;
+	padding:0;
+	/*background: url(../images/bg_website.png);*/
+	font-family:/*"微軟正黑體","Microsoft JhengHei","新細明體","PMingLiU",*/Arial, Helvetica, sans-serif;
+	font-size:100%;
+	line-height:20px;
+	color:#565555}
+a:link {text-decoration:underline; color:#00adee}
+a:visited {text-decoration:underline; color:#8c8c8c}
+a:hover {text-decoration:none; color:#F50}
+form{margin:0; padding:0}
+image{border:0}
+
+#wrap{
+	display:block;
+	width:310px;
+	height:665px;
+	background:#FFF}
+.ss-form{ margin-top:-10px}
+.ss-form-title{
+	font-size:0.813em; 
+	color:#737373; 
+	margin:0; 
+	padding:0;
+	line-height:22px;
+	letter-spacing:1px;
+	font-weight:normal}
+.ss-required-asterisk{ font-size:0.813em; color:#F36}
+.rr_point{ font-size:1em; font-weight:bold}
+.tt-right{ text-align:right; padding-right:30px}
+.txt_bluee{ 
+    font-size:0.813em; 
+	color:#40a3be; 
+	font-weight:bold; 
+	padding:0 10px 0 0;
+	margin-bottom:0; 
+	letter-spacing:1px}
+.ss-q-short, .ss-q-long{
+	display:block;
+	border:1px solid #C8C8C8;
+	width:270px;
+	padding:5px;
+	margin:/*5px*/-12px 0 15px;
+	color:#565555;
+	font-weight:normal}
+.ss-q-long{ height:145px;}	
+.btn_send{ 
+   display:block;
+   width:120px;
+   height:25px;
+   margin:20px 0 0 90px;
+   padding:5px;  
+   font-family:Arial, Helvetica, sans-serif; 
+   font-size:0.813em;
+   text-align:center;
+   letter-spacing:1px;
+   color:#FFF;
+   background:#3fb5f8;
+   border: none;
+   cursor:pointer}
+.btn_send:hover{background:#007DB3}
+
+.send_mail{
+	display:block;
+	width:300px;
+	height:220px;
+	text-indent:-9999px;
+	background:url(../images/send_mail.gif) 50px 50px no-repeat;}
+.thank_send{
+	display:block;
+	padding:15px 70px 0 30px;
+	font-size:0.938em; 
+	color:#40a3be;
+	line-height:18px;
+	font-weight:bold;
+	letter-spacing:1px;
+	text-align:center;
+	margin:0}
+.required-message,.error-message{color:#c43b1d;display:none;font-size:13px}
+.required~.required-message,.error~.error-message{display:block; padding-left:8px; margin-top:-5px}
+.errorbox-good{ margin-bottom:-15px; padding:0}		  			

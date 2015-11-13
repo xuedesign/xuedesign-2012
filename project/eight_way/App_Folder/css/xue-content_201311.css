@@ -1,0 +1,456 @@
+/**********************************************************************************************
+
+	Title: CSS for 8-way
+	Author: Elmo Wu (by xuedesign studio)
+	Date: 2013 / 11   
+
+***********************************************************************************************
+		1 通用
+		2.登入?		
+***********************************************************************************************/
+
+/* 1. 通用 
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+body{
+	background:url(../images/bg_content.png);
+	font-family:"新?明體","PMingLiU", Arial, Helvetica, sans-serif;
+	font-size:100%;
+	line-height:20px;
+	color:#1b1b1b}
+a:link {text-decoration:underline; color:#00adee}
+a:visited {text-decoration:underline; color:#8c8c8c}
+a:hover {text-decoration:none; color:#F50}
+form{margin:0; padding:0}
+image{border:0}
+
+.clean{ clear:both}
+.hidden{ display:none}
+
+header{
+	display:block;
+	position:fixed;
+	z-index:8010;
+	top:0;
+	width:100%;
+	height:48px;
+	background:url(../images/bg_topbar.png) repeat-x}
+.btn_hide{
+	display:block;
+	float:left;
+	width:150px;
+	height:24px;
+	background:url(../images/icon_hidden.png) no-repeat;
+	margin:10px 0 0 15px;
+	padding-left:32px;}	
+#leftFrame_display{ cursor:pointer; font-size:1em; line-height:27px; *line-height:22px; color:#FFF}	
+
+.box_loginfo{
+	display:block;
+	float:right;
+	text-align:right;
+	margin:10px 15px 0 0;
+	font-size:1em;
+	line-height:22px;
+	color:#FFF}
+.mybtn{
+	display:inline-block;
+	padding:2px 10px;
+	margin:0 10px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-o-border-radius: 8px;
+	-ms-border-radius: 8px;
+	border-radius: 8px;
+	font-size:1em;
+	line-height:22px;
+	letter-spacing:1px}
+a.btn_red{
+	background: -webkit-gradient(linear, left top, right top, from(#fb8923), to(#f15a01));
+	background: -webkit-linear-gradient(top, #fb8923, #f15a01);
+	background: -moz-linear-gradient(top, #fb8923, #f15a01);
+	background: -o-linear-gradient(top, #fb8923, #f15a01);
+	background: -ms-linear-gradient(top, #fb8923, #f15a01);
+	background: linear-gradient(top, #fb8923, #f15a01);
+	background-color: #fb8923;
+	color:#fff;
+	text-decoration:none;
+	border:1px solid #f15a01}
+a.btn_red:hover{
+	background: -webkit-gradient(linear, left top, right top, from(#dc454c), to(#aa0e15));
+	background: -webkit-linear-gradient(top, #dc454c, #aa0e15);
+	background: -moz-linear-gradient(top, #dc454c, #aa0e15);
+	background: -o-linear-gradient(top, #dc454c, #aa0e15);
+	background: -ms-linear-gradient(top, #dc454c, #aa0e15);
+	background: linear-gradient(top, #dc454c, #aa0e15);
+	background-color: #dc454c; 
+	color:#fff;
+	text-decoration:none;
+	border:1px solid #aa0e15}
+a.btn_gray{
+	background: -webkit-gradient(linear, left top, right top, from(#c3c2c2), to(#898888));
+	background: -webkit-linear-gradient(top, #c3c2c2, #898888);
+	background: -moz-linear-gradient(top, #c3c2c2, #898888);
+	background: -o-linear-gradient(top, #c3c2c2, #898888);
+	background: -ms-linear-gradient(top, #c3c2c2, #898888);
+	background: linear-gradient(top, #c3c2c2, #898888);
+	background-color: #c3c2c2;
+	color:#fff;
+	text-decoration:none;
+	border:1px solid #898888}
+a.btn_gray:hover{
+	background: -webkit-gradient(linear, left top, right top, from(#dc454c), to(#aa0e15));
+	background: -webkit-linear-gradient(top, #dc454c, #aa0e15);
+	background: -moz-linear-gradient(top, #dc454c, #aa0e15);
+	background: -o-linear-gradient(top, #dc454c, #aa0e15);
+	background: -ms-linear-gradient(top, #dc454c, #aa0e15);
+	background: linear-gradient(top, #dc454c, #aa0e15);
+	background-color: #dc454c; 
+	color:#fff;
+	text-decoration:none;
+	border:1px solid #aa0e15}
+.btn_gray-02{
+	display:inline-block;
+	/*padding:2px 10px;*/
+	padding:4px 10px;
+	/*padding:2px 10px !important;*/
+	margin:0 10px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-o-border-radius: 8px;
+	-ms-border-radius: 8px;
+	border-radius: 8px;
+	background: -webkit-gradient(linear, left top, right top, from(#c3c2c2), to(#898888));
+	background: -webkit-linear-gradient(top, #c3c2c2, #898888);
+	background: -moz-linear-gradient(top, #c3c2c2, #898888);
+	background: -o-linear-gradient(top, #c3c2c2, #898888);
+	background: -ms-linear-gradient(top, #c3c2c2, #898888);
+	background: linear-gradient(top, #c3c2c2, #898888);
+	background-color: #c3c2c2;
+	font-size:1em;
+	color:#fff;
+	text-decoration:none;
+	border:1px solid #898888;
+	cursor:pointer}
+@-moz-document url-prefix() {
+	.btn_gray-02{padding:2px 10px}
+}	
+.btn_gray-02:hover{
+	background: -webkit-gradient(linear, left top, right top, from(#dc454c), to(#aa0e15));
+	background: -webkit-linear-gradient(top, #dc454c, #aa0e15);
+	background: -moz-linear-gradient(top, #dc454c, #aa0e15);
+	background: -o-linear-gradient(top, #dc454c, #aa0e15);
+	background: -ms-linear-gradient(top, #dc454c, #aa0e15);
+	background: linear-gradient(top, #dc454c, #aa0e15);
+	background-color: #dc454c; 
+	color:#fff;
+	text-decoration:none;
+	border:1px solid #aa0e15}				
+
+
+/* 2. 內?板型  
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+.main_content, .main_content-02{
+	display:block;
+	min-height:510px;
+	background:url(../images/bg_content-logo.png) right bottom no-repeat}
+.main_content{width:93%; width:96% !important; margin:30px auto;}
+.main_content-02{ width:100%; margin:0 auto}		
+.main_content h3, .main_content-02 h3{ font-size:1em; line-height:25px; color:#66542a; text-shadow: 1px 1px 0 #FFF}
+.subpage, .topbox{ width:93%; width:96% !important; margin:0 auto}
+
+.box_output{display:block; border:1px solid #CECCCC; height:90px; margin-top:15px}
+.box_output h4{ text-align:center; letter-spacing:1px; padding-top:35px}	
+.btn_login{
+	display:block;
+	width:149px;
+	height:40px;
+	margin:29px auto 20px auto;
+	background:url(../images/btn_login.png) no-repeat;
+	border:none;
+	cursor:pointer;
+	font-size:1em;
+	color:#FFF;
+	text-align:center;
+	letter-spacing:2px}	
+.btn_login:hover{ background:url(../images/btn_login.png) 0 -40px no-repeat}
+.btn_send{
+	display:block;
+	width:63px;
+	height:23px;
+	margin:0 auto;
+	background:url(../images/btn_gray.png) no-repeat;
+	border:none;
+	cursor:pointer;
+	font-size:1em;
+	color:#FFF;
+	text-align:center;
+	letter-spacing:2px}	
+.btn_send:hover{ background:url(../images/btn_gray.png) 0 -23px no-repeat}
+
+.table-bg, .table-bg-02, .table-bg-03, .table-bg-04, .table-bg-05{
+	display:block;
+	/*min-height:1500px;*/
+	font-size:1em; 
+	line-height:22px; 
+	color:#140d0a;
+	background:#FFF;
+	padding:10px;
+	-webkit-box-shadow: 0 0 10px #e2e2e2;
+	-moz-box-shadow: 0 0 10px #e2e2e2;
+	-o-box-shadow: 0 0 10px #e2e2e2;
+	-ms-box-shadow: 0 0 10px #e2e2e2;
+	box-shadow: 0 0 10px #e2e2e2}
+.table-bg{margin-top:120px/*20px*/;}
+.table-bg-03{ margin-top:80px}
+.table-bg-04{ margin-top:100px}
+.table-bg-05{ margin-top:60px}	
+		
+.mytable_search, .mytable_search-02, .mytable_list, .mytable_list-02, .mytable_info, .mytable_orderlist, .mytable_addprod{margin-bottom:20px}
+.mytable_list, .mytable_list-02, .mytable_info, .mytable_orderlist{ border-collapse: collapse; border-spacing: 0px}
+.mytable_info{font-size:1em; line-height:22px}
+.table-bg .mytable_info, .table-bg-03 .mytable_info{font-size:1em; line-height:22px}
+.mytable_search th, .mytable_search-02 th, .mytable_list th, .mytable_list-02 th, .mytable_info th, .mytable_orderlist th{
+	text-shadow: 1px 1px 0 #F2E4C2;
+	vertical-align:middle; 
+    height:33px; 
+	padding:5px; 
+	background:url(../images/bg_th.png) repeat-x}
+.mytable_orderlist th{ font-size:0.938em}	
+.mytable_search td, .mytable_list td, .mytable_list-02 td{
+	/*padding:8px 5px;*/
+	padding:4px 5px;
+	border-bottom:1px dashed #dfdddd}
+.mytable_list td, .mytable_list-02 td{ text-align:center; vertical-align:middle}
+.mytable_search-02 td{
+	padding:8px 5px;
+	border-bottom:1px dashed #dfdddd;
+	text-align:center;
+	vertical-align:middle}
+.mytable_search-02 .pdlf35{ padding-left:35px}		
+.mytable_info td{
+	padding:8px 0/*5px*/;
+	border-bottom:1px dashed #dfdddd;
+	text-align:left; 
+	vertical-align:middle}
+.mytable_orderlist td{
+	padding:/*8px*/0 0;
+	border-bottom:1px dashed #dfdddd; 
+    text-align: center; 
+	vertical-align:middle}
+.mytable_orderlist .mytxtarea{width:70% \9; *width:70%; _width:70%}
+.mytable_addprod .mytxtarea{width:80% \9; *width:80%; _width:80%}		
+@media screen and (min-width: 768px) and (max-width: 1279px){
+	.mytable_orderlist .mytxtarea{ width:70%}
+	.mytable_addprod .mytxtarea{ width:80%}}	 
+@media screen and (min-width: 1280px) {
+	.mytable_addprod .mytxtarea{ width:70%}
+	.mytable_addprod .mytxtarea{ width:80%}}	
+.mytable_list .even, .mytable_list-02 tr:nth-child(odd){background:#EFEEEE}
+.mytable_list .highlight, .mytable_list-02 tr:hover{background:#F6DFA8}
+.mytable_list .selected, .mytable_list-02 .selected{background:#EDB93D; color:#140d0a}
+
+.mytable_list-02 a:link, .mytable_list-02 a:visited{ 
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:1em/*1.125em*/;
+	font-weight:bold; 
+	line-height:22px; 
+	text-decoration:none;
+	color:#000}
+.mytable_list-02 a:hover{ text-decoration:underline;}
+
+.mytable_addprod{ background:#E7E7E7}
+.mytable_addprod th{ 
+     padding:5px 0; 
+	 background:#CACACA; 
+	 border-top:1px solid #FFF; 
+	 border-bottom:1px solid #FFF}
+.mytable_addprod td{
+	padding:5px;
+	border-bottom:1px solid #fff; 
+    text-align: center; 
+	vertical-align:middle}
+
+	
+.tdr{ width:100px/*70px*/; text-align:right}
+.mytable_info .tdr-02{ width:19%;}		
+.btmc{ display:block; width:35px/*28px*/; margin:0 auto}
+.mytxtarea{
+	border:1px solid #A2A1A1;
+	padding:5px 8px;
+	margin-right:5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px;
+	height: 22px}
+.mytxtarea:focus{
+	-webkit-box-shadow: 0 0 10px #EDB93D;
+	-moz-box-shadow: 0 0 10px #EDB93D;
+	-o-box-shadow: 0 0 10px #EDB93D;
+	-ms-box-shadow: 0 0 10px #EDB93D;
+	box-shadow: 0 0 10px #EDB93D}
+/*.mytable_info .mytxtarea{ font-size:1em}*/	
+.w15{ width:15px}
+.w60{ width:60px}
+.w85{ width:85px}
+.w100{ width:100px}
+.w160{ width:150px/*160px*/}
+.w200{ width:200px}
+.w250{ width:250px}
+.w350{ width:350px}
+.w420{ width:490px}
+
+.page_title, .page_title-02, .page_title-03, .page_title-04{
+	display:block;
+	position:fixed;
+	background: url(../images/bg_content.png)}
+.page_title{
+	padding-top:20px; 
+	top:48px;
+	z-index:8010;
+	width:97%/*93.5%*/; 
+	height:50px}
+.page_title-02{
+	top:0;
+	z-index:8010;
+	width:100%/*93.5%*/; 
+	height:80px}
+.page_title-03{
+	padding-top:10px; 
+	top:48px;
+	z-index:8010;
+	width:97%/*93.5%*/; 
+	height:10px}
+.page_title-04{
+	top:0;
+	z-index:8010;
+	width:100%/*93.5%*/; 
+	height:10px}			
+
+.lay-left, .lay-left-02{
+	display:block;
+	float:left;
+	width:50%}
+.lay-right, .lay-right-02, .lay-right-03{
+	display:block;
+	float:right;
+	width:50%}
+.lay-right{padding:0 0 20px 0}
+.lay-right-02{padding:0 0 10px 0; text-align:right}
+.lay-right-03{padding:0}	
+.lay-right li, .lay-right-03 li{
+	display:inline-block;
+	float:right;
+	font-size:1em;
+	line-height:22px;
+	text-align:right}
+.lay-left-02 span, .lay-right-02 span{ font-weight:bold; color:#DA7F20; padding-left:5px; letter-spacing:1px}
+	
+.btn_view, .btn_edit{ display:inline-block; width:18px; height:18px; text-indent:-9999px; margin-left:5px}
+.btn_view{ background: url(../images/btn_info.png) no-repeat}
+.btn_view:hover{ background: url(../images/btn_info.png) -18px 0 no-repeat}
+.btn_edit{ background: url(../images/btn_info.png) 0 -18px no-repeat}
+.btn_edit:hover{ background: url(../images/btn_info.png) -18px -18px no-repeat}
+.btn_del{
+	display:block;
+	width:18px;
+	height:18px;
+	border:none;
+	background:url(../images/btn_info.png) 0 -36px no-repeat;
+	cursor:pointer;
+	text-indent:-9999px;
+	margin:0 auto}
+.btn_del:hover{ background:url(../images/btn_info.png) -18px -36px no-repeat;}
+.mytable_orderlist .btn_del{ margin:0 30px}
+
+#box_search, #box_add, #box_view, #box_edit{ display: none; width:650px}
+#box_search{font-size:1em; line-height:22px}
+
+.down_btn{ display:block; text-align:center}
+
+/*?碼*/
+.sabrosus{ float:left; padding: 3px; margin:10px 3px; font-size:1em; text-align: center}
+.sabrosus a{border: #b2b2b2 1px solid; padding:2px 5px; color: #140d0a; margin-right: 5px; text-decoration: none; background:#FFF}
+.sabrosus a:hover{border: #b2b2b2 1px solid; color:#140d0a; background-color: #f3ce75}
+.pagination a:active{border: #b2b2b2 1px solid;  color: #140d0a; background-color:#fff}
+.sabrosus span.current{border: #b2b2b2 1px solid; padding:2px 5px; font-weight: bold; color: #140d0a; margin-right: 5px; background-color: #f3ce75}
+.sabrosus span.disabled{border: #b2b2b2 1px solid; padding:2px 5px; color: #929292; margin-right: 5px}
+.addup{ float:right; font-size:1em; line-height:22px; margin:10px 3px}
+.addup span{ font-size:1.125em; font-weight:bold; color:#BE9533; padding:0 10px}
+
+.check_ok, .check_none{
+	display:block;
+	width:16px;
+	height:16px;
+	text-indent:-9999px;
+	margin:0 auto}
+.check_ok{ background:url(../images/icon_check.png) no-repeat}
+.check_none{ background:url(../images/icon_check.png) 0 -16px no-repeat}
+#vtip { 
+    display: none; 
+	position: absolute; 
+	padding: 10px; 
+	left: 5px; 
+	font-size: 0.813em; 
+	background-color: white; 
+	border: 1px solid #FE992F; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	z-index: 9999}
+.vtip{cursor:pointer; font-weight:bold; color:#C00}	
+#vtip #vtipArrow { display:none /*position: absolute; top: -10px; left: 5px*/ }
+
+.checklist{}
+.checklist li{display:inline-block; padding:2px 5px}
+
+
+.box_chk{ display: inline-table; float:left; text-align:right}
+.chk{ vertical-align: middle; margin-right:5px}
+.abgne_tab{ display:block; margin-top:120px}
+.tabs{
+	width: 100%;
+	height: 32px}
+.tabs li {
+	float: left;
+	height: 31px;
+	line-height: 31px;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: -1px;	/* ? li 往下移來遮住 ul 的部份 border-bottom */
+	border-left: none;
+	background: #e1e1e1;
+	-webkit-box-shadow: 1px -2px 10px #e2e2e2;
+	-moz-box-shadow: 1px -2px 10px #e2e2e2;
+	-o-box-shadow: 1px -2px 10px #e2e2e2;
+	-ms-box-shadow: 1px -2px 10px #e2e2e2;
+	box-shadow: 1px -2px 10px #e2e2e2}
+.tabs li a {
+	display: block;
+	padding: 0 20px;
+	font-size:1em;
+	color: #000;
+	text-decoration: none}
+.tabs li a:hover{ background: #ccc}
+.tabs li.active { background: #fff; border-bottom: 1px solid #fff}
+.tabs li.active a:hover{ background: #fff}
+#tab2{ display:block; min-height:300px}
+.top_line{display:block; width:100%; height:5px; background:#AFAFAE/*#DBDAD8*/; cursor: row-resize; margin-bottom:10px}
+
+/*2013-12-04 新增*/
+/*Chrome Firefox Opera Safari IE9+*/
+textarea:disabled{ border:none; background:none; color:#000}
+input:disabled{ border:none; background:none; color:#000; font-size:1em}
+.mytable_orderlist input:disabled{ text-align:center; height:15px}
+
+
+/*IE8-*/
+textarea[disabled]{ border:none; background:none; color:#000}
+input[disabled]{ border:none; background:none; color:#000; font-size:1em}
+.mytable_orderlist input[disabled]{ text-align:center}
+
+/*IE6 Using Javascript to add CSS class "disabled"*/
+* html textarea.disabled{ border:none; background:none; color:#000}
+* html input.disabled{ border:none; background:none; color:#000; font-size:1em}

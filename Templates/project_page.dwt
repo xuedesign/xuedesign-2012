@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-tw" xml:lang="zh-tw">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="copyright" content="開始設計工作室, xuedesign studio" />
+<meta name="description" content="開始設計工作室 XUEDESIGN STUDIO 是一個友善的設計工作室，提供平面視覺設計及網頁設計規劃等解決方案服務。"/>
+<meta name="keywords" content="開始設計, xuedesign, 設計工作室, 設計思考導向, 網頁設計, 網站設計, 平面設計, 量身訂做, 最佳解決方案, 設計職人"/>
+<meta name="Author" content="Elmo Wu" />
+<link rel="shortcut icon"  href="../images/favicon.ico"/>
+<link rel="icon" href="../images/favicon.ico" type="images/ico"/>
+<link rel="bookmark" href="../images/favicon.ico"/>
+<link rel="apple-touch-icon" href="../images/icon@2x.png">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>開始作品│開始設計工作室 XUEDESIGN STUDIO 是一個友善的設計工作室，提供平面視覺設計及網頁規劃設計等解決方案服務。</title>
+<!-- TemplateEndEditable -->
+<link type="text/css" rel="stylesheet" href="../css/project_show.css" />
+<script src="../script/jquery-1.8.2.min.js"></script>
+<script src="../script/runpic.js"></script>
+<script src="../script/jquery.retina.js"></script>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+   <div id="wrap">
+     <h1>開始設計工作室 xuedesign studio</h1>
+     <h2>作品展示</h2>
+     <!-- TemplateBeginEditable name="title" -->
+     <div id="project_title">
+       <h3>CECI世曦工會</h3>
+       <h4>專案屬性：</h4>
+       <ul>
+         <li>商業類</li>
+         <li>網頁前端設計</li>
+       </ul>
+     </div>
+     <!-- TemplateEndEditable -->
+     <div id="project_main">
+       <div id="project_left">
+           <div id="elmo_album">
+                <div class="abgne-player">
+                  <!-- TemplateBeginEditable name="photo_list" -->
+                  <ul class="abgne-list">
+                    <li><img src="../images/project/web_b/pic_ceci_01.jpg" width="470" height="298" alt="世曦工會畫面截圖" /></li>
+                    <li><img src="../images/project/web_b/pic_ceci_02.jpg" width="470" height="298" alt="世曦工會畫面截圖" /></li>
+                    <li><img src="../images/project/web_b/pic_ceci_03.jpg" width="470" height="298" alt="世曦工會畫面截圖" /></li>
+                    <li><img src="../images/project/web_b/pic_ceci_04.jpg" width="470" height="298" alt="世曦工會畫面截圖" /></li>
+                    <li><img src="../images/project/web_b/pic_ceci_05.jpg" width="470" height="298" alt="世曦工會畫面截圖" /></li>
+                  </ul>
+                  <!-- TemplateEndEditable -->
+         </div>
+                <div class="abgne-control">
+                     <ul class="arrows">
+                       <li class="prev">&lt;</li>
+                       <li class="next">&gt;</li>
+                     </ul>
+               </div>
+           </div>
+           <!-- TemplateBeginEditable name="to_website" -->
+           <div id="gotourl"><a href="http://www.ceciwu.org.tw/index.aspx" title="前往網站" rel="external">前往網站</a></div>
+           <!-- TemplateEndEditable -->
+           </div>
+        <div id="project_right">
+        <h3>設計理念：</h3>
+           <!-- TemplateBeginEditable name="project_info" -->
+             <p>身為一個企業的工會官網，我採用明亮的綠白色調組合，展現工會成員的活力及向心力。中央的主Banner使用大幅的形象設計帶出工會員工活潑的朝氣。</p>
+             <p>身為一個企業的工會官網，我採用明亮的綠白色調組合，展現工會成員的活力及向心力。中央的主Banner使用大幅的形象設計帶出工會員工活潑的朝氣。</p>
+           <!-- TemplateEndEditable -->
+        </div>
+     </div>
+     <br class="clean" />
+</div>
+</body>
+</html>

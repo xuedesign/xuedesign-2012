@@ -1,0 +1,365 @@
+/**********************************************************************************************
+
+	Title: CSS for xuedeisgn
+	Author: Elmo Wu (by xuedesign studio)
+	Build: v1
+	Date: 2012/12
+
+***********************************************************************************************
+		1 通用
+		2 首頁
+		3 關於我們
+		4 作品展示
+		5 設計觀點 
+		6 聯絡我們
+		7 Retina圖片設定 
+		
+***********************************************************************************************/
+
+/* 1. 通用 
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+body{
+	margin: 0;
+	padding:0;
+	background: url(../images/bg_website.png);
+	font-family:/*"微軟正黑體","Microsoft JhengHei","新細明體","PMingLiU",*/Arial, Helvetica, sans-serif;
+	font-size:100%;
+	line-height:22px;
+	color:#565555}
+a:link {text-decoration:underline; color:#00adee}
+a:visited {text-decoration:underline; color:#8c8c8c}
+a:hover {text-decoration:none; color:#F50}
+form{margin:0; padding:0}
+image{border:0}
+
+.clean{ clear:both}
+.hidden{ display:none}
+
+.txt_bluelight{ color:#37F5FB}
+.txt_bluee{ color:#40a3be; font-weight:bold; padding-right:10px; letter-spacing:1px}
+.ccenter{ margin:0 auto}
+.txt_strong{ font-size:1em; font-weight: bold;}
+
+/* 2. 首頁  
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+#wrap{ display:block; position:relative; width:304px; margin:0 auto}
+.page_index h1 a{
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:99;
+	text-indent:-9999px;
+	width:86px;
+	height:139px;
+	background:url(../images/mobile/logo.png) no-repeat}
+.page_index ul{ padding-top:42px;}
+.page_index .nav_01, .page_index .nav_02, .page_index .nav_03, .page_index .nav_04{display:block; text-indent:-9999px}
+.page_index .nav_01{
+	width:200px;
+	height:97px;
+	background:url(../images/mobile/nav_01.png) no-repeat;
+	margin:0 0 26px 104px}
+.page_index .nav_02{
+	width:304px;
+	height:111px;
+	background:url(../images/mobile/nav_02.png) no-repeat;
+	margin-bottom:26px}	
+.page_index .nav_03{
+	float:left;
+	width:144px;
+	height:110px;
+	background:url(../images/mobile/nav_03.png) no-repeat;
+	margin:0 16px 26px 0}	
+.page_index .nav_04{
+	float:left;
+	width:144px;
+	height:110px;
+	background:url(../images/mobile/nav_04.png) no-repeat;
+	margin-bottom:26px}
+	
+/*完美底部佈局---------------------------*/
+html, body, #wrap {height: 100%;}
+body > #wrap {height: auto; min-height: 100%;}
+#main_content, .main_content{padding-bottom:32px}
+.clearfix:after {content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */		
+
+.footer_01{
+	clear:both;
+	display:block;
+    position: relative;
+    width:100%;
+    background: url(../images/mobile/bg_foot.png);
+    margin-top: -32px;
+    height:32px}
+.footer_02{
+	display:block;
+    width:100%;
+    background: url(../images/mobile/bg_foot.png);
+    height:32px}	
+.footer_01 p, .footer_02 p{
+	font-size:0.75em;
+	text-align:center;
+	padding-top:5px;
+	color:#153f60;
+	-webkit-text-size-adjust:none}	
+
+/* 3. 關於我們  
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/			
+.pages{
+	display:block;
+	/*position:relative;*/
+	width:100%;
+	background: url(../images/bg_website.png)}
+.head_bar{
+	display:block;
+	width:100%;
+	background:url(../images/mobile/bg_headbar.png) repeat-x}	
+.main_head{
+	display:block;
+	position:relative;
+	width:304px;
+	margin:0 auto 15px auto;
+	padding-bottom:20px}
+.main_head h1 a{
+	display:block;
+	position:absolute;
+	float:left;
+	width:130px;
+	height:73px;
+	z-index:1000;
+	background:url(../images/mobile/main_logo.png) no-repeat;
+	text-indent:-9999px}
+.btn_nav{
+	display:block;
+	float:right;
+	width:41px;
+	height:31px;
+	background:url(../images/mobile/btn_nav.png) no-repeat;
+	text-indent:-9999px;
+	margin:15px 5px 0 0}
+
+/*網站主選單*/	
+#nav{
+	clear: both;
+	display: none;
+	width: 297px;
+	background:#1D517A;
+	padding: 0;
+	margin:7px 0 0 5px}
+#nav li{
+	clear: both;
+	float: none;
+	padding:10px 0 8px 58px;
+	border-bottom:1px solid #2772AD}
+#nav li:hover{ background:#33CCFF; color:#fff}		
+#nav a, #nav ul a {
+	display: inline;
+	font-size:0.813em;
+	background: none;
+	padding: 0;
+	color: #fff;
+	border: none;
+	text-decoration:none}
+#nav a:hover, #nav ul a:hover { background: none; color: #fff;}
+	
+.micon{ padding-right:14px; vertical-align: text-bottom}		
+.main_content{
+	display:block;
+	width:304px;
+	margin:0 auto}
+.main_content h2{
+	display:block;
+	width:87px;
+	height:20px;
+	text-indent:-9999px;
+	margin:0 0 15px 213px}
+.main_content .pg-title_01{ background:url(../images/mobile/bg_pgtitle.png) no-repeat}
+.main_content .pg-title_02{ background:url(../images/mobile/bg_pgtitle.png) 0 -25px no-repeat}
+.main_content .pg-title_03{ background:url(../images/mobile/bg_pgtitle.png) 0 -50px no-repeat}
+.main_content .pg-title_04{ background:url(../images/mobile/bg_pgtitle.png) 0 -75px no-repeat}
+.pg_content{
+	display:block;
+	width:304px;
+	padding:15px 0 20px 0}
+.pg_content h3{ font-size:0.938em; line-height:25px; color:#3f4c6b; margin-bottom:10px}
+.pg_content p{ font-size:0.813em; line-height:25px; color:#2d475d; padding:0 2px 0 8px}
+#portfolio{
+	display:block;
+	float:left;
+	width:125px;
+	height:135px;
+	overflow:hidden;
+	margin:0 13px 0 5px;
+	border:1px solid #8ac3f1}	
+.main_txt strong{ font-weight:normal;color:#00F3FF}
+.pg_pic{ border:1px solid #8ac3f1; margin:0 auto}
+.btn_callme{
+	display:block;
+	width:120px;
+	height:34px;
+	background:url(../images/mobile/btn_call.png) no-repeat;
+	margin:15px auto 0 auto;
+	text-indent:-9999px;
+	cursor:pointer}
+
+/* 4. 作品介紹  
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+.tp_left{ float:left; width:152px}
+.tp_right{ 
+    float:right; 
+	width:142px; 
+	text-align:right; 
+	font-size:1em; 
+	font-weight:bold;
+	color:#3f4c6b;
+	letter-spacing:1px}
+.project_list{}
+.project_list li{
+	display:block;
+	position:relative;
+	float:left;
+	width:120px;
+	padding:0 22px 0 10px;
+	margin-bottom:30px}
+.project_list li a, .project_list li a:visited{ color:#3f4c6b; text-decoration: none}
+.project_list li a:hover{ color:#fff; text-decoration: none}	
+.project_list li .tag_w, .project_list li .tag_g{
+	display:block;
+	position:absolute;
+	top:0; 
+	right:11px;
+	z-index:50;
+	width:54px;
+	height:43px}	
+.project_list li .tag_w{ background:url(../images/mobile/bg_tag.png) no-repeat}
+.project_list li .tag_g{ background:url(../images/mobile/bg_tag.png) 0 -43px no-repeat}
+.project_list img{ padding:5px; background:#FFF}
+.project_list h4{ font-size:0.813em; line-height:22px; text-align:center}
+.note{ font-size:0.813em; line-height:22px; background:#CCC; opacity:0.5; margin:20px 5px 0}
+
+/*頁碼*/
+.digg, .digg_02{ padding: 3px; margin: 3px; text-align: center}
+.digg a,.digg_02 a{
+	display:block;
+	float:left;
+	width:80px;
+	border: #9BC0DF 1px solid; 
+	padding:2px 5px; 
+	margin: 2px; 
+	color: #83C6FB; 
+	text-decoration: none;
+	background-color:#5D95C3}
+.digg a:hover, .digg_02 a:hover{ border: #fff 1px solid; color: #fff}
+.digg span.current {
+	display:block;
+	width:80px;
+	float:left;
+	border: #BCDCF7 1px solid; 
+	padding:2px 5px; 
+	font-weight: bold; 
+	margin: 2px; 
+	color: #fff; 
+	background-color: #25CCFD}
+
+.pj_txt{ margin-bottom:15px}	
+
+/* 5. 設計觀點  
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/	
+.blog_list a{
+	display:block;
+	padding:10px 5px;
+	color:#3f4c6b;
+	border-bottom:1px dashed #000033}
+.blog_list a:hover{ background:#25CCFD; color:#fff}	
+.blog_pic{
+	display:block;
+	float:left;
+	width:110px;}
+.blog_pic img{ padding:5px; background:#FFF;}	
+.blog_txt{
+	display:block;
+	float:right;
+	width:174px;
+	padding-left:10px}
+.blog_txt time{ 
+    font-size:0.75em; 
+	padding:3px 5px;
+	background:#1D517A; 
+	color:#FFF}
+.blog_txt h4{ 
+    font-size:0.813em; 
+	line-height:20px; 
+	letter-spacing:1px; 
+	padding-top:10px}		
+	
+
+/* 6. 聯絡我們  
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/	
+.studio_info{ margin:0; padding:15px 0 25px 10px}
+.studio_info li{font-size:0.813em;line-height:40px; color:#2d475d;}
+.studio_info a, .studio_info a:visited{ color:#1E537D; text-decoration:underline}
+.studio_info a:hover{ color:#fff; text-decoration:underline}
+.studio_info li span{ font-size:1.063em; color:#00F3FF; letter-spacing:1px; padding-right:15px; font-weight:bold}	
+	
+/* 7. Retina圖片設定
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+screen and (min--moz-device-pixel-ratio: 2)
+{
+.page_index h1 a{
+	background:url(../images/mobile/logo@2x.png) no-repeat;
+	background-size:86px 139px;}
+.page_index .nav_01{
+	background:url(../images/mobile/nav_01@2x.png) no-repeat;
+	background-size:200px 97px}
+.page_index .nav_02{
+	background:url(../images/mobile/nav_02@2x.png) no-repeat;
+	background-size:304px 111px}	
+.page_index .nav_03{
+	background:url(../images/mobile/nav_03@2x.png) no-repeat;
+	background-size:144px 110px}	
+.page_index .nav_04{
+	background:url(../images/mobile/nav_04@2x.png) no-repeat;
+	background-size:144px 110px}
+.main_head h1 a{
+	background:url(../images/mobile/main_logo@2x.png) no-repeat;
+	background-size:130px 73px}
+.btn_nav{
+	background:url(../images/mobile/btn_nav@2x.png) no-repeat;
+	background-size:41px 31px}
+.main_content .pg-title_01{
+	background:url(../images/mobile/bg_pgtitle_01.png) no-repeat;
+	background-size:87px 20px}
+.main_content .pg-title_02{
+	background:url(../images/mobile/bg_pgtitle_02.png) no-repeat;
+	background-size:87px 20px}
+.main_content .pg-title_03{
+	background:url(../images/mobile/bg_pgtitle_03.png) no-repeat;
+	background-size:87px 20px}
+.main_content .pg-title_04{
+	background:url(../images/mobile/bg_pgtitle_04.png) no-repeat;
+	background-size:87px 20px}
+.project_list li .tag_w{
+	background: url(../images/mobile/bg_tag-w.png) no-repeat;
+	background-size:54px 43px}
+.project_list li .tag_g{
+	background: url(../images/mobile/bg_tag-g.png) no-repeat;
+	background-size:54px 43px}					
+}

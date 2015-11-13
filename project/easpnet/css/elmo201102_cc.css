@@ -1,0 +1,530 @@
+/*=======================================
+This CSS editing completed by Elmo Wu 
+@2011/02 IIFUN Inc. All rights reserved
+=========================================*/
+
+body{
+	margin: 0;
+	padding:0;
+	background:url(../images/bg_cc.png) repeat-x #d1cce2;
+	font-family:"微軟正黑體","Microsoft JhengHei","新細明體","PMingLiU", Helvetica, Arial, sans-serif;
+	font-size:100%;
+	line-height:20px;
+	color:#43394b}
+a:link {text-decoration: underline; color:#3a334e}
+a:visited {text-decoration: underline; color:#7D7D79}
+a:hover {text-decoration: none; color:#F60}
+form{margin:0; padding:0}
+image{border:0}
+
+.clean{ clear:both}
+.hidden{ display:none}
+
+h1 a{
+	display:block;
+	float:left;
+	background:url(../images/logo.png) no-repeat 30px 0;
+	width:280px;
+	height:81px;
+	text-indent:-9999px;
+	padding-left:30px}
+h2{ display:none}
+
+.txt_plure{ color:#ba4ee7}
+.txt_plurelight{ color:#B652B3}	
+
+/*===============================  首頁設定 =====================================*/
+#wrap{
+	display:block;
+	width:994px;
+	margin:0 auto}
+	
+/*頂端子選單*/	
+#sub_menu{
+	display:block;
+	float:right;
+	width:285px;
+	height:37px;
+	background:url(../images/bg_submenu.jpg) 20px 0 no-repeat;
+	text-align:right;
+	padding:15px 44px 0 0}
+#sub_menu li{
+	display:inline;
+	font-size:0.75em;}
+#sub_menu a:link{ color:#36344c; text-decoration:none}
+#sub_menu a:visited{ color:#36344c; text-decoration:none}
+#sub_menu a:hover{ color: #F50; text-decoration: underline}
+
+/*網站主選單*/
+#nav{
+	display:block; 
+	float:right;
+	width:684px}
+#nav h3{ display:none}
+#nav ul{
+	display:block;
+	padding-left:143px}	
+#nav li{ 
+    float:left;
+	height:30px;
+	text-indent:-9999px}
+#nav .n01 a:link{display:block; width:88px; height:30px; background:url(../images/bg_nav.png)}
+#nav .n01 a:visited{display:block; width:88px; height:30px; background:url(../images/bg_nav.png)}
+#nav .n01 a:hover{background-position:0 -30px}	
+#nav .n02 a:link{display:block; width:116px; height:30px; background:url(../images/bg_nav.png); background-position:-88px 0}
+#nav .n02 a:visited{display:block; width:116px; height:30px; background:url(../images/bg_nav.png); background-position:-88px 0}
+#nav .n02 a:hover{background-position:-88px -30px}
+#nav .n03 a:link{display:block; width:95px; height:30px; background:url(../images/bg_nav.png); background-position:-204px 0}
+#nav .n03 a:visited{display:block; width:95px; height:30px; background:url(../images/bg_nav.png); background-position:-204px 0}
+#nav .n03 a:hover{background-position:-204px -30px}
+#nav .n04 a:link{display:block; width:123px; height:30px; background:url(../images/bg_nav.png); background-position:-299px 0}
+#nav .n04 a:visited{display:block; width:123px; height:30px; background:url(../images/bg_nav.png); background-position:-299px 0}
+#nav .n04 a:hover{background-position:-299px -30px}
+#nav .n05 a:link{display:block; width:115px; height:30px; background:url(../images/bg_nav.png); background-position:-422px 0}
+#nav .n05 a:visited{display:block; width:115px; height:30px; background:url(../images/bg_nav.png); background-position:-422px 0}
+#nav .n05 a:hover{background-position:-422px -30px}
+	
+/*中間區塊*/
+#bodyer{ 
+   clear:both;
+   display:block;
+   position:relative;
+   width:994px}
+#mainbtn{
+	display:block;
+	position:absolute;
+	width:268px;
+	height:51px;
+	top:94px;
+	right:38px;
+	z-index:20}
+#mainbtn ul{ margin:0; padding:0}
+#mainbtn li{ margin:0; padding:0; line-height:0}	
+#mainbtn .tab_01 a{
+	display:block;
+	float:left;
+	width:129px;
+	height:51px;
+	background:url(../images/bg_mainbtn.png);
+	/*margin-right:5px;*/
+	text-indent:-9999px}
+#mainbtn .tab_01 a:visited{background:url(../images/bg_mainbtn.png)}
+#mainbtn .tab_01 a:hover{background:url(../images/bg_mainbtn.png) 0 -51px;}
+
+#mainbtn .tab_02 a{
+	display:block;
+	float:left;
+	width:129px;
+	height:51px;
+	background:url(../images/bg_mainbtn.png) -129px 0;
+	/*margin-right:5px;*/
+	text-indent:-9999px}
+#mainbtn .tab_02 a:visited{background:url(../images/bg_mainbtn.png) -129px 0;}
+#mainbtn .tab_02 a:hover{background:url(../images/bg_mainbtn.png) -129px -51px;}	  	  
+
+#bannerbox{
+	display:block;
+	width:994px;
+	height:145px}
+
+/*flash banner*/	
+#bannerbox h2{ text-indent:-9999px}
+#bannerbox p{ text-indent:-9999px}
+#bodyer .pitem_02{ 
+     display:block;
+	 width:944px;
+	 height:145px;
+	 margin:0 auto; 
+	 background:url(../images/banner_item_02.jpg)}
+
+/*主要服務項目*/	
+#service{
+	display:block;
+	width:962px;
+	height:56px;
+	background:url(../images/bg_seversbox_cc.jpg);
+	margin-left:15px}
+#service h3{ display:none}
+#service ul{ padding:5px 0 0 25px}	
+#service li{ float:left; text-indent:-9999px}
+
+/*=========================  內頁設定 =========================*/	
+#contenter{
+	display:block;
+	width:962px;
+	background: url(../images/bg_cnotwrap.png) repeat-y;
+	margin-left:15px;}
+#main_content{
+	display:block;
+	width:914px;
+	background:url(../images/bg_subbodyer_cc.png) no-repeat;
+	padding: 20px 24px 0 24px;}
+#main_content p{
+	font-size:13px;
+	color:#333;
+	line-height:20px;
+	text-indent:0}
+
+/*=========================  內頁左側 =========================*/		
+#cont_left{
+	display:block;
+	float:left;
+	width:200px}
+#sub_nav{
+	display:block;
+	width:200px}
+#sub_nav h3{
+	display:block;
+	width:196px;
+	height:50px;
+	text-indent:-9999px}	
+#sub_nav .ptitle_01{ background:url(../images/bg_pagetitle.png)}
+#sub_nav .ptitle_02{ background:url(../images/bg_pagetitle.png); background-position:0 -50px}
+#sub_nav .ptitle_03{ background:url(../images/bg_pagetitle.png); background-position:0 -100px}
+#sub_nav .ptitle_04{ background:url(../images/bg_pagetitle.png); background-position:0 -150px}
+#sub_nav .ptitle_05{ background:url(../images/bg_pagetitle.png); background-position:0 -200px}
+#sub_nav .ptitle_06{ background:url(../images/bg_pagetitle.png); background-position:0 -250px}	
+#sub_nav ul{ padding:5px 0 15px; margin-left:8px}
+#sub_nav li{
+	display:block;
+	font-size:0.813em;
+	line-height:18px;
+	border-bottom:1px dashed #73849c;
+	padding:10px 0 10px 15px;
+	background:url(../images/pot_blue.png) no-repeat;
+	background-position: 0 14px}
+#sub_nav .page_in{
+	display:block;
+	font-size:0.813em;
+	line-height:18px;
+	border-bottom:1px dashed #73849c;
+	padding:10px 0 10px 15px;
+	background:url(../images/pot_plure.png) no-repeat #dedbf2;
+	background-position: 0 14px;}	
+#sub_nav a:link{ text-decoration:none; color:#3a334e}
+#sub_nav a:visited{ text-decoration:none; color:#3a334e}
+#sub_nav a:hover{  text-decoration:none; color:#F50}
+
+#service_box{
+	display:block;
+	width:200px;
+	height:350px;
+	background:url(../images/bg_coputer.png) no-repeat 0 150px;
+	margin-top:15px}
+#service_box h3{
+	display:block;
+	background:url(../images/bg_servicetitle.png) no-repeat;
+	width:196px;
+	height:57px; 
+    text-indent:-9999px}
+#service_box p{
+	margin:0;
+	padding:5px 5px 0 15px}
+#service_box .ppbar{
+	display:block;
+	background:url(../images/bg_ppbar.png) no-repeat;
+	padding:0 0 0 13px;
+	margin-top:5px;
+	color:#FFF;
+	letter-spacing:20px}
+#service_box .service_info{
+	display:block;
+	text-align:right;
+	padding:0 10px 0 0;
+	margin:10px 0 0 0;
+	color:#F50;
+	line-height:17px;
+	letter-spacing:1px}
+#service_box a:link{ text-decoration:none; color:#F50}
+#service_box a:visited{ text-decoration:none; color:#F50}
+#service_box a:hover{  text-decoration: underline; color:#F50}				
+
+/*=========================  內頁右側 =========================*/	
+#cont_right{
+	display:block;
+	float:right;
+	width:666px}
+#bread_box{
+	display:block;
+	text-align:right;
+	font-size:0.75em;
+	color:#5f6081;
+	padding-right:7px}
+#bread_box img{ margin-right:5px; vertical-align: middle}
+#bread_box a:link{ text-decoration:none; color:#5f6081}
+#bread_box a:visited{ text-decoration:none; color:#5f6081}
+#bread_box a:hover{  text-decoration: underline; color:#F50}
+
+/*內頁主要內容*/
+#content_box{
+	display:block;
+	width:666px;
+	padding:30px 0 15px 0;
+	font-size:0.813em}
+#content_box h3{ font-size:1.25em; color:#f0470a; padding-bottom:5px}
+#content_box h4{font-size:1.188em; color:#5957b4; padding:10px 0}
+#content_box p{ margin-top:0}
+#content_box ol{ padding:10px 0; *padding:0 0 10px 0}
+#content_box ol li{font-size:1em; list-style: decimal inside;}
+#content_box ul{ padding:10px 0; *padding:0 0 10px 0}
+#content_box ul li{
+	font-size:1em; 
+	background:url(../images/pot_purle2.png) no-repeat;
+	background-position:0 8px;
+	margin-left:38px; 
+	line-height:24px;
+	padding-left:15px}
+#content_box ul li li{
+	font-size:1em; 
+	list-style: circle inside; 
+	background:none; 
+	padding:0;
+	margin-left:5px}
+
+#content_box .ccitem{
+	display:block;
+	width:605px;
+	border-bottom:1px dashed #a9a9a9;
+	margin-left:40px;
+	padding:15px 0 10px 0;
+	font-size:1em}
+#content_box .ccitem h4{font-size:1.188em; color:#5957b4; padding-bottom:10px}
+#content_box .mmobtn{
+	float:right;
+	background:url(../images/btn_more.png) no-repeat;
+	width:51px;
+	height:16px;
+	font-size:0.85em;
+	padding-left:18px;
+	margin:0}
+#content_box .mmobtn a:link{ text-decoration:none; color:#FFF}
+#content_box .mmobtn a:visited{ text-decoration:none; color:#FFF}
+#content_box .mmobtn a:hover{  text-decoration: underline; color:#FF0}
+
+/*#content_box .ccitem ol{ padding:10px 0; *padding:0 0 10px 0}
+#content_box .ccitem ol li{font-size:1em; list-style: decimal inside;}
+#content_box .ccitem ul{ padding:10px 0; *padding:0 0 10px 0}
+#content_box .ccitem ul li{
+	font-size:1em; 
+	background:url(../images/pot_purle2.png) no-repeat;
+	background-position:0 8px;
+	margin-left:38px; 
+	line-height:24px;
+	padding-left:15px}
+#content_box .ccitem ul li li{
+	font-size:1em; 
+	list-style: circle inside; 
+	background:none; 
+	padding:0;
+	margin-left:5px}*/
+#content_box .img_right{ float:right; margin: 0 0 10px 10px}
+#content_box .img_left{ float:left; margin:0 10px 10px 0}
+#content_box .subtitle{ font-size:1.125em; font-weight:bold; color:#636}
+#content_box h5{ font-size:1.125em; color:#636}
+
+/*底部按鈕列*/
+#downbtn{
+	display:block;
+	width:605px;
+	margin-left:40px;
+	padding:15px 0 0 0}
+.btn_back{
+	display:block;
+	float:right;
+	width:115px;
+	height:27px;
+	background:url(../images/btn_ppcloud.png) no-repeat;
+	font-size:0.813em;
+	letter-spacing:5px;
+	text-align:center;
+	text-decoration:none; 
+	color:#FFF;
+	padding-top:2px;
+	border:none;
+	cursor:pointer}
+
+/*新聞中心*/
+#my_table{
+	width:100%;
+	border-collapse: separate;
+	border-spacing:1px;
+	border-bottom:3px double #625E83}
+#my_table th{
+	border-bottom:4px double #D4D4D4;
+	background:#625E83;
+	font-size:1em;
+	color:#FFF;
+	padding:5px 0}
+#my_table td{
+	padding:10px 5px;
+	font-size:1em;
+	border-bottom:1px dashed #D4D4D4}	
+#my_table a:link{ text-decoration:none; color:#5E3275}
+#my_table a:visited{ text-decoration:none; color:#999}
+#my_table a:hover{  text-decoration: underline; color:#F50}	
+#my_table .my_item{ width:8%; text-align:center}
+#my_table .my_date{ width:15%; text-align:center}
+#my_table .graytd{ background:#ECECEC}
+#my_table .my_name{ width:25%; text-align:center}
+
+#outlink_box{
+	margin-top:10px}
+#outlink_box h4{ padding-left:40px; color:#5957b4}
+#outlink_box ul{ 
+    margin:0 20px 5px 40px;
+	padding:0;
+	border-bottom:1px dashed #999}
+#outlink_box li{ 
+    margin:0 0 0 18px; 
+	padding:0 0 5px 0px; 
+	font-size:1em;
+	list-style: none /*inside square*/;
+	background:none}
+#outlink_box li img{
+	padding:5px;
+	border:1px solid #999;
+	margin-right:5px}	
+#outlink_box a:link{ text-decoration:none; color:#5E3275}
+#outlink_box a:visited{ text-decoration:none; color:#999}
+#outlink_box a:hover{  text-decoration: underline; color:#F50}		
+
+.news_data{
+	display:block;
+	width:605px;
+	margin:10px 0 0 40px}
+.news_data h4{color:#5957b4}	
+.news_data ul{
+	float:left;
+	margin:10px 0 10px 15px;
+	padding-left:10px;
+	border-left:1px solid #336}
+.news_data li{
+	font-size:0.75em;
+	color:#303}	
+
+/*頁碼*/
+.tune_page{
+	width:100%;
+	font-size:0.9em;
+	margin-top:15px}	
+.tune_page .pageno{ width:75%; padding-left:15px}
+.tune_page .pageno2{width:19%; padding-right:13px}
+.scott {
+	padding: 3px; 
+	margin: 3px;
+	text-align:left}
+.scott a {
+	border:#625E83 1px solid; 
+	padding:2px 5px;	
+	color: #625E83;
+	margin-right:2px;
+	text-decoration:none}
+.scott a:visited {
+	border:#625E83 1px solid; 
+	padding:2px 5px;	
+	color: #499AEA;
+	margin-right:2px;
+	text-decoration:none}		
+.scott a:hover {
+	border: #625E83 1px solid; 	
+	color: #FFFFFF;
+	background-color:#B652B3}
+.scott a:active {
+	border:#625E83 1px solid;	
+	color: #638425;	
+	background-color: #625E83}
+.scott span.current {
+	border: #625E83 1px solid;
+	padding:2px 5px;
+	margin-right:2px;
+	background-color:#625E83;
+	font-weight:bold;
+	color: #fff}
+.scott span.disabled {
+	border: #625E83 1px solid; 
+	padding:2px 5px;
+	margin-right:2px;
+    color: #B652B3}
+
+/*關於我們*/
+#comany_history{
+	margin-top:10px; 
+	border-collapse: separate; 
+	border-spacing:1px;
+	border-bottom:4px double #625E83}
+#comany_history th{
+	border-bottom:4px double #D4D4D4;
+	background:#625E83;
+	font-size:1em;
+	color:#FFF;
+	padding:5px 0}
+#comany_history td{
+	padding:10px;
+	font-size:1em;
+	border-bottom:1px dashed #D4D4D4}
+#comany_history .my_yy{ width:10%; text-align:center}
+#comany_history .my_dd{ width:8%; text-align:center}
+#comany_history .my_graytd{ background:#ECECEC}
+
+/*線上申請*/
+.my_form{
+	width:100%;
+	border-collapse: separate;
+	border-spacing:1px;
+	border-bottom:3px double #625E83}
+.my_form th{
+	border-bottom:4px double #D4D4D4;
+	background:#625E83;
+	font-size:1em;
+	color:#FFF;
+	padding:5px 0;
+	letter-spacing:3px}
+.my_form td{
+	padding:10px 5px;
+	font-size:1em;
+	border-bottom:1px dashed #D4D4D4}
+.my_form .my_gr{ background:#ECECEC}
+.my_form .my_title{ width:20%; background: url(../images/pot_purle2.png) no-repeat; background-position:8px 15px; padding-left:20px}
+.my_form .my_title2{ width:38%; background: url(../images/pot_purle2.png) no-repeat; background-position:8px 15px; padding-left:20px}
+.my_form .my_txtarea{ width:250px; padding:3px ; border:1px solid #999; color:#625E83}
+.my_form .my_txtarea2{ width:350px; padding:3px ; border:1px solid #999; color:#625E83}
+.my_form .my_txtarea3{ width:120px; padding:3px ; border:1px solid #999; color:#625E83}
+.my_form .my_txtarea4{ width:80px; padding:3px ; border:1px solid #999; color:#625E83}
+#downbtn2{
+	display:block;
+	width:425px;
+	margin-left:40px;
+	padding:15px 0 0 180px;
+	text-align:center}
+.btn_back2{
+	display:block;
+	float:left;
+	width:115px;
+	height:27px;
+	background:url(../images/btn_ppcloud.png) no-repeat;
+	font-size:0.813em;
+	letter-spacing:5px;
+	text-align:center;
+	text-decoration:none; 
+	color:#FFF;
+	padding-top:2px;
+	margin-right:5px;
+	border:none;
+	cursor:pointer}
+								
+	
+/*=========================  版權列 =========================*/
+#footer{
+	display:block;
+	width:964px;
+	height:67px;
+	background:url(../images/bg_footer.png);
+	padding:40px 30px 0 0;
+	margin-left:1px;
+	text-align:right;
+	font-size:0.75em;
+	color:#FFF}
+#footer a:link {text-decoration:none; color:#FFF}
+#footer a:visited {text-decoration:none; color:#FFF}
+#footer a:hover {text-decoration: underline; color:#F60}	
+				   			

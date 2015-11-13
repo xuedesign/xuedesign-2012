@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><!-- InstanceBegin template="/Templates/page_temp.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8" lang="zh-tw">
+<meta name="Author" content="e-innovator" />
+<link rel="shortcut icon"  href="../images/favicon.ico"/>
+<link rel="icon" href="../images/favicon.ico"/>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>::八方雲集進銷存管理系統::</title>
+<!-- InstanceEndEditable -->
+<link rel="stylesheet" href="../../css/reset.css" />
+<link rel="stylesheet" href="../../css/xue-content_201311.css"/>
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<header>
+   <div class="btn_hide">
+     <span id="leftFrame_display">隱藏選單</span>
+     <input type="hidden" name="left_staus" id="left_staus" value="打開">
+   </div>  
+   <div class="box_loginfo">
+      歡迎登入，騰冠科技
+      <a href="#" title="登出" class="mybtn btn_red">登出</a>
+   </div>
+</header>
+
+
+<section class="main_content">
+<!-- InstanceBeginEditable name="main_content" -->
+  
+  <div class="page_title">
+      <h3 class="lay-left">客戶基本資料</h3>
+      <ul class="lay-right">
+          <li><a href="#" title="刪除" class="mybtn btn_gray">刪除</a></li>
+          <li><a href="#box_add" title="新增客戶基本資料" class="mybtn btn_gray fancybox">新增</a></li>
+          <li><a href="#box_search" title="搜尋客戶基本資料" class="mybtn btn_gray fancybox">搜尋</a></li>
+      </ul>
+  </div>
+   
+  
+  <link rel="stylesheet" href="../../css/jquery.fancybox.css"><!-- lightbox效果 -->
+  <script src="../../scripts/jquery.fancybox.pack.js"></script><!-- lightbox效果 -->
+  <script src="../../scripts/web_set.js"></script><!-- 綜合效果 -->
+  <div class="table-bg clean">
+    <table width="100%" class="mytable_list">
+      <thead>
+        <tr>
+          <th class="w15">&nbsp;</th>
+          <th>客戶代號</th>
+          <th>客戶名稱</th>
+          <th>門市電話</th>
+          <th>縣市區域</th>
+          <th>地址</th>
+          <th class="w60">明細</th>
+        </tr>
+      </thead>
+      <tbody>   
+        <tr>
+          <td><input name="s" type="checkbox" value=""></td>
+          <td>XXX1245785263</td>
+          <td>花博新生店</td>
+          <td>(02)2457-9584</td>
+          <td>台北市中山區</td>
+          <td>中山北路玉門街口1號</td>
+          <td>
+             <a href="#box_view" title="檢視客戶基本資料" class="btn_view fancybox">檢視</a>
+             <a href="#box_edit" title="編輯客戶基本資料" class="btn_edit fancybox">編輯</a>
+          </td>
+        </tr>
+        <tr>
+          <td><input name="s" type="checkbox" value=""></td>
+          <td>XXX1245785263</td>
+          <td>花博新生店</td>
+          <td>(02)2457-9584</td>
+          <td>台北市中山區</td>
+          <td>中山北路玉門街口1號</td>
+          <td>
+             <a href="#box_view" title="檢視客戶基本資料" class="btn_view fancybox">檢視</a>
+             <a href="#box_edit" title="編輯客戶基本資料" class="btn_edit fancybox">編輯</a>
+          </td>
+        </tr>
+        <tr>
+          <td><input name="s" type="checkbox" value=""></td>
+          <td>XXX1245785263</td>
+          <td>花博新生店</td>
+          <td>(02)2457-9584</td>
+          <td>台北市中山區</td>
+          <td>中山北路玉門街口1號</td>
+          <td>
+             <a href="#box_view" title="檢視客戶基本資料" class="btn_view fancybox">檢視</a>
+             <a href="#box_edit" title="編輯客戶基本資料" class="btn_edit fancybox">編輯</a>
+          </td>
+        </tr>
+        <tr>
+          <td><input name="s" type="checkbox" value=""></td>
+          <td>XXX1245785263</td>
+          <td>花博新生店</td>
+          <td>(02)2457-9584</td>
+          <td>台北市中山區</td>
+          <td>中山北路玉門街口1號</td>
+          <td>
+             <a href="#box_view" title="檢視客戶基本資料" class="btn_view fancybox">檢視</a>
+             <a href="#box_edit" title="編輯客戶基本資料" class="btn_edit fancybox">編輯</a>
+          </td>
+        </tr>
+        <tr>
+          <td><input name="s" type="checkbox" value=""></td>
+          <td>XXX1245785263</td>
+          <td>花博新生店</td>
+          <td>(02)2457-9584</td>
+          <td>台北市中山區</td>
+          <td>中山北路玉門街口1號</td>
+          <td>
+             <a href="#box_view" title="檢視客戶基本資料" class="btn_view fancybox">檢視</a>
+             <a href="#box_edit" title="編輯客戶基本資料" class="btn_edit fancybox">編輯</a>
+          </td>
+        </tr>
+        <tr>
+          <td><input name="s" type="checkbox" value=""></td>
+          <td>XXX1245785263</td>
+          <td>花博新生店</td>
+          <td>(02)2457-9584</td>
+          <td>台北市中山區</td>
+          <td>中山北路玉門街口1號</td>
+          <td>
+             <a href="#box_view" title="檢視客戶基本資料" class="btn_view fancybox">檢視</a>
+             <a href="#box_edit" title="編輯客戶基本資料" class="btn_edit fancybox">編輯</a>
+          </td>
+        </tr>
+        <tr>
+          <td><input name="s" type="checkbox" value=""></td>
+          <td>XXX1245785263</td>
+          <td>花博新生店</td>
+          <td>(02)2457-9584</td>
+          <td>台北市中山區</td>
+          <td>中山北路玉門街口1號</td>
+          <td>
+             <a href="#box_view" title="檢視客戶基本資料" class="btn_view fancybox">檢視</a>
+             <a href="#box_edit" title="編輯客戶基本資料" class="btn_edit fancybox">編輯</a>
+          </td>
+        </tr>
+        <tr>
+          <td><input name="s" type="checkbox" value=""></td>
+          <td>XXX1245785263</td>
+          <td>花博新生店</td>
+          <td>(02)2457-9584</td>
+          <td>台北市中山區</td>
+          <td>中山北路玉門街口1號</td>
+          <td>
+             <a href="#box_view" title="檢視客戶基本資料" class="btn_view fancybox">檢視</a>
+             <a href="#box_edit" title="編輯客戶基本資料" class="btn_edit fancybox">編輯</a>
+          </td>
+        </tr>
+        <tr>
+          <td><input name="s" type="checkbox" value=""></td>
+          <td>XXX1245785263</td>
+          <td>花博新生店</td>
+          <td>(02)2457-9584</td>
+          <td>台北市中山區</td>
+          <td>中山北路玉門街口1號</td>
+          <td>
+             <a href="#box_view" title="檢視客戶基本資料" class="btn_view fancybox">檢視</a>
+             <a href="#box_edit" title="編輯客戶基本資料" class="btn_edit fancybox">編輯</a>
+          </td>
+        </tr>
+        <tr>
+          <td><input name="s" type="checkbox" value=""></td>
+          <td>XXX1245785263</td>
+          <td>花博新生店</td>
+          <td>(02)2457-9584</td>
+          <td>台北市中山區</td>
+          <td>中山北路玉門街口1號</td>
+          <td>
+             <a href="#box_view" title="檢視客戶基本資料" class="btn_view fancybox">檢視</a>
+             <a href="#box_edit" title="編輯客戶基本資料" class="btn_edit fancybox">編輯</a>
+          </td>
+        </tr>
+       </tbody>
+      </table>
+    </div>
+    
+    <div class="sabrosus"><!-- 頁碼組 -->
+        <span class="disabled">上一頁</span>
+        <span class="current">1</span><!-- span class="current"為目前頁面數 -->
+        <a href="#?page=2" title="第2頁">2</a>
+        <a href="#?page=3" title="第3頁">3</a>
+        <a href="#?page=4" title="第4頁">4</a>
+        <a href="#?page=5" title="第5頁">5</a>
+        <a href="#?page=6" title="第6頁">6</a>
+        <a href="#?page=7" title="第7頁">7</a>
+        <a href="#?page=2" title="下一頁">下一頁</a>
+    </div>
+    <p class="addup">共<span>9999</span>筆資料</p>
+    <br class="clean" />  
+    
+    
+    
+    
+    
+    <div id="box_search"><!-- 搜尋區塊 -->
+       <table width="100%" class="mytable_search">
+        <tr>
+          <th colspan="2">客戶基本資料查詢</th>
+        </tr>
+        <tr>
+          <td class="tdr">客戶代碼：</td>
+          <td><input id="custIDA" name="custIDA" type="text" class="mytxtarea w160"> ~ <input id="custIDB" name="custIDB" type="text" class="mytxtarea w160"></td>
+        </tr>
+        <tr>
+          <td class="tdr">客戶名稱：</td>
+          <td><input id="custName" name="custName" type="text" class="mytxtarea w350"></td>
+        </tr>
+        <tr>
+          <td class="tdr">縣市/區域：</td>
+          <td><input id="city" name="city" type="text" class="mytxtarea w350"></td>
+        </tr>
+        <tr>
+          <td class="tdr">聯絡地址：</td>
+          <td><input id="address" name="address" type="text" class="mytxtarea w350"></td>
+        </tr>
+        <tr>
+          <td class="tdr">直營店：</td>
+          <td><input name="dss" type="radio" value="y">是
+              <input name="dss" type="radio" value="n">否
+          </td>
+        </tr>
+      </table>
+      <a href="custList.html" title="確定" class="mybtn btn_gray btmc">搜尋</a> 
+    </div>
+    
+    
+    
+    
+    <div id="box_add"><!-- 新增區塊 -->
+       <ul class="lay-right">
+              <li><a href="custList.html" title="取消" class="mybtn btn_gray">取消</a></li>
+              <li><a href="custList.html" title="儲存" class="mybtn btn_gray">儲存</a></li>
+          </ul>
+       <br class="clean"/>
+       
+       <form action="" method="post">
+       <table width="100%" class="mytable_info">
+          <tr>
+            <th colspan="4">新增客戶基本資料</th>
+          </tr>
+          <tr>
+            <td>客戶代號：</td>
+            <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w160"></td>
+            <td>客戶名稱：</td>
+            <td><input id="AccName" name="AccName" type="text" class="mytxtarea w160"></td>
+          </tr>
+          <tr>
+            <td>門市電話：</td>
+            <td><input id="StorePhone" name="StorePhone" type="text" class="mytxtarea w160"></td>
+            <td>加盟主姓名：</td>
+            <td><input id="BossName" name="BossName" type="text" class="mytxtarea w160"></td>
+          </tr>
+          <tr>
+            <td>行動電話1：</td>
+            <td><input id="MobilePhone1" name="MobilePhone1" type="text" class="mytxtarea w160"></td>
+            <td>行動電話2：</td>
+            <td><input id="MobilePhone2" name="MobilePhone2" type="text" class="mytxtarea w160"></td>
+          </tr>
+          <tr>
+            <td>住家電話：</td>
+            <td colspan="3"><input id="HomePhone" name="HomePhone" type="text" class="mytxtarea w420"></td>
+          </tr>
+          <tr>
+            <td>聯絡人：</td>
+            <td><input id="Contact" name="Contact" type="text" class="mytxtarea w160"></td>
+            <td>聯絡人電話：</td>
+            <td><input id="ContactTel" name="ContactTel" type="text" class="mytxtarea w160"></td>
+          </tr>
+          <tr>
+            <td>郵遞區號：</td>
+            <td colspan="3"><input id="Zip" name="Zip" type="text" class="mytxtarea w420"></td>
+          </tr>
+          <tr>
+            <td>車　　次：</td>
+            <td colspan="3"><input id="CarNo" name="CarNo" type="text" class="mytxtarea w420"></td>
+          </tr>
+          <tr>
+            <td>縣市／區域：</td>
+            <td><input id="Area" name="Area" type="text" class="mytxtarea w160"></td>
+            <td>直營店：</td>
+            <td><input id="store_flag" name="store_flag" type="text" class="mytxtarea w160"></td>
+          </tr>
+          <tr>
+            <td>統一編號：</td>
+            <td><input id="BusinessCode" name="BusinessCode" type="text" class="mytxtarea w160"></td>
+            <td>商號名稱：</td>
+            <td><input id="" name="" type="text" class="mytxtarea w160"></td>
+          </tr>
+          <tr>
+            <td>聯絡地址：</td>
+            <td colspan="3"><input id="Address" name="Address" type="text" class="mytxtarea w420"></td>
+          </tr>
+          <tr>
+            <td>建檔日期：</td>
+            <td><input id="ModifyDate" name="ModifyDate" type="text" class="mytxtarea w160"></td>
+            <td>收店日期：</td>
+            <td><input id="CloseDate" name="CloseDate" type="text" class="mytxtarea w160"></td>
+          </tr>
+          <tr>
+            <td>網路密碼：</td>
+            <td><input id="password" name="password" type="text" class="mytxtarea w160"></td>
+            <td>網路密碼<br/>錯誤次數</td>
+            <td><input id="authfailed" name="authfailed" type="text" class="mytxtarea w160"></td>
+          </tr>
+          <tr>
+            <td>備註：</td>
+            <td colspan="3"><textarea id="Ps" name="Ps" cols="58" rows="3"  class="mytxtarea"></textarea></td>
+          </tr>
+        </table>
+        </form>
+        
+        <ul class="lay-right">
+              <li><a href="custList.html" title="取消" class="mybtn btn_gray">取消</a></li>
+              <li><a href="custList.html" title="儲存" class="mybtn btn_gray">儲存</a></li>
+          </ul>
+       <br class="clean"/>
+    </div>
+    
+    
+    
+    
+    <div id="box_view"><!-- 檢視區塊 -->
+       <ul class="lay-right">
+          <li><a href="custList.html" title="刪除" class="mybtn btn_gray">刪除</a></li>
+          <li><a href="#box_edit" title="編輯" class="mybtn btn_gray fancybox">編輯</a></li>
+       </ul>
+       <br class="clean"/>
+       
+       <form action="" method="post">
+       <table width="100%" class="mytable_info">
+          <tr>
+            <th colspan="4">檢視客戶基本資料</th>
+          </tr>
+          <tr>
+            <td>客戶代號：</td>
+            <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w160" value="1006" disabled></td>
+            <td>客戶名稱：</td>
+            <td><input id="AccName" name="AccName" type="text" class="mytxtarea w160" value="花博新生店" disabled></td>
+          </tr>
+          <tr>
+            <td>門市電話：</td>
+            <td><input id="StorePhone" name="StorePhone" type="text" class="mytxtarea w160" value="(02)2547-9541" disabled></td>
+            <td>加盟主姓名：</td>
+            <td><input id="BossName" name="BossName" type="text" class="mytxtarea w160" value="王大年" disabled></td>
+          </tr>
+          <tr>
+            <td>行動電話1：</td>
+            <td><input id="MobilePhone1" name="MobilePhone1" type="text" class="mytxtarea w160" value="0987-102547" disabled></td>
+            <td>行動電話2：</td>
+            <td><input id="MobilePhone2" name="MobilePhone2" type="text" class="mytxtarea w160" value="0987-102557" disabled></td>
+          </tr>
+          <tr>
+            <td>住家電話：</td>
+            <td colspan="3"><input id="HomePhone" name="HomePhone" type="text" class="mytxtarea w420" value="(02)2547-9541" disabled></td>
+          </tr>
+          <tr>
+            <td>聯絡人：</td>
+            <td><input id="Contact" name="Contact" type="text" class="mytxtarea w160" value="王大年" disabled></td>
+            <td>聯絡人電話：</td>
+            <td><input id="ContactTel" name="ContactTel" type="text" class="mytxtarea w160" value="0987-102557" disabled></td>
+          </tr>
+          <tr>
+            <td>郵遞區號：</td>
+            <td colspan="3"><input id="Zip" name="Zip" type="text" class="mytxtarea w420" value="11154" disabled></td>
+          </tr>
+          <tr>
+            <td>車　　次：</td>
+            <td colspan="3"><input id="CarNo" name="CarNo" type="text" class="mytxtarea w420" value="457" disabled></td>
+          </tr>
+          <tr>
+            <td>縣市／區域：</td>
+            <td><input id="Area" name="Area" type="text" class="mytxtarea w160" value="台北市大同區" disabled></td>
+            <td>直營店：</td>
+            <td><input id="store_flag" name="store_flag" type="text" class="mytxtarea w160" disabled></td>
+          </tr>
+          <tr>
+            <td>統一編號：</td>
+            <td><input id="BusinessCode" name="BusinessCode" type="text" class="mytxtarea w160" value="4154654654" disabled></td>
+            <td>商號名稱：</td>
+            <td><input id="" name="" type="text" class="mytxtarea w160" disabled></td>
+          </tr>
+          <tr>
+            <td>聯絡地址：</td>
+            <td colspan="3"><input id="Address" name="Address" type="text" class="mytxtarea w420" value="中山北路玉門街口1號" disabled></td>
+          </tr>
+          <tr>
+            <td>建檔日期：</td>
+            <td><input id="ModifyDate" name="ModifyDate" type="text" class="mytxtarea w160" value="2013/11/11" disabled></td>
+            <td>收店日期：</td>
+            <td><input id="CloseDate" name="CloseDate" type="text" class="mytxtarea w160" value="2013/12/31" disabled></td>
+          </tr>
+          <tr>
+            <td>網路密碼：</td>
+            <td><input id="password" name="password" type="text" class="mytxtarea w160" value="sfdsfsd" disabled></td>
+            <td>網路密碼<br/>錯誤次數</td>
+            <td><input id="authfailed" name="authfailed" type="text" class="mytxtarea w160" value="0" disabled></td>
+          </tr>
+          <tr>
+            <td>備註：</td>
+            <td colspan="3"><textarea id="Ps" name="Ps" cols="58" rows="3"  class="mytxtarea" disabled></textarea></td>
+          </tr>
+        </table>
+        </form>
+        
+        <ul class="lay-right">
+          <li><a href="custList.html" title="刪除" class="mybtn btn_gray">刪除</a></li>
+          <li><a href="#box_edit" title="編輯" class="mybtn btn_gray fancybox">編輯</a></li>
+       </ul>
+       <br class="clean"/>
+    </div>
+    
+    
+    
+    
+    <div id="box_edit"><!-- 編輯區塊 -->
+       <ul class="lay-right">
+          <li><a href="custList.html" title="刪除" class="mybtn btn_gray">刪除</a></li>
+          <li><a href="custList.html" title="取消" class="mybtn btn_gray">取消</a></li>
+          <li><a href="custList.html" title="儲存" class="mybtn btn_gray">儲存</a></li>
+       </ul>
+       <br class="clean"/>
+       
+       <form action="" method="post">
+       <table width="100%" class="mytable_info">
+          <tr>
+            <th colspan="4">編輯客戶基本資料</th>
+          </tr>
+          <tr>
+            <td>客戶代號：</td>
+            <td><input id="AccNo" name="AccNo" type="text" class="mytxtarea w160" value="1006"></td>
+            <td>客戶名稱：</td>
+            <td><input id="AccName" name="AccName" type="text" class="mytxtarea w160" value="花博新生店"></td>
+          </tr>
+          <tr>
+            <td>門市電話：</td>
+            <td><input id="StorePhone" name="StorePhone" type="text" class="mytxtarea w160" value="(02)2547-9541"></td>
+            <td>加盟主姓名：</td>
+            <td><input id="BossName" name="BossName" type="text" class="mytxtarea w160" value="王大年"></td>
+          </tr>
+          <tr>
+            <td>行動電話1：</td>
+            <td><input id="MobilePhone1" name="MobilePhone1" type="text" class="mytxtarea w160" value="0987-102547"></td>
+            <td>行動電話2：</td>
+            <td><input id="MobilePhone2" name="MobilePhone2" type="text" class="mytxtarea w160" value="0987-102557"></td>
+          </tr>
+          <tr>
+            <td>住家電話：</td>
+            <td colspan="3"><input id="HomePhone" name="HomePhone" type="text" class="mytxtarea w420" value="(02)2547-9541"></td>
+          </tr>
+          <tr>
+            <td>聯絡人：</td>
+            <td><input id="Contact" name="Contact" type="text" class="mytxtarea w160" value="王大年"></td>
+            <td>聯絡人電話：</td>
+            <td><input id="ContactTel" name="ContactTel" type="text" class="mytxtarea w160" value="0987-102557"></td>
+          </tr>
+          <tr>
+            <td>郵遞區號：</td>
+            <td colspan="3"><input id="Zip" name="Zip" type="text" class="mytxtarea w420" value="11154"></td>
+          </tr>
+          <tr>
+            <td>車　　次：</td>
+            <td colspan="3"><input id="CarNo" name="CarNo" type="text" class="mytxtarea w420" value="457"></td>
+          </tr>
+          <tr>
+            <td>縣市／區域：</td>
+            <td><input id="Area" name="Area" type="text" class="mytxtarea w160" value="台北市大同區"></td>
+            <td>直營店：</td>
+            <td><input id="store_flag" name="store_flag" type="text" class="mytxtarea w160"></td>
+          </tr>
+          <tr>
+            <td>統一編號：</td>
+            <td><input id="BusinessCode" name="BusinessCode" type="text" class="mytxtarea w160" value="4154654654"></td>
+            <td>商號名稱：</td>
+            <td><input id="" name="" type="text" class="mytxtarea w160"></td>
+          </tr>
+          <tr>
+            <td>聯絡地址：</td>
+            <td colspan="3"><input id="Address" name="Address" type="text" class="mytxtarea w420" value="中山北路玉門街口1號"></td>
+          </tr>
+          <tr>
+            <td>建檔日期：</td>
+            <td><input id="ModifyDate" name="ModifyDate" type="text" class="mytxtarea w160" value="2013/11/11"></td>
+            <td>收店日期：</td>
+            <td><input id="CloseDate" name="CloseDate" type="text" class="mytxtarea w160" value="2013/12/31"></td>
+          </tr>
+          <tr>
+            <td>網路密碼：</td>
+            <td><input id="password" name="password" type="text" class="mytxtarea w160" value="sfdsfsd"></td>
+            <td>網路密碼<br/>錯誤次數</td>
+            <td><input id="authfailed" name="authfailed" type="text" class="mytxtarea w160" value="0"></td>
+          </tr>
+          <tr>
+            <td>備註：</td>
+            <td colspan="3"><textarea id="Ps" name="Ps" cols="58" rows="3"  class="mytxtarea"></textarea></td>
+          </tr>
+        </table>
+        </form>
+        
+        <ul class="lay-right">
+          <li><a href="custList.html" title="刪除" class="mybtn btn_gray">刪除</a></li>
+          <li><a href="custList.html" title="取消" class="mybtn btn_gray">取消</a></li>
+          <li><a href="custList.html" title="儲存" class="mybtn btn_gray">儲存</a></li>
+       </ul>
+       <br class="clean"/>
+    </div>
+    
+<!-- InstanceEndEditable -->
+</section>
+
+
+<script src="../../scripts/hide_show.js"></script><!-- 隱藏選單 -->
+</body>
+<!-- InstanceEnd --></html>

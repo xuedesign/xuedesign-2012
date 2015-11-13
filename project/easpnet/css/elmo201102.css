@@ -1,0 +1,266 @@
+/*=======================================
+This CSS editing completed by Elmo Wu 
+@2011/02 IIFUN Inc. All rights reserved
+=========================================*/
+
+body{
+	margin: 0;
+	padding:0;
+	background:url(../images/bg.png) repeat-x #d1cce2;
+	font-family:"微軟正黑體","Microsoft JhengHei","新細明體","PMingLiU", Helvetica, Arial, sans-serif;
+	font-size:100%;
+	line-height:20px;
+	color:#43394b}
+a:link {text-decoration: underline; color:#3a334e}
+a:visited {text-decoration: underline; color:#7D7D79}
+a:hover {text-decoration: none; color:#F60}
+form{margin:0; padding:0}
+image{border:0}
+
+.clean{ clear:both}
+.hidden{ display:none}
+
+h1 a{
+	display:block;
+	float:left;
+	background:url(../images/logo.png) no-repeat 30px 0;
+	width:280px;
+	height:81px;
+	text-indent:-9999px;
+	padding-left:30px}
+h2{ display:none}
+
+/*===============================  首頁設定 =====================================*/
+#wrap{
+	display:block;
+	width:994px;
+	margin:0 auto}
+	
+/*頂端子選單*/	
+#sub_menu{
+	display:block;
+	float:right;
+	width:285px;
+	height:37px;
+	background:url(../images/bg_submenu.jpg) 20px 0 no-repeat;
+	text-align:right;
+	padding:15px 44px 0 0}
+#sub_menu li{
+	display:inline;
+	font-size:0.75em;}
+#sub_menu a:link{ color:#36344c; text-decoration:none}
+#sub_menu a:visited{ color:#36344c; text-decoration:none}
+#sub_menu a:hover{ color: #F50; text-decoration: underline}
+
+/*網站主選單*/
+#nav{
+	display:block; 
+	float:right;
+	width:684px}
+#nav h3{ display:none}
+#nav ul{
+	display:block;
+	padding-left:143px}	
+#nav li{ 
+    float:left;
+	height:30px;
+	text-indent:-9999px}
+#nav .n01 a:link{display:block; width:88px; height:30px; background:url(../images/bg_nav.png)}
+#nav .n01 a:visited{display:block; width:88px; height:30px; background:url(../images/bg_nav.png)}
+#nav .n01 a:hover{background-position:0 -30px}	
+#nav .n02 a:link{display:block; width:116px; height:30px; background:url(../images/bg_nav.png); background-position:-88px 0}
+#nav .n02 a:visited{display:block; width:116px; height:30px; background:url(../images/bg_nav.png); background-position:-88px 0}
+#nav .n02 a:hover{background-position:-88px -30px}
+#nav .n03 a:link{display:block; width:95px; height:30px; background:url(../images/bg_nav.png); background-position:-204px 0}
+#nav .n03 a:visited{display:block; width:95px; height:30px; background:url(../images/bg_nav.png); background-position:-204px 0}
+#nav .n03 a:hover{background-position:-204px -30px}
+#nav .n04 a:link{display:block; width:123px; height:30px; background:url(../images/bg_nav.png); background-position:-299px 0}
+#nav .n04 a:visited{display:block; width:123px; height:30px; background:url(../images/bg_nav.png); background-position:-299px 0}
+#nav .n04 a:hover{background-position:-299px -30px}
+#nav .n05 a:link{display:block; width:115px; height:30px; background:url(../images/bg_nav.png); background-position:-422px 0}
+#nav .n05 a:visited{display:block; width:115px; height:30px; background:url(../images/bg_nav.png); background-position:-422px 0}
+#nav .n05 a:hover{background-position:-422px -30px}
+	
+/*中間區塊*/
+#bodyer{ 
+   clear:both;
+   display:block;
+   position:relative;
+   width:994px}
+#mainbtn{
+	display:block;
+	position:absolute;
+	width:268px;
+	height:51px;
+	top:94px;
+	right:38px;
+	z-index:20}
+#mainbtn ul{ margin:0; padding:0}
+#mainbtn li{ margin:0; padding:0; line-height:0}	
+#mainbtn .tab_01 a{
+	display:block;
+	float:left;
+	width:129px;
+	height:51px;
+	background:url(../images/bg_mainbtn.png);
+	/*margin-right:5px;*/
+	text-indent:-9999px}
+#mainbtn .tab_01 a:visited{background:url(../images/bg_mainbtn.png)}
+#mainbtn .tab_01 a:hover{background:url(../images/bg_mainbtn.png) 0 -51px;}
+
+#mainbtn .tab_02 a{
+	display:block;
+	float:left;
+	width:129px;
+	height:51px;
+	background:url(../images/bg_mainbtn.png) -129px 0;
+	/*margin-right:5px;*/
+	text-indent:-9999px}
+#mainbtn .tab_02 a:visited{background:url(../images/bg_mainbtn.png) -129px 0;}
+#mainbtn .tab_02 a:hover{background:url(../images/bg_mainbtn.png) -129px -51px;}	  	  
+
+#bannerbox{
+	display:block;
+	width:994px;
+	height:159px;
+	background: url(../media/index_banner.jpg) no-repeat}
+
+/*flash banner*/	
+#bannerbox h2{ text-indent:-9999px}
+#bannerbox p{ text-indent:-9999px}
+#nosbox{
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	width:994px;
+	height:159px;
+	background:url(../images/bg_banner.jpg) no-repeat}
+
+/*主要服務項目*/	
+#service{
+	display:block;
+	width:962px;
+	height:122px;
+	background:url(../images/bg_seversbox.jpg);
+	margin-left:15px}
+#service h3{ display:none}
+#service ul{ padding-left:25px}	
+#service li{ float:left; text-indent:-9999px}
+
+#contenter{
+	display:block;
+	width:938px;
+	background:url(../images/bg_subbodyer.png);
+	margin-left:15px;
+	padding: 20px 0 0 24px}
+/*首頁最新消息*/
+#newsbox{
+	display:block;
+	float:left;
+	width:464px;
+	height:202px;
+	background:url(../images/bg_news.jpg) no-repeat}
+#newsbox h3{ display:none}
+#news_info{ display:block; height:17px; font-size:0.75em;}
+#news_info ul{ padding-left:300px }
+#news_info li{ float:left}
+#news_info .icon_rss span{
+	display: block;
+	float:left; 
+	width:15px; 
+	height:15px; 
+	background:url(../images/icon_news.png);
+	margin:2px 5px 0 0}
+#news_info .icon_more span{ 
+    display: block; 
+	float:left; 
+	width:15px; 
+	height:15px; 
+	background:url(../images/icon_news.png); 
+	background-position:-15px 0; 
+	margin:2px 5px 0 0}
+#news_info a:link {text-decoration:none; color:#7b7b7b}
+#news_info a:visited {text-decoration:none; color:#7b7b7b}
+#news_info a:hover {text-decoration: underline; color:#F60}		
+	
+#news_list{ clear:both; display:block; padding:20px 0 0 20px; *padding:10px 0 0 20px}
+#news_list ul{ margin:0; padding:5px 15px 15px 25px; *padding:15px 15px 15px 25px;}
+#news_list li{
+	padding-bottom:5px;
+	margin:0 20px 5px 0;
+	*margin:0 20px 8px 0;
+	font-size:0.813em;
+	line-height:19px;
+	border-bottom:1px dashed #C2C2C2;
+	list-style:url(../images/icon_newstitle.png) outside
+	/*background: url(../images/icon_newstitle.png) no-repeat;
+	background-position:0 2px*/}
+#news_list li a:link {
+	text-decoration:none; 
+	color:#3a334e}
+#news_list li a:visited {
+	text-decoration:none; 
+	color:#3a334e}
+#news_list li a:hover {
+	text-decoration: underline; 
+	color:#B731F5}		
+
+/*首頁廣告區塊*/
+#adbox{
+	display:block;
+	position:relative;
+	float:right;
+	width:430px;
+	height:192px;
+	border:1px solid #a6a6c0;
+	padding:5px;
+	margin-right:23px;
+	_margin-right:13px}
+#adbox h3{ display:none}
+#adbanner{
+	width:428px;
+	height:190px;
+	overflow:hidden}
+#adbtn{	
+    display:inline;
+	position:absolute;
+	top:170px;
+	left:300px;
+	width:130px;
+	hegiht:18px;
+	z-index:10}
+#adbtn a{
+	float:left;
+	color:#012662;
+	background: url(../images/bg_adbtn.png) no-repeat;
+	width:18px;
+	height:18px;
+	line-height:18px;
+	text-align:center;
+	text-decoration:none;
+	margin-left:5px;
+	border:1px solid #605C81}
+#adbtn a.activeSlide{	
+	color:#fff;
+	background: url(../images/bg_adbtn.png) 0 -18px no-repeat;
+	border:1px solid #605C81}
+#adbtn a:hover{	
+	color:#fff;
+	background:url(../images/bg_adbtn.png) 0 -18px no-repeat;
+	border:1px solid #605C81}	
+
+/*版權列*/
+#footer{
+	display:block;
+	width:964px;
+	height:67px;
+	background:url(../images/bg_footer.png);
+	padding:40px 30px 0 0;
+	text-align:right;
+	font-size:0.75em;
+	color:#FFF}
+#footer a:link {text-decoration:none; color:#FFF}
+#footer a:visited {text-decoration:none; color:#FFF}
+#footer a:hover {text-decoration: underline; color:#F60}	
+				   			

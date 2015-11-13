@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="copyright" content="kayee store Product(Supplier),LTD." />
+<meta name="description" content="kayee offers convenient online shopping service, we have a large number of products, competitive prices and attractive platform for you to easily enjoy the benefits of online shopping."/>
+<meta name="keywords" content="kayee, tv shop; tele shop, "/>
+<meta name="Author" content="ifun,elmo" />
+<link rel="shortcut icon"  href="../images/favicon.ico"/>
+<link rel="icon" href="../images/favicon.ico" type="images/ico"/>
+<link rel="bookmark" href="../images/favicon.ico"/>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>about│kayee store Product(Supplier),LTD.</title>
+<!-- TemplateEndEditable -->
+<link href="../css/reset.css" type="text/css" rel="stylesheet"/>
+<link href="../css/elmo201007_cc.css" type="text/css" rel="stylesheet"/>
+<link href="../css/superfish.css" type="text/css" rel="stylesheet"/>
+<link href="../css/colorbox.css" type="text/css" rel="stylesheet"/>
+<script type="text/javascript" src="../script/iepngfix_tilebg.js"></script>
+<script type="text/javascript" src="../script/jquery.min.js"></script>
+<script type="text/javascript" src="../script/hoverIntent.js"></script>
+<script type="text/javascript" src="../script/superfish.js"></script>
+<script type="text/javascript" src="../script/superfish_menuset.js"></script>
+<!--[if lte IE 6]>
+<script type="text/javascript" src="../../script/letskillie6_en.js"></script>
+<![endif]-->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+    <div id="wrap">
+       <div id="toper">
+             <div id="toplink">
+                 <div id="link_left">
+                   <a href="http://www.kayeemo.com.tw/" title="kayee m.o.house" rel="external">kayee M.O.House</a>│<a href="http://www.kayeetv.com/" title="kayee t.v.products" rel="external">kayee T.V.Products</a>
+               </div>
+                 <div id="link_right">
+                      welcome, iifun│ <a href="../login.html" title="logout">logout</a>
+                 </div> 
+             </div>
+             <div id="topbanner">
+                <h1><a href="../index.html" title="back index" class="elmoh1">kayee store Product(Supplier),LTD.</a></h1>
+                <h2>kayee offers convenient online shopping service, we have a large number of products, competitive prices and attractive platform for you to easily enjoy the benefits of online shopping.</h2>
+             </div>
+             <div id="nav">
+                 <div id="navbox">
+                     <ul class="sf-menu">
+                         <li><a href="../index.html" title="home" class="nav_01">home</a></li>
+                         <li><a href="../content/about/about.html" title="about us" class="nav_02">about us</a></li> 
+                         <li class="current"><a href="../content/products/products_list.html" title="products" class="nav_03">products</a>
+                             <ul>
+                                 <li><a href="../content/products/products_list.html" title="eco">eco</a></li>
+                                 <li><a href="#" title="electrical">electrical</a></li>
+                                 <li><a href="#" title="fitness">fitness</a></li>
+                                 <li><a href="#" title="garden">garden</a></li>
+                                 <li><a href="#" title="household">household</a></li>
+                                 <li><a href="#" title="kitchen">kitchen</a></li>
+                                 <li><a href="#" title="personal care">personal care</a></li>
+                                 <li><a href="#" title="tool">tool</a></li>
+                                 <li><a href="#" title="other">other</a></li>
+                             </ul>
+                         </li> 
+                         <li><a href="../content/contact/contact.html" title="contact us" class="nav_04">contact us</a></li>  
+                     </ul>
+                 </div><!-- end navbox -->     
+             </div><!-- end nav -->
+         </div>
+         <div id="bodyer">
+            <div id="body_content">
+                 <div id="body_left">
+                     <div id="search_box">
+                       <h3>products search</h3>
+                       <input name="" type="text" class="search_area"/>
+                       <input name="" type="submit" class="btn_go btn_gobox" value="go" onclick="javascript:location.href='../search/search_info.html';"/>
+                   </div>
+                     <div id="products_list">
+                         <div class="prli_head"><h3>product list</h3></div>
+                         <div class="prli_body">
+                             <ul>
+                                 <li><a href="../content/products/products_list.html" title="eco">eco</a></li>
+                                 <li><a href="#" title="electrical">electrical</a></li>
+                                 <li><a href="#" title="fitness">fitness</a></li>
+                                 <li><a href="#" title="garden">garden</a></li>
+                                 <li><a href="#" title="household">household</a></li>
+                                 <li><a href="#" title="kitchen">kitchen</a></li>
+                                 <li><a href="#" title="personal care">personal care personal care</a></li>
+                                 <li><a href="#" title="tool">tool</a></li>
+                                 <li><a href="#" title="other">other</a></li>
+                             </ul> 
+                         </div>
+                         <div class="prli_foot"></div>
+                     </div>
+              <div id="newitem_group">
+                          <div id="newitem_head"><h3>new item</h3></div>
+                             <div id="newitem_list">
+                                 <div class="list_one">
+                                     <a href="../content/products/products_main.html" title="product_name"><img src="../images/product/TV90084.jpg" width="90" height="127" alt="TV90084-Cordless Twister Sweeper" /></a>
+                                     <a href="../content/about/content/products/products_main.html" title="TV60026">TV60026TV60026TV60026</a>
+                                 </div>
+                                 <div class="list_one">
+                                     <a href="../content/products/products_main.html" title="product_name"><img src="../images/product/TV90066.jpg" width="90" height="127" alt="products" /></a>
+                                     <a href="#" title="TV60026">TV60026</a>
+                                 </div>
+                                 <div class="list_one">
+                                     <a href="../content/products/products_main.html" title="product_name"><img src="../images/product/TV90061.jpg" width="90" height="127" alt="products" /></a>
+                                     <a href="#" title="TV60026">TV60026</a>
+                                 </div>
+                                 <div class="list_one">
+                                     <a href="../content/products/products_main.html" title="product_name"><img src="../images/product/TV90043.jpg" width="90" height="127" alt="products" /></a>
+                                     <a href="#" title="TV60026">TV60026</a>
+                                 </div>
+                                 <div class="list_one">
+                                     <a href="../content/products/products_main.html" title="product_name"><img src="../images/product/TV90039.jpg" width="90" height="127" alt="products" /></a>
+                                     <a href="#" title="TV60026">TV60026</a>
+                                 </div>
+                              </div>
+                           <div id="newitem_foot"></div>
+                     </div> 
+                 </div>
+                 <!-- TemplateBeginEditable name="page_content" -->
+                 <div id="body_right"></div>
+                 <!-- TemplateEndEditable --><br class="clean" />
+            </div>
+          </div>
+         <div id="footer">
+            <div id="foot_info2"> 
+                <ul>
+                    <li><a href="../index.html" title="home">home</a>│</li>
+                    <li><a href="../content/about/about.html" title="about us">about us</a>│</li>
+                    <li><a href="../content/products/products_list.html" title="products">products</a>│</li>
+                    <li><a href="../content/contact/contact.html" title="contact us">contact us</a></li>
+                </ul>
+            </div>    
+         </div>
+    </div>
+    <script type="text/javascript" src="../script/external.js"></script>
+</body>
+</html>

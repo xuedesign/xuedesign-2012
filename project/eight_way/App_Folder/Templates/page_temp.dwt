@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+<meta charset="utf-8" lang="zh-tw">
+<meta name="Author" content="e-innovator" />
+<link rel="shortcut icon"  href="../admin/images/favicon.ico"/>
+<link rel="icon" href="../admin/images/favicon.ico"/>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>::八方雲集進銷存管理系統::</title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" href="../css/reset.css" />
+<link rel="stylesheet" href="../css/xue-content_201311.css"/>
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<header>
+   <div class="btn_hide">
+     <span id="leftFrame_display">隱藏選單</span>
+     <input type="hidden" name="left_staus" id="left_staus" value="打開">
+   </div>  
+   <div class="box_loginfo">
+      歡迎登入，騰冠科技
+      <a href="#" title="登出" class="mybtn btn_red">登出</a>
+   </div>
+</header>
+
+
+<section class="main_content">
+<!-- TemplateBeginEditable name="main_content" -->
+  <h3>訂購單文字檔輸出</h3>
+  <div class="box_output">
+    <input id="loginbtu" name="loginbtu" type="button" class="btn_login" value="輸出">
+  </div>
+<!-- TemplateEndEditable -->
+</section>
+
+
+<script src="../scripts/hide_show.js"></script><!-- 隱藏選單 -->
+</body>
+</html>

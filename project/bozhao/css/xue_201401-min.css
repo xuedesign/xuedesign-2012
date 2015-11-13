@@ -1,0 +1,549 @@
+/**********************************************************************************************
+
+	Title: CSS for xuedeisgn
+	Author: Elmo Wu (by xuedesign studio)
+	Build: v1.0
+	Date: 2014/01
+
+***********************************************************************************************
+		1 通用
+		2 首頁
+		    2.1 頂端區塊
+			2.2 主選單設定
+			2.3 完美底部佈局
+			2.4 版權列區塊
+			2.5 中間內文
+		3 公司簡介
+		4 工程實績
+		5 經銷優惠專區
+		6 員工專區
+		7 聯絡我們 
+***********************************************************************************************/
+
+/* 1. 通用 
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+body{
+	margin: 0;
+	padding:0;
+	background: url(../images/bg_sitetop.jpg) repeat-x;
+	font-family:"微軟正黑體","Microsoft JhengHei","新細明體","PMingLiU", Arial, Helvetica, sans-serif;
+	font-size:100%;
+	line-height:20px;
+	color:#3b3b3b}
+a:link {text-decoration:underline; color:#0492ce}
+a:visited {text-decoration:underline; color:#8c8c8c}
+a:hover {text-decoration:none; color:#F50}
+::selection { background:#27a1dd; color:#FFF}
+form{margin:0; padding:0}
+image{border:0}
+
+.clean{ clear:both}
+.hidden{ display:none}
+
+/* 2. 首頁 
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+#wrap{ display:block; width:1024px; margin:0 auto}
+
+/*2.1 頂端區塊---------------------------*/
+header{ display:block; width:1024px}
+#box_top{ display:block; width:960px; margin:0 auto}
+#box_top h1 a{ 
+   display:block; 
+   float:left;
+   width:240px;
+   height:61px;
+   margin-bottom:11px;
+   text-indent:-9999px;
+   background:url(../images/logo.png) no-repeat}
+
+#box_banner{ 
+   clear:both; 
+   display:block; 
+   width:1024px; 
+   height:209px; 
+   background:url(../images/banner.jpg) no-repeat}
+#box_banner h2, #box_compwork h2{ display:none}
+#box_compwork{
+	display:block;
+	width:960px;
+	height:60px;
+	margin:0 auto;
+	background:url(../images/bg_compwork.png) no-repeat}
+#box_compwork p{
+	display:block;
+	width:540px;
+	font-size:0.938em;
+	line-height:22px;
+	text-shadow: 1px 1px 0 #EFEFEF;
+	margin-left:240px;
+	padding-top:8px}	
+
+/*2.2 主選單設定---------------------------*/	
+nav{ display:block; float:left; padding:25px 0 0 225px}
+nav h2{ display:none}
+nav li{
+	font-family:"微軟正黑體","Microsoft JhengHei"; 
+    font-size:1.125em;
+	margin-left:10px}
+.navigation li {
+	position: relative;
+	float:left}
+
+/* 選單 li 裡面連結之樣式 */
+.navigation li a, .navigation li a:visited{
+	display: block;
+	padding: 4px 10px;
+	font-size:1em;
+	line-height:30px;
+	letter-spacing:1px;
+	text-decoration:none;
+	color: #fff;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	text-shadow: 1px 1px 1px #363636}
+.navigation li:hover a, .navigation li a.navin{
+	display: block;
+	padding: 4px 10px;
+	background:#2db1f1;
+	color: #FFF;
+	text-decoration:none;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	text-shadow: 1px 1px 1px #363636;}
+		
+/* 特定在第一層 > 第二層或以後下拉部分之樣式 */
+.navigation ul{
+	display: none;
+	float: left;
+	position: absolute;			
+	left: 0;
+	z-index:999;	
+	margin:0}
+/* 當第一層選單被觸發時，指定第二層顯示 */
+.navigation li:hover > ul{display: block}			
+/* 特定在第二層或以後下拉部分 li 之樣式 */
+/*.navigation ul li {}*/
+/* 特定在第二層或以後下拉部分 li （最後一項不要底線）之樣式 */
+/*.navigation ul li:last-child {}*/
+/* 第二層或以後選單 li 之樣式 */
+.navigation ul a {
+	width: 130px;
+	padding: 5px 6px;
+	font-size:0.813em;	
+	color: #666;
+	background: #4A533F}
+.navigation ul a:hover { background: #1A4055; border:1px solid #CCC}
+.navigation ul li a{
+	 margin: 3px 0 0 -10px;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0}	
+
+/*2.3 完美底部佈局---------------------------*/
+html, body, #wrap {height: 100%;}
+body > #wrap {height: auto; min-height: 100%;}
+#main_content{padding-bottom:126px}
+.clearfix:after{content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden}
+.clearfix {display: inline-block}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%}
+.clearfix {display: block}
+/* End hide from IE-mac */
+
+/*2.4 版權列---------------------------*/
+footer{ 
+    display:block;
+    position: relative;
+    width:100%;
+	height:126px;
+    background: url(../images/bg_footer.jpg) repeat-x;
+    margin-top: -126px}
+#box_copyright{
+	display:block;
+	width:960px;
+	margin:0 auto;
+	font-size:0.938em;
+	line-height:22px}
+#box_copyright a:link {text-decoration:none; color:#3b3b3b}
+#box_copyright a:visited {text-decoration:none; color:#3b3b3b}
+#box_copyright a:hover {text-decoration:none; color:#F50}		
+.copyright_en{ 
+    display:block;  
+	text-align:center; 
+	font-weight:bold; 
+	color:#FFF; 
+	padding-top:9px}
+.sublogo, .copyright_tw{ display:block; float:left}
+.sublogo{
+	text-indent:-9999px;
+	width:159px;
+	height:43px;
+	background:url(../images/logo_sub.png) no-repeat;
+	margin:8px 60px 0 0}	
+.copyright_tw{
+	padding-top:10px;
+	text-shadow: 1px 1px 0 #D4D4D4}
+
+/*2.5 中間內文---------------------------*/
+#contenter{
+	display:block;
+	width:960px;
+	margin:0 auto;
+	padding:30px 0}
+#contenter h2{ display:none}
+.box_marquee{
+	display:block;
+	width:942px;
+	height:35px;
+	background:url(../images/bg_salesbox.png) no-repeat;
+	padding:5px 30px 0 130px;
+	line-height:25px;
+	overflow:hidden}
+.box_marquee a:link {text-decoration:none; color:#0492ce}
+.box_marquee a:visited {text-decoration:none; color:#8c8c8c}
+.box_marquee a:hover {text-decoration: underline; color:#F50}
+
+.box_lastproject{
+	display:block;
+	width:960px;
+	margin-top:30px}				
+.box_lastproject h3{
+	display:block;
+	float:left;
+	font-size:1.25em;
+	line-height:22px;
+	color:#6FB9CE;
+	font-weight:bold;
+	letter-spacing:1px;
+	background:url(../images/icon_i.png) no-repeat;
+	padding:0 0 0 20px;
+	margin:0}
+.box_lastproject .btn_more a, aside .btn_more a{
+	display:block;
+	padding:5px 15px;
+	background: -webkit-gradient(linear, left top, right top, from(#76C4D9), to(#4DB7E5));
+	background: -webkit-linear-gradient(top, #76C4D9, #4DB7E5);
+	background: -moz-linear-gradient(top, #76C4D9, #4DB7E5);
+	background: -o-linear-gradient(top, #76C4D9, #4DB7E5);
+	background: -ms-linear-gradient(top, #76C4D9, #4DB7E5);
+	background: linear-gradient(top, #76C4D9, #4DB7E5);
+	background-color: #76C4D9;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	font-size:0.938em;
+	color:#FFF;
+	text-decoration:none}
+.box_lastproject .btn_more a{ float:right; margin-right:5px}
+aside .btn_more a{ width:90%; margin:0 auto; text-align:center}	
+.box_lastproject .btn_more a:hover, aside .btn_more a:hover{
+	background: -webkit-gradient(linear, left top, right top, from(#1A4055), to(#235571));
+	background: -webkit-linear-gradient(top, #1A4055, #235571);
+	background: -moz-linear-gradient(top, #1A4055, #235571);
+	background: -o-linear-gradient(top, #1A4055, #235571);
+	background: -ms-linear-gradient(top, #1A4055, #235571);
+	background: linear-gradient(top, #1A4055, #235571);
+	background-color: #1A4055}
+.top_lastproject{
+	display:block;
+	padding-bottom:15px;
+	margin:0 20px 10px 0;
+	border-bottom:1px solid #bcbbbb}	
+#box_prolist{position:relative}
+#box_prolist .listmain, aside .listmain, .project_main .listmain{
+	display:block;
+	width:150px;
+	background:#FFF;
+	border:1px solid #d4d3d3;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 0 6px #D8D7D7;
+	-moz-box-shadow: 0 0 6px #D8D7D7;
+	box-shadow: 0 0 6px #D8D7D7}
+#box_prolist .listmain{ min-height:200px}
+aside .listmain{ margin-bottom:15px}
+.project_main .listmain{ float:left; height:156px; margin: 0 15px 20px; overflow:hidden}	
+#box_prolist .listmain:hover, aside .listmain:hover, .project_main .listmain:hover{
+	-webkit-box-shadow: 0 0 20px #F19A97;
+	-moz-box-shadow: 0 0 20px #F19A97;
+	box-shadow: 0 0 20px #F19A97}
+.listmain .ptag_01, .listmain .ptag_02, .listmain .ptag_03, .listmain .ptag_04{
+	display:block;
+	float:right;
+	margin-top:8px;
+	padding:3px 15px;
+	font-size:0.938em;
+	line-height:20px;
+	color:#FFF;
+	letter-spacing:1px}	
+.listmain .ptag_01{ background:#27a1dd}
+.listmain .ptag_02{ background:#c9496a}
+.listmain .ptag_03{ background:#5fc058}
+.listmain .ptag_04{ background:#af5def}
+#box_prolist .listmain img, aside .listmain img{
+	clear:both;
+	display:block;
+	margin:5px auto}
+#box_prolist .listmain img{width:276px}
+aside .listmain img{ width:130px}
+.project_main .listmain img{ 
+    clear:both;
+	display:block;
+	margin:0 auto;
+	width:130px}
+.project_main .listmain span{ display: inline-block; width:130px; height:80px; overflow:hidden; background:#000; margin:10px 10px 0}	
+.listmain h4{ font-size:1em; line-height:22px; padding-left:12px}
+.listmain a:link {text-decoration:none; color:#0492ce}
+.listmain a:visited {text-decoration:none; color:#8c8c8c}
+.listmain a:hover {text-decoration:none; color:#F50}		
+
+/* 3. 公司簡介 
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+#box_main, #box_mainsingle{ display:block; padding-right:20px}
+#box_main{float:left; width:800px}
+#box_mainsingle{ width:960px}	
+#box_main h3, aside h3, #box_mainsingle h3{
+	display:block;
+	margin:0;
+	padding:0 0 0 20px;
+	font-size:1.25em;
+	line-height:25px;
+	color:#6FB9CE;
+	font-weight:bold;
+	letter-spacing:1px;
+	background:url(../images/icon_i.png) no-repeat}
+#box_main h3, #box_mainsingle h3{ float:left; width:30%}
+#box_main .cookie, #box_mainsingle .cookie{
+	display:block;
+	float:right;
+	width:70%;
+	font-size:0.938em;
+	color:#565656;
+	text-align:right}
+#box_main .cookie span, #box_mainsingle .cookie span{
+	display:inline-block;
+	width:14px;
+	height:13px;
+	background: url(../images/icpn_house.png) 0 2px no-repeat; 
+	margin-right:8px}
+#box_mainsingle .cookie .btn{ margin-left:10px}			
+#box_main hr, aside hr{ border-bottom:1px solid #d6d6d6}
+#box_main .box_profile, #box_main .company_info{
+	display:block;
+	font-size:1.063em;
+	line-height:25px}
+#box_main .box_profile{padding:0 15px 50px 20px}	
+.box_profile img{
+	display:block;
+	float:right;
+	margin:15px 0 30px 20px}			
+
+aside{
+	display:block;
+	float:right;
+	width:160px}
+aside hr{ margin:5px 0 15px 0; padding:0}
+
+/* 4. 工程實績
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+.project_main .box_page{ clear:both; display:block; width:50%; margin:0 auto; padding-top:30px}
+
+/* 5. 經銷優惠專區
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+.sales_main .box_page{ clear:both; display:block; width:50%; margin:0 auto; padding-top:30px}
+.sales_list li{ display:block; padding:10px 0; border-bottom:1px dashed #D5D5D5}
+.sales_list h4{
+	font-size:1.125em;
+	line-height:25px;
+	color:#0199DA;
+	font-weight:bold;
+	letter-spacing:1px}
+.sales_list p{ font-size:0.938em; line-height:20px; color:#8c8c8c}
+.sales_list a h4:hover{ color:#f50}	
+.sales_list .sales_pic{
+	display:block;
+	float:left;
+	width:110px;
+	height:90px;
+	padding:5px;
+	border:1px solid #D5D5D5;
+	overflow:hidden}
+.sales_list .sales_pic img{ width:100px}	
+.sales_list .sales_txt{
+	display:block;
+	float:right;
+	width:625px;
+	padding-left:15px}
+
+/* 6. 員工專區
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+.box_login{
+	display:block;
+	width:361px;
+	padding:22px 0 0 0;
+	margin:30px auto 15px auto;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-o-border-radius: 8px;
+	-ms-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: 0 0 9px #D8D7D7;
+	-moz-box-shadow: 0 0 9px #D8D7D7;
+	-o-box-shadow: 0 0 9px #D8D7D7;
+	-ms-box-shadow: 0 0 9px #D8D7D7;
+	box-shadow: 0 0 9px #D8D7D7;
+	border:1px solid #D8D7D7;
+	background: url(../images/bg_login.png) no-repeat #FFF}
+.box_login h4{
+	display:block;
+	width:127px;
+	height:16px;
+	background:url(../images/title_login.png) no-repeat;
+	text-indent:-9999px;
+	margin:0 auto}
+.text_area{
+	display:block;
+	width:300px;
+	margin:18px auto 0 auto;
+	padding:10px;
+	border:1px solid #a1884d;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-o-border-radius: 8px;
+	-ms-border-radius: 8px;
+	border-radius: 8px}
+.text_member{
+	display:block;
+	background:url(../images/textarea_login.png) no-repeat;
+	width:301px;
+	height:96px;
+	margin:22px auto 0 auto}
+.btn_login{
+	display:block;
+	width:149px;
+	height:40px;
+	margin:29px auto 20px auto;
+	background:url(../images/btn_login.png) no-repeat;
+	border:none;
+	cursor:pointer;
+	font-size:1.063em;
+	color:#FFF;
+	text-align:center;
+	letter-spacing:2px}	
+.btn_login:hover{ background:url(../images/btn_login.png) 0 -40px no-repeat}
+.text_input{
+	display:block;
+	width:220px;
+	margin-left:10px;
+	font-size:1.063em;
+	line-height:20px;
+	background:none;
+	padding:5px 8px;
+	border:none;
+	color:#565656}
+#username{ padding-top:15px; margin-bottom:22px}
+
+.sub_nav{
+	display:block;
+	float:left;
+	width:180px}
+.sub_nav ul{}
+.sub_nav li{
+	list-style:circle inside; 
+    font-size:1.063em;
+	margin-right:10px; 
+	padding:8px 0 8px 5px; 
+	border-bottom:1px dashed #D5D5D5}
+.sub_nav li.subnav-in{
+	padding:5px;
+	background:#0199DA;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	-ms-border-radius: 10px;
+	border-radius: 10px}
+.sub_nav li.subnav-in a{color:#FFF; font-weight:bold; letter-spacing:1px}		
+.sub_nav a:link, .staff_main a:link, #box_main .company_info a:link, .project_main a:link, .sales_main a:link{text-decoration:none; color:#0492ce}
+.sub_nav a:visited, .staff_main a:visited, #box_main .company_info a:visited, .project_main a:visited, .sales_main a:visited{text-decoration:none; color:#8c8c8c}
+.sub_nav a:hover, .staff_main a:hover, #box_main .company_info a:hover, .project_main a:hover, .sales_main a:hover{text-decoration:none; color:#F50}
+.staff_main, .project_main, .sales_main{
+	display:block;
+	float:right;
+	width:760px;
+	padding: 0 0 0 20px;
+	border-left:1px solid #D5D5D5}
+.staff_main .table{ border-bottom:1px solid #D5D5D5; border-collapse: separate; border-spacing: 1px}
+.staff_main .table th{ font-size:1.063em; text-align:center; }
+.staff_main .table td{ font-size:0.938em; text-align:center}
+.staff_main .box_page{ display:block; width:50%; margin:0 auto}
+#box_mainsingle .staff_main h3, #box_mainsingle .project_main h3, #box_mainsingle .sales_main h3{ float:left; width:90%; margin-bottom:5px}
+.staff_main .btn, .project_main .btn, .sales_main .btn{ float:right}
+.staff_main .box_txt p, .project_main .box_txt p, .sales_main .box_txt p{ font-size:1.063em; line-height:22px; padding:5px}
+.staff_main .box_txt img, .project_main .box_txt img, .sales_main .box_txt img{ margin:5px}
+.box_txt a:link {text-decoration: underline; color:#0492ce}
+.box_txt a:visited {text-decoration: underline; color:#8c8c8c}
+.box_txt a:hover {text-decoration: none; color:#F50}
+.box_upload{
+	display:block;
+	width:760px;
+	margin:30px auto}
+.box_upload h4{
+	display:block;
+	margin:0;
+	padding:0 0 5px 25px;
+	font-size:1.25em;
+	line-height:25px;
+	color:#6FB9CE;
+	font-weight:bold;
+	letter-spacing:1px;
+	background:url(../images/icon_download.png) no-repeat;
+	border-bottom:1px solid #D5D5D5}
+.box_upload ul{ display:block; padding:0 25px}
+.box_upload li{ 
+    list-style:circle; 
+	font-size:1.063em; 
+	line-height:25px;
+	padding:8px 0;
+	border-bottom:1px dashed #D5D5D5}
+.staff_main .btn_down, .project_main .btn_down, .sales_main .btn_down{
+	display:block;
+	float:right;
+	margin-top:15px}
+.post_info{ display:block; margin:-10px 0 30px 0}	
+.post_info li{ display:inline-block; margin-right:15px; font-size:.938em;}
+.post_info span{
+	padding:2px 15px;
+	background:#D5D5D5;
+	margin-right:10px;
+	text-shadow: 1px 1px 0px #EDEDED;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-o-border-radius: 8px;
+	-ms-border-radius: 8px;
+	border-radius: 8px}	
+
+/* 7. 聯絡我們
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+#box_main .company_info{ float:left; padding:0 15px 80px 0;}
+#box_main .company_info li{ padding:5px 0; border-bottom:1px dashed #D5D5D5}
+#box_main .company_info li span{ padding-left:47px;}
+#box_main .company_map{
+	display:block;
+	float:right;
+	width:465px;
+	border:1px solid #D5D5D5;
+	padding:5px}

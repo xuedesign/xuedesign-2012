@@ -1,0 +1,19 @@
+/**********************************************************************************************
+
+	Title: CSS for xuedeisgn
+	Author: Elmo Wu (by xuedesign studio)
+	Date: 2013 / 06  
+
+***********************************************************************************************/
+
+body{background: url(../images/bg_website.png) center top no-repeat}
+#wrap{
+	display:block;
+	width:994px;
+	margin:0 auto;
+	padding:0}
+#wrap img{ border:none}	
+header{ display:block; width:994px; height:368px; overflow:hidden}
+#main_content{ display:block; width:994px;}
+footer{ display:block; width:100%; height:151px; background:url(../images/bg_footer.png) repeat-x}
+footer img{ display:block; margin:0 auto}		

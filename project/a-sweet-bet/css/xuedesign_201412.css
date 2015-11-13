@@ -1,0 +1,517 @@
+/**********************************************************************************************
+
+	Title: CSS for NKUHT MicroMovie Site
+	Author: Elmo Wu (by xuedesign studio)
+	Author URL: http://www.xuedesign.tw/
+	Version: v1.0 (2014-12)
+
+***********************************************************************************************
+		1 通用
+		2.首頁
+		   2-1. 頂端列
+		   2-2. 主要內容區塊
+		   2-3. 首頁選單
+		   2-4. 版權列
+		3. 劇情介紹
+		4. 幕後花絮
+		5. 民航局業務
+		6. 連結		
+***********************************************************************************************/
+
+/* 1. 通用 
+===============================================================================================*/
+body{
+	font-family:"微軟正黑體","Microsoft JhengHei","新細明體","PMingLiU", Arial, Helvetica, sans-serif;
+	font-size:100%;
+	line-height:22px;
+	color:#333}
+a:link {text-decoration:underline; color:#00adee}
+a:visited {text-decoration:underline; color:#8c8c8c}
+a:hover {text-decoration:none; color:#F50}
+form{margin:0; padding:0}
+image{border:0}
+
+.clean{ clear:both}
+.hidden{ display:none}
+::selection {
+   background:#4b4608;
+   color:#fffcdb}
+::-moz-selection {
+   background:#4b4608;
+   color:#fffcdb}
+
+/* 2. 首頁  
+===============================================================================================*/
+#bg { position: fixed; top: 0; left: 0; }
+.bgwidth { width: 100%; }
+.bgheight { height: 100%; }
+#wrap{
+	display:block;
+	width:1240px;
+	margin:0 auto}
+#box_index{
+	display:block;
+	position: absolute;
+	top: 15px/*50%*/;
+    left: 50%;
+	width:1240px;
+	height:745px;
+	/*background:#FFF;*/
+	margin: /*-379px*/ 0 0 0 -620px;
+	-webkit-box-shadow: 0 0 20px #4E4E4E;
+    -moz-box-shadow: 0 0 20px #4E4E4E;
+    box-shadow: 0 0 20px #4E4E4E;
+	-webkit-border-radius: 35px 35px 0px 0px;
+	-moz-border-radius: 35px 35px 0px 0px;
+	border-radius: 35px 35px 0px 0px}
+
+/* 2.1 頂端列 */	
+header{
+	display:block;
+	position:relative;
+	width:1240px;
+	height:100px;
+	padding-top:15px;
+	background:url(../images/bg_headerblack.gif) repeat;
+	-webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    border-radius:30px}
+h1 a{
+	display:block;
+	position:absolute;
+	top:10px;
+	left:21px;
+	width:270px;
+	height:90px;
+	background:url(../images/pic_h1.gif) no-repeat;
+	text-indent:-9999px}
+
+/* 2.2 主要內容區塊 */		
+#box_content{
+	display:block;
+	position:relative;
+	width:1240px;
+	height:541px}
+#box_content h3{margin:0;padding:0}	
+#box_content h3 a{
+	display:block;
+	position:absolute;
+	top:405px;
+	left:510px;
+	z-index:999;
+	width:210px;
+	height:190px;
+	background:url(../images/pic_logo.png);
+	text-indent:-9999px}
+/*#box_content h2{
+	display:block;
+	position:absolute;
+	top:35px;
+	left:32px;
+	z-index:99;
+	width:544px;
+	height:179px;
+	text-indent:-9999px;
+	background:url(../images/pic_h2.gif) no-repeat}
+#box_content h3{
+	display:block;
+	position:absolute;
+	top:280px;
+	left:115px;
+	z-index:99;
+	width:269px;
+	height:56px;
+	background:url(../images/pic_h3.png) no-repeat;
+	text-indent:-9999px}*/
+#box_file{
+	display:block;
+	float:right;
+	width:624px;
+	height:541px;
+	background:url(../images/pic_index-01.jpg) no-repeat;
+	-webkit-border-radius: 0px 35px 0px 0px;
+	-moz-border-radius: 0px 35px 0px 0px;
+	border-radius: 0px 35px 0px 0px;
+	text-indent:-9999px}
+#box_file2{
+	display:block;
+	float:left;
+	width:616px;
+	height:541px;
+	background:url(../images/pic_index-02.jpg) no-repeat;
+	-webkit-border-radius: 35px 0px 0px 0px;
+	-moz-border-radius: 35px 0px 0px 0px;
+	border-radius: 35px 0px 0px 0px;
+	text-indent:-9999px}
+#box_file:hover{
+	width:624px;
+	height:541px;
+	background:url(../images/pic_index-01.jpg) 0 -541px no-repeat}
+#box_file2:hover{
+	width:616px;
+	height:541px;
+	background:url(../images/pic_index-02.jpg) 0 -541px no-repeat}
+
+/* 2.3 首頁選單 */		
+#box_menu{
+	display:block;
+	width:1240px;
+	height:171px;
+	background:url(../images/pic_index-03.jpg) no-repeat}
+#box_menu ul{
+	display:block;
+	margin:0;
+	padding:115px 0 0 380px}
+#box_menu li a{
+	display: block;
+	float:left;
+	width:95px;
+	height:20px;
+	margin:0 10px;
+	text-indent:-9999px;
+	background:url(../images/btn_nav-01.png) no-repeat}
+#box_menu a.nav_01{ background-position: 0 0}
+#box_menu a.nav_01:hover{ background-position: 0 -80px}
+#box_menu a.nav_02{ background-position: 0 -20px}
+#box_menu a.nav_02:hover{ background-position: 0 -100px}
+#box_menu a.nav_03{ background-position: 0 -40px; margin-left:20px}
+#box_menu a.nav_03:hover{ background-position: 0 -120px}
+#box_menu a.nav_04{ background-position: 0 -60px}
+#box_menu a.nav_04:hover{ background-position: 0 -140px}
+
+#box_aside a.nav_01{ background-position: 0 0}
+#box_aside a.nav_01:hover{ background-position: 0 -36px}
+#box_aside a.nav_02{ background-position: 0 -72px}
+#box_aside a.nav_02:hover{ background-position: 0 -108px}
+#box_aside a.nav_03{ background-position: 0 -144px}
+#box_aside a.nav_03:hover{ background-position: 0 -180px}
+#box_aside a.nav_04{ background-position: 0 -216px}
+#box_aside a.nav_04:hover{ background-position: 0 -250px}
+#box_aside a.nav_05{ background-position: 0 -288px}
+#box_aside a.nav_05:hover{ background-position: 0 -324px}
+
+/* 2.4 版權列 */					
+footer{
+	clear:both;
+	display:block;
+	position:relative;
+	width:1240px;
+	height:46px;
+	background:url(../images/bg_footer.png) repeat-x}
+footer p{
+	text-align:center;
+	font-size:0.813em;
+	color:#fff;
+	margin:0;
+	padding:0;
+	line-height:46px}
+footer .txt_ad{
+	display:block;
+	position:absolute;
+	top:14px;
+	right:48px;
+	width:52px;
+	height:24px;
+	background:url(../images/pic_ad.png) no-repeat;
+	text-indent:-9999px}			
+	
+/* 3. 劇情介紹  
+===============================================================================================*/
+#box_container{
+	display:block;
+	position: absolute;
+	top: 15px;
+    left: 50%;
+	width:1240px;
+	margin: 0 0 0 -620px}
+#box_container h2{
+	display:block;
+	position:absolute;
+	top:10px;
+	right:48px;
+	background:url(../images/pic_h2.gif) no-repeat;
+	width:481px;
+	height:90px;
+	text-indent:-9999px;
+	margin:0;
+	padding:0}
+#box_subcontent{
+	display:block;
+	width:1240px;
+	background:url(../images/bg_pageback.jpg) repeat-y;
+	-webkit-border-radius: 35px 35px 0px 0px;
+    -moz-border-radius: 35px 35px 0px 0px;
+	border-radius: 35px 35px 0px 0px}
+#box_aside{
+	display:block;
+	float:left;
+	width:310px;
+	height:580px;
+	background:url(../images/bg_navback.gif);
+	-webkit-border-radius: 35px 0px 0px 0px;
+	-moz-border-radius: 35px 0px 0px 0px;
+	border-radius: 35px 0px 0px 0px}
+#box_aside ul{
+	display:block;
+	width:210px;
+	padding:0 0 0 100px}
+#box_aside li{
+	display:block;
+	width:200px;
+	height:59px;
+	background:url(../images/bg_navline.png) bottom no-repeat;
+	padding:25px 0 0 10px}	
+#box_aside li a{
+	display: block;
+	float:left;
+	width:150px;
+	height:36px;
+	text-indent:-9999px;
+	background:url(../images/btn_nav.png) no-repeat;
+	margin-bottom:23px}	
+#box_pagemain{
+	display:block;
+	position:relative;
+	float:right;
+	width:925px;
+	min-height:500px;
+	background:url(../images/bg_pageQR.gif) 0 100px no-repeat}
+#box_pagemain h3{
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	background: url(../images/bg_pagetitle.png) no-repeat;
+	width:94px;
+	height:100px;
+	margin:0;
+	text-indent:-9999px}
+#box_pagemain .title_01{ background-position:0 0}
+#box_pagemain .title_02{ background-position:0 -100px}
+#box_pagemain .title_03{ background-position:0 -200px}
+#box_pagemain .title_04{ background-position:0 -300px}		
+#box_pageinfo{
+	display: block;
+	padding: 30px 130px 10px 170px}
+#box_pageinfo h4{ margin:0}
+#box_pageinfo p{ 
+    font-size:100%;
+    line-height:25px}	
+#box_pageinfo .page_story{ margin:0}
+.page_story h4{
+	display:block;
+	position:absolute;
+	top:20px;
+	left:20px;
+	text-indent:-9999px;
+	background:url(../images/pic_h4.png) no-repeat;
+	width:320px;
+	height:120px}
+.page_story .btn_play{
+	display:block;
+	position:absolute;
+	top:55px;
+	right:65px;
+	background: url(../images/btn_subplay.png) no-repeat;
+	width:104px;
+	height:30px;
+	text-indent:-9999px}
+.page_story .btn_play:hover{ background-position: 0 -30px}
+.story_main{ 
+    display:block;
+	position:relative;
+	padding:130px 50px 30px 80px;
+	margin-bottom:50px;
+	background:url(../images/bg_mainback.png) 0 0 repeat-x;
+	border:2px solid #2291de;
+	-webkit-border-radius: 35px;
+	-moz-border-radius: 35px;
+	border-radius: 35px;}
+.story_main .storytitle_01{background-position:0 0}
+.story_main .storytitle_02{background-position:0 -120px}
+/*#box_pageinfo h5{
+	text-indent:-9999px;
+	background:url(../images/bg_subtitle.png) no-repeat}
+#box_pageinfo .outline{background-position:0 0}
+#box_pageinfo .introduction{background-position:0 -25px}
+.my_table{
+	display:block;
+	width:463px;
+	margin-bottom:10px;
+	font-size:0.875em}
+.my_table td{ padding:3px}
+.my_table .tdtop{ vertical-align:top}
+.my_table .fu{ padding-right:7px}*/				 	 	
+			
+/* 4. 幕後花絮 
+===============================================================================================*/
+/*.box_stills{
+	display:block;
+	width:763px;
+	padding-right:50px}
+.box_stills h4{
+	font-size:1em;
+	letter-spacing:1px;
+	margin:10px 0 0 0}*/
+.story_main ul{ margin:0; padding:0}
+.story_main ul li{
+	display: inline-block;
+	/*float:left;*/
+	width:110px;
+	height:110px;
+	background:#FFF;
+	margin:5px 14px;
+	list-style:none;
+	overflow:hidden;
+	padding:3px;
+	border:1px solid #B4BFCD}
+.subtitle{
+	display:block;
+	height:25px;
+	text-indent:-9999px;
+	background: url(../images/bg_subtitle.png) no-repeat}
+.st-01{
+	width:90px;
+	background-position: 0 0}
+.st-02{
+	width:90px;
+	background-position: 0 -25px}
+.st-03{
+	width:140px;
+	background-position: 0 -50px}
+.st-04{
+	width:90px;
+	background-position: 0 -75px}
+/*.st-05{
+	width:60px;
+	background-position: 0 -100px}
+.st-06{
+	width:80px;
+	background-position: 0 -125px}
+.st-07{
+	width:60px;
+	background-position: 0 -150px}
+.st-08{
+	width:80px;
+	background-position: 0 -175px}
+.st-09{
+	width:60px;
+	background-position: 0 -200px}
+.st-10{
+	width:60px;
+	background-position: 0 -225px}
+.st-11{
+	width:60px;
+	background-position: 0 -250px}
+.st-12{
+	width:90px;
+	background-position: 0 -275px}
+.st-13{
+	width:135px;
+	background-position: 0 -300px}		
+.st-14{
+	width:135px;
+	background-position: 0 -325px}
+.st-15{
+	width:242px;
+	background-position: 0 -350px}
+.st-16{
+	width:242px;
+	background-position: 0 -375px}
+.st-17{
+	width:242px;
+	background-position: 0 -400px}*/					
+.box_film{
+	display:block;
+	width:710px;
+	height:399px;
+	padding:15px 0 15px 24px}
+.box_film-02{
+	display:block;
+	width:657px;
+	height:369px;
+	padding:15px 0 30px 40px}	
+
+/* 5. 民航局業務 
+===============================================================================================*/
+.story_main ol li{
+	padding:15px 0;
+	border-bottom:1px dashed #B4BFCD}
+/*#box_process li{
+	list-style:none;
+	display:block;
+	position:relative;
+	width:650px;
+	min-height:100px;
+	border:3px solid #8D980B;
+	margin-bottom:30px}
+#box_process .arrow_b_int{
+	width:0px;
+	height:0px;
+	border-width:15px;
+	border-style:solid;
+	border-color:#8D980B transparent transparent transparent ;
+	position:absolute;
+	bottom:-30px;
+	left:290px}
+#box_process .arrow_b_out{
+	width:0px;
+	height:0px;
+	border-width:15px;
+	border-style:solid;
+	border-color:#FAF7D5 transparent transparent transparent;
+	position:absolute;
+	bottom:-25px;
+	left:290px}
+#box_process .photo_process{
+	display:block;
+	position:absolute;
+	top:0;
+	right:0;
+	width:125px;
+	height:125px}
+#box_process .txt_padrig{ height:75px; padding-right:115px}			
+#box_process h5{ margin:5px 0 0 5px; padding:0}
+#box_process p{
+	font-size:0.938em;
+	line-height:25px;
+	padding-left:25px;
+	margin:5px 25px 15px 0}	*/
+
+/* 6. 連結  
+===============================================================================================*/
+#box_link{
+	display:inline-block;
+	padding:20px 30px 0 0;}
+#box_link .linkhover{
+	display:block;
+	text-decoration:none}
+#box_link .link_text{
+	display:block;
+	width:130px;
+	height:30px;
+	padding:10px 0;
+	text-align:center}
+#box_link a{color:#333}
+#box_link a:hover{color:#a3ab33}
+.link_01{display:block;width:130px;height:130px;text-indent:-9999px;background:url(../images/btn_link.png) 0 0}
+.link_02{display:block;width:130px;height:130px;text-indent:-9999px;background:url(../images/btn_link.png) 0 -130px}
+.link_03{display:block;width:130px;height:130px;text-indent:-9999px;background:url(../images/btn_link.png) 0 -260px}
+/*#box_link ul{
+	display:block;
+	padding:0 50px 30px 0}
+#box_link li{
+	display: inline-block;
+	width:160px;
+	height:160px;
+	font-size:0.938em;
+	line-height:25px;
+	margin:0 10px 0 25px;
+	border-bottom:1px dashed #4b4608}
+#box_link li a:link {
+	display:block;
+	width:160px;
+	height:160px;
+	background:url(../images/btn_link.png) no-repeat}
+#box_link li a:visited {text-decoration:none; color:#8c8c8c}
+#box_link li a:hover {text-decoration:none; color:#F50}*/

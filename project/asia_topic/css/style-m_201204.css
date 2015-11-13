@@ -1,0 +1,642 @@
+/**********************************************************************************************
+	Title: CSS for xuedeisgn
+	Author: Elmo Wu (by xuedesign studio)
+	Date: 2012/04
+	----------------------------------------------
+	1.通用
+	  1.1 會員登入
+	  1.2 轉寄頁面
+	  
+	2.列表頁
+	  2.1 版權列佈局
+	  2.2 置頂浮動選單
+	  2.3 頁首區塊
+	  2.4 左側區塊
+	  2.5 主要內容
+	  2.6 留言區塊
+	
+	3.公開課程
+	  3.1 報名洽詢欄位 
+	
+***********************************************************************************************/
+
+/* 1. 通用 
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+body{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:100%;
+	line-height:20px;
+	color:#777;
+	background:url(../images/bg_website2.jpg) top center no-repeat}
+a:link {text-decoration:underline; color:#bf9229}
+a:visited {text-decoration:underline; color:#666}
+a:hover {text-decoration:none; color:#F40}
+form{margin:0; padding:0}
+image{border:0}
+
+.clean{ clear:both}
+.hidden{ display:none}
+.txt_blue{
+	font-size:1.25em;
+	color:#0A7AA3}
+.txt_red{ color:#F50}
+.fontt{ font-size:0.813em}
+
+/*1.1 登入區塊---------------------------*/
+#login{
+	display:none;
+	width:448px;
+	height:248px;
+	background:url(../images/bg_login.jpg) no-repeat;
+	font-size:0.813em;
+	color:#5c5959;}
+#login h3{ display:none}
+#login p{
+	font-size:1em;
+	line-height:20px;
+	color:#FFF;}
+#login .logtxt{text-align:center; padding-top:8px}
+#login .flog{ text-align: right; padding:3px 50px 8px 0}
+.loginbox{
+	margin:5px 0 0 80px}
+.loginbox td{
+	padding:5px;
+	vertical-align:middle}
+.loginbox .tdrrt{ text-align:right}
+#login a:link {text-decoration:none; color:#f96565}
+#login a:visited {text-decoration:none; color:#666}
+#login a:hover {text-decoration:none; color:#F50}
+.btn_send2{
+	display:block;
+	background:url(../images/btn_gray2.png) no-repeat;
+	width:103px;
+	height:34px;
+	border:none;
+	text-align:center;
+	color:#656565;
+	font-size:1em;
+	font-weight:bold;
+	margin:0 auto;
+	cursor:pointer}
+.btn_send2:hover{text-decoration:none; color:#F50; cursor:pointer}
+
+/*1.2 轉寄頁面---------------------------*/
+#sendbox{
+	display:none;
+	width:448px;
+	height:262px;
+	background:url(../images/bg_sendbox.jpg) no-repeat;
+	font-size:0.813em;
+	color:#5c5959;}
+#sendbox h3{ display:none}
+#sendbox p{
+	font-size:1em;
+	line-height:20px;
+	color:#FFF;}
+#sendbox .logtxt{text-align:center; padding-top:8px}
+#sendbox .flog{ text-align: right; padding:3px 50px 8px 0}
+#sendbox a:link {text-decoration:none; color:#f96565}
+#sendbox a:visited {text-decoration:none; color:#666}
+#sendbox a:hover {text-decoration:none; color:#F50}
+.flppt{ float:left; margin-right:15px}
+.btn_down{
+	display:block;
+	width:237px;
+	margin:15px 0 0 130px}
+
+/* 2. 列表頁
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+
+/*2.1 版權列佈局---------------------------*/
+html, body, #wrap {height: 100%;}
+body > #wrap {height: auto; min-height: 100%;}
+#wrap{}
+#main_content{
+	display:block;
+	width:994px;
+	margin:0 auto;
+	padding-bottom:185px}
+.clearfix:after {content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+#copyright{ 
+    display:block;
+    width:100%;
+    background: url(../images/bg_footer.png);
+    margin-top: -185px;
+    height:185px; 
+    clear:both}
+#main_foot{
+	display:block;
+	width:900px;
+	height:185px;
+	margin:0 auto;
+	padding:0 47px 0}
+.sub_nav{
+	display:block;
+	float:left;
+	width:300px;
+	height:130px;
+	background:url(../images/bg_sub_nav.png) 0 50px no-repeat;
+	padding-top:20px}
+.sub_nav h3{
+	font-size:1em;
+	color:#384b5a;
+	letter-spacing:1px}
+.sub_nav p{
+	font-size:0.813em;
+	line-height:22px}
+.sub_nav a:link {text-decoration:none; color:#717680}
+.sub_nav a:visited {text-decoration:none; color:#666}
+.sub_nav a:hover {text-decoration:none; color:#F50}
+.snav_box{
+	display:block;
+	float:left;
+	width:90px;
+	padding:8px 0 0 10px}
+.copyright{
+	font-size:0.75em;
+	padding-top:10px;
+	text-align: center;
+	color:#5A5E61}	
+
+/*2.2 置頂浮動選單---------------------------*/
+#toTop {
+	display:none;
+	text-decoration:none;
+	position:fixed;
+	bottom:185px;
+	right:10px;
+	overflow:hidden;
+	width:57px;
+	height:57px;
+	border:none;
+	text-indent:-999px;
+	background:url(../images/btn_totop.png) no-repeat left top}
+#toTopHover {
+	background:url(../images/btn_totop.png) no-repeat left -57px;
+	width:57px;
+	height:57px;
+	display:block;
+	overflow:hidden;
+	float:left;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0)}
+#toTop:active, #toTop:focus {outline:none}
+
+/*2.3 頁首區塊---------------------------*/
+#top_box{display:block; position:relative; width:962px; padding:0 16px}
+#bmaker	{
+	display:block;
+	position:absolute;
+	top:311px;
+	left:17px;
+	z-index:100;
+	width:962px;
+	height:20px}
+#top_one{
+	display:block;
+	width:962px;
+	height:31px;
+	padding-top:24px;
+	margin-bottom:18px}
+#logo{
+	display:block;
+	float:left;
+	width:469px;
+	padding-left:12px}
+#logo h1 a{
+	display:block;
+	background:url(../images/logo.png) no-repeat;
+	width:197px;
+	height:37px;
+	text-indent:-9999px}	
+#member{
+	display:block;
+	float:right;
+	width:469px;
+	text-align:right;
+	font-size:0.75em;
+	color:#333;
+	padding-right:12px}
+#member a:link {text-decoration:none; color:#c9151d}
+#member a:visited {text-decoration:none; color:#666}
+#member a:hover {text-decoration:none; color:#F50}
+
+#title_bar{
+	clear:both;
+	display:block;
+	width:962px;
+	height:36px;
+	background:url(../images/bg_titlebar.png) no-repeat}
+#title_bar .page_title{
+	display:block;
+	float:left;
+	width:371px;
+	padding:6px 0 0 110px}
+#title_bar .page_title h2{ padding-top:3px; letter-spacing:1px}	
+#title_bar .share_btn{
+	display:block;
+	float:right;
+	width:201px;
+	padding:8px 0 0 280px}
+.btn_fb, .btn_gplus{
+	display:block; width:100px; height:24px; float:left}
+.btn_fb{ padding-top:2px}
+.btn_gplus{}	
+	
+#banner{
+	clear:both;
+	display:block;
+	/*position:relative;*/
+	width:962px;
+	height:222px;
+	overflow:hidden}	
+	
+/*2.4 左側區塊---------------------------*/
+#contenter{
+	display:block;
+	width:962px;
+	padding-top:30px;
+	margin:0 auto}
+#cont_left{
+	display:block;
+	float:left;
+	width:186px;
+	padding:0 27px 0 0}
+#quick_nav{
+	display:block;
+	width:186px;
+	padding-bottom:20px}
+#quick_nav h3{
+	display:block;
+	width:186px;
+	height:47px;
+	background:url(../images/bg_quicknav.png) no-repeat;
+	text-indent:-9999px}
+.menu_list { display:block; width: 181px; margin:0 auto}
+.menu_head, .menu_head2{
+	display:block;
+	width:161px;
+	height:20px;
+	padding: 5px 10px;
+	cursor: pointer;
+	position: relative;
+	margin:5px 0;
+	font-size:0.938em;
+    font-weight:bold;
+    color:#939596}
+.menu_head{background:url(../images/left.png) no-repeat;}	
+.menu_head:focus{ color:#0FC}
+.menu_head2 { margin-left:2px; background:url(../images/left_2.png) no-repeat;}
+.menu_head2 a:link {text-decoration:none; color:#939596}
+.menu_head2 a:visited {text-decoration:none; color:#939596}
+.menu_head2 a:hover {text-decoration:none; color:#939596}	
+
+.menu_body {display:none; background:#fff}
+.menu_body ol{display: block; background:#fff}
+.menu_body li{
+	display:block;
+	width:147px;
+	margin:5px auto;
+	font-size:0.813em;
+	line-height:18px;
+	list-style:circle;
+	padding:0 0 5px 23px;
+	background:url(../images/bg_menulist.png) repeat-y;
+	border-bottom:1px dotted #D6D6D6}
+.menu_body a{
+	color:#0058a6;
+	text-decoration:none;}
+.menu_body a:visited {
+	text-decoration:underline; 
+	color:#666}	
+.menu_body a:hover{
+    color: #f50;
+    text-decoration:none;}	
+
+#banner_list ul{ padding-bottom:20px}
+#banner_list li{padding-bottom:15px}
+
+/*2.5 主要內容---------------------------*/
+#cont_right{
+	display:block;
+	float:right;
+	width:730px}
+#tool_bar{ display:block; height:40px;}
+#tool_bar ul{  /*padding-left:460px*/}
+#tool_bar li{float:right}
+#tool_bar .tool_fav a{
+	display:block;
+	width:40px;
+	height:25px;
+	background: url(../images/icon.png) no-repeat;
+	padding:5px 0 0 30px;
+	font-size:1em;
+	color:#7a7a7a;
+	text-decoration:none}
+#tool_bar .tool_fav a:hover{
+	background: url(../images/icon.png) 0 -30px no-repeat;
+	color:#f50;}
+#tool_bar .tool_send a{
+	display:block;
+	width:40px;
+	height:25px;
+	background: url(../images/icon.png) 0 -60px no-repeat;
+	padding:5px 0 0 30px;
+	font-size:1em;
+	color:#7a7a7a;
+	text-decoration:none}
+#tool_bar .tool_send a:hover{
+	background: url(../images/icon.png) 0 -90px no-repeat;
+	color:#f50;}
+#tool_bar .tool_download a{
+	display:block;
+	width:60px;
+	height:25px;
+	background: url(../images/icon.png) 0 -120px no-repeat;
+	padding:5px 0 0 30px;
+	font-size:1em;
+	color:#7a7a7a;
+	text-decoration:none}
+#tool_bar .tool_download a:hover{
+	background: url(../images/icon.png) 0 -150px no-repeat;
+	color:#f50;}
+
+#page_info{
+	display:block;
+	width:730px;}
+#page_info h3{
+	font-size:1.438em;
+	color:#0f8ed3;
+	padding-bottom:15px}
+
+.class_item{
+	font-size:0.813em;
+	line-height:23px;
+	padding-bottom:10px}
+.class_item p{ padding:3px 0}	
+.class_item a:link {text-decoration:none; color:#0058a6}
+.class_item a:visited {text-decoration:none; color:#666}
+.class_item a:hover {text-decoration:none; color:#F50}
+.item_foto, item_txt{ display:block; float:left}
+.item_foto{ position:relative}
+.item_foto p{ 
+    display:block; 
+	position:absolute; 
+	top:109px;
+	left:5px;
+	font-size:0.875em; 
+	width:90px; 
+	height:22px;
+	background:url(../images/bg_ttip.png) no-repeat;
+	text-align:center;
+	color:#CCC}	
+.item_foto img{ 
+    padding:5px; 
+	background:#FFF; 
+	border:1px solid #CCC}	
+.item_foto img{margin:0 15px 10px 0}
+
+#page_main{
+	display:block;
+	width:730px;}
+.main_top{
+	display:block;
+	background:url(../images/bg_maintop.png) no-repeat;
+	width:730px;
+	height:70px}
+.main_top h4{
+	display:block;
+	background:url(../images/icon_talk.png) 35px 25px no-repeat;
+	font-size:1em;
+	color:#FFF;
+	padding:25px 0 0 70px}	
+.main_top ul{
+	padding:13px 0 0 18px}
+.main_top li{
+	display:block;
+	float:left;
+	background:url(../images/bg_item.png) top right no-repeat;
+	width:73px;
+	height:31px;
+	padding:10px 0 0 10px;
+	margin-left:3px;
+	text-align: left}	
+.main_top a:link {text-decoration:none; color:#ddf0f9}
+.main_top a:visited {text-decoration:none; color:#fcfdfe}
+.main_top a:hover {text-decoration:none; color:#fcfdfe}
+#page_main .nobg{ display:block; background:none}
+.main_body{
+	display:block;
+	background:url(../images/bg_mainbody.png) repeat-y;
+	padding:0 12px}
+.item_title{
+	display:block;
+	background:url(../images/bg_item_title.png) no-repeat;
+	width:706px;
+	height:30px}
+.item_title2{
+	display:block;
+	background: url(../images/bg_messtitle.png) no-repeat;
+	width:706px;
+	height:30px}	
+.item_title h4{ font-size:0.938em; color:#267fac; padding:5px 0 0 40px}
+.item_title2 h4{ font-size:0.938em; color:#535352; padding:5px 0 0 45px}
+.item_title .floleft{ float:left}
+.item_title span{
+	display:block;
+	float:right;
+	background:url(../images/icon_arror.png) 0 3px no-repeat;
+	font-size:0.813em;
+	margin:4px 15px 0 0;
+	padding-left:20px}
+.item_title a:link {text-decoration:none; color:#979797}
+.item_title a:visited {text-decoration:none; color:#979797}
+.item_title a:hover {text-decoration:none; color:#f50}
+.item_txt2 {
+	display:block;
+	float:left;
+	width:458px;
+	padding-bottom:20px}
+.item_txt2 h5{
+	display:block;
+	background:url(../images/icon_tag.png) no-repeat;
+	width:69px;
+	height:16px;
+	font-size:0.875em;
+	line-height:15px;
+	font-weight:normal;
+	letter-spacing:1px;
+	color:#4293b4;
+	padding:2px 0 0 5px}
+.item_txt2 p{ padding-bottom:15px}	
+.item_tbox{
+	display:block;
+	width:640px;
+	font-size:0.813em;
+	line-height:22px;
+	margin-left:46px;
+	padding:15px 0}
+.main_foot{
+	display:block;
+	background:url(../images/bg_mainfoot.png) no-repeat;
+	width:730px;
+	height:38px;
+	margin-bottom:35px}
+
+/*2.6 留言區塊---------------------------*/
+#message_box{
+	width:580px}
+#message_box td{
+	padding:5px}
+.form_title{
+	float:left;
+	font-size:1em;
+	/*font-weight:bold;*/
+	color:#384b5a;
+	padding:3px 5px 0 0}
+.form_title2{
+	float:left;
+	font-size:1em;
+	/*font-weight:bold;*/
+	color:#384b5a;
+	padding:3px 10px 0 0;
+	letter-spacing:2px}	
+.form_title3{
+	float:left;
+	font-size:1em;
+	font-weight: normal;
+	color:#384b5a;
+	padding:3px 5px 0 0; 
+	letter-spacing:1px}	
+.text_area{
+	display:block;
+	border:none;
+	background: url(../images/bg_from_04.png) no-repeat;
+	width:198px;
+	height:30px;
+	padding:3px 10px;
+	font-size:1em;}	
+.text_area2{
+	display:block;
+	width:535px;
+	border:none;
+	font-size:1em;}
+.bg_text_area2{
+	display:block;
+	border:none;
+	background: url(../images/bg_from_03.png) no-repeat;
+	width:532px;
+	height:57px;
+	padding:10px}
+.text_area3{
+	display:block;
+	border:none;
+	background: url(../images/bg_from_05.png) no-repeat;
+	width:480px;
+	height:30px;
+	padding:3px 10px;
+	font-size:1em;}
+.text_area4{
+	display:block;
+	float:left;
+	border:none;
+	background: url(../images/bg_from_06.png) no-repeat;
+	width:260px;
+	height:30px;
+	padding:3px 10px;
+	font-size:1em;}
+.text_area5{
+	border:none;
+	background: url(../images/bg_from_06.png) no-repeat;
+	width:260px;
+	height:30px;
+	padding:5px 10px;
+	font-size:1em;}
+.text_area6{
+	border:none;
+	background: url(../images/bg_from_07.png) no-repeat;
+	width:79px;
+	height:30px;
+	padding:5px 10px;
+	font-size:1em;}		
+.btn_send{
+	display:block;
+	background:url(../images/btn_gray.png) no-repeat;
+	width:120px;
+	height:35px;
+	border:none;
+	text-align:center;
+	color:#656565;
+	font-size:1em;
+	font-weight:bold;
+	margin:10px auto;
+	cursor:pointer}
+.btn_send:hover {text-decoration:none; color:#F50; cursor:pointer}	
+.pic_rr{
+	display:block;
+	float: left}
+.item_auther{
+	display:block;
+	padding:15px 0;
+	font-size:1em;
+	text-align:right;
+	color:#F60}
+.item_class{
+	display:block;
+	padding:10px 0 10px 8px}
+
+/* 3. 公開課程
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+/*3.1 報名洽詢欄位---------------------------*/
+#profile_box{width:580px; margin:10px 0; border-bottom:1px dashed #CCC}
+#profile_box td{padding:5px}
+.people{ float: right; margin-right:55px}
+
+.item_title3{
+	display:block;
+	background: url(../images/bg_bluebar.png) no-repeat;
+	width:706px;}	
+.item_title3 h4{ display:none}
+.abgne_tab ul{
+	padding:0 0 15px 15px}
+.abgne_tab li{
+	display:block;
+	float:left}
+.active, .inactive{
+	display:block;
+	width:125px;
+	height:30px;
+	cursor:pointer}	
+.active{
+	font-size:0.938em;
+	font-weight:bold;
+	color:#267fac;
+	letter-spacing:1px;
+	background:url(../images/tab_active.png) no-repeat;}
+.inactive{
+	font-size:0.813em;
+	font-weight:normal;
+	color:#267fac;
+	background:url(../images/tab_inactive.png) no-repeat}
+.incon_01{
+	display:block;
+	background:url(../images/icon_tabin-2.png) 15px 11px no-repeat;
+	padding:10px 0 0 35px}
+.incon_02{
+	display:block;
+	background:url(../images/icon_tabin-1.png) 13px 11px no-repeat;
+	padding:10px 0 0 35px}

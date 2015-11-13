@@ -1,0 +1,576 @@
+/**********************************************************************************************
+	Title: CSS for xuedeisgn
+	Author: Elmo Wu (by xuedesign studio)
+	Date: 2012/04
+	----------------------------------------------
+	1.通用
+	  1.1 登入區塊
+	  1.2 頁面轉寄
+	  
+	2.列表頁
+	  2.1 版權列佈局
+	  2.2 置頂浮動選單
+	  2.3 頁首區塊
+	  2.4 左側區塊
+	  2.5 主要內容
+	  2.6 留言區塊	
+***********************************************************************************************/
+
+/* 1. 通用 
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+body{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:100%;
+	line-height:20px;
+	color:#777;
+	background:url(../images/bg_website.jpg) top center no-repeat}
+a:link {text-decoration:underline; color:#bf9229}
+a:visited {text-decoration:underline; color:#666}
+a:hover {text-decoration:none; color:#F40}
+form{margin:0; padding:0}
+image{border:0}
+
+.clean{ clear:both}
+.hidden{ display:none}
+
+/*1.1 登入區塊---------------------------*/
+#login{
+	display:none;
+	width:448px;
+	height:248px;
+	background:url(../images/bg_login.jpg) no-repeat;
+	font-size:0.813em;
+	color:#5c5959;}
+#login h3{ display:none}
+#login p{
+	font-size:1em;
+	line-height:20px;
+	color:#FFF;}
+#login .logtxt{text-align:center; padding-top:8px}
+#login .flog{ text-align: right; padding:3px 50px 8px 0}
+.loginbox{
+	margin:5px 0 0 80px}
+.loginbox td{
+	padding:5px;
+	vertical-align:middle}
+.loginbox .tdrrt{ text-align:right}
+#login a:link {text-decoration:none; color:#f96565}
+#login a:visited {text-decoration:none; color:#666}
+#login a:hover {text-decoration:none; color:#F50}
+.text_area4{
+	display:block;
+	float:left;
+	border:none;
+	background: url(../images/bg_from_06.png) no-repeat;
+	width:260px;
+	height:30px;
+	padding:3px 10px;
+	font-size:1em;}
+.btn_send2{
+	display:block;
+	background:url(../images/btn_gray2.png) no-repeat;
+	width:103px;
+	height:34px;
+	border:none;
+	text-align:center;
+	color:#656565;
+	font-size:1em;
+	font-weight:bold;
+	margin:0 auto;
+	cursor:pointer}
+.btn_send2:hover{text-decoration:none; color:#F50; cursor:pointer}
+
+/*1.2 轉寄頁面---------------------------*/
+#sendbox{
+	display:none;
+	width:448px;
+	height:262px;
+	background:url(../images/bg_sendbox.jpg) no-repeat;
+	font-size:0.813em;
+	color:#5c5959;}
+#sendbox h3{ display:none}
+#sendbox p{
+	font-size:1em;
+	line-height:20px;
+	color:#FFF;}
+#sendbox .logtxt{text-align:center; padding-top:8px}
+#sendbox .flog{ text-align: right; padding:3px 50px 8px 0}
+#sendbox a:link {text-decoration:none; color:#f96565}
+#sendbox a:visited {text-decoration:none; color:#666}
+#sendbox a:hover {text-decoration:none; color:#F50}
+.flppt{ float:left; margin-right:15px}
+.btn_down{
+	display:block;
+	width:237px;
+	margin:15px 0 0 130px}
+
+/* 2. 列表頁
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+
+/*2.1 版權列佈局---------------------------*/
+html, body, #wrap {height: 100%;}
+body > #wrap {height: auto; min-height: 100%;}
+#wrap{}
+#main_content{
+	display:block;
+	width:994px;
+	margin:0 auto;
+	padding-bottom:185px}
+.clearfix:after {content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+#copyright{ 
+    display:block;
+    width:100%;
+    background: url(../images/bg_footer.png);
+    margin-top: -185px;
+    height:185px; 
+    clear:both}
+#main_foot{
+	display:block;
+	width:900px;
+	height:185px;
+	margin:0 auto;
+	padding:0 47px 0}
+.sub_nav{
+	display:block;
+	float:left;
+	width:300px;
+	height:130px;
+	background:url(../images/bg_sub_nav.png) 0 50px no-repeat;
+	padding-top:20px}
+.sub_nav h3{
+	font-size:1em;
+	color:#384b5a;
+	letter-spacing:1px}
+.sub_nav p{
+	font-size:0.813em;
+	line-height:22px}
+.sub_nav a:link {text-decoration:none; color:#717680}
+.sub_nav a:visited {text-decoration:none; color:#666}
+.sub_nav a:hover {text-decoration:none; color:#F50}
+.snav_box{
+	display:block;
+	float:left;
+	width:90px;
+	padding:8px 0 0 10px}
+.copyright{
+	font-size:0.75em;
+	padding-top:10px;
+	text-align: center;
+	color:#5A5E61}	
+
+/*2.2 置頂浮動選單---------------------------*/
+#toTop {
+	display:none;
+	text-decoration:none;
+	position:fixed;
+	bottom:185px;
+	right:10px;
+	overflow:hidden;
+	width:57px;
+	height:57px;
+	border:none;
+	text-indent:-999px;
+	background:url(../images/btn_totop.png) no-repeat left top}
+#toTopHover {
+	background:url(../images/btn_totop.png) no-repeat left -57px;
+	width:57px;
+	height:57px;
+	display:block;
+	overflow:hidden;
+	float:left;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0)}
+#toTop:active, #toTop:focus {outline:none}
+
+/*2.3 頁首區塊---------------------------*/
+#top_box{display:block; position:relative; width:962px; padding:0 16px}
+#bmaker	{
+	display:block;
+	position:absolute;
+	top:391px;
+	left:17px;
+	z-index:100;
+	width:962px;
+	height:20px;
+	background:url(../images/pic_bannerteco.png) no-repeat}
+#top_one{
+	display:block;
+	width:962px;
+	height:31px;
+	padding-top:24px;
+	margin-bottom:18px}
+#logo{
+	display:block;
+	float:left;
+	width:469px;
+	padding-left:12px}
+#logo h1 a{
+	display:block;
+	background:url(../images/logo.png) no-repeat;
+	width:197px;
+	height:37px;
+	text-indent:-9999px}	
+#member{
+	display:block;
+	float:right;
+	width:469px;
+	text-align:right;
+	font-size:0.75em;
+	color:#333;
+	padding-right:12px}
+#member a:link {text-decoration:none; color:#c9151d}
+#member a:visited {text-decoration:none; color:#666}
+#member a:hover {text-decoration:none; color:#F50}
+
+#title_bar{
+	clear:both;
+	display:block;
+	width:962px;
+	height:36px;
+	background:url(../images/bg_titlebar.png) no-repeat}
+#title_bar .page_title{
+	display:block;
+	float:left;
+	width:371px;
+	padding:6px 0 0 110px}
+#title_bar .page_title h2{ padding-top:3px; letter-spacing:1px}	
+#title_bar .share_btn{
+	display:block;
+	float:right;
+	width:201px;
+	padding:8px 0 0 280px}
+.btn_fb, .btn_gplus{
+	display:block; width:100px; height:24px; float:left}
+.btn_fb{ padding-top:2px}
+.btn_gplus{}	
+	
+#banner{
+	clear:both;
+	display:block;
+	/*position:relative;*/
+	width:962px;
+	height:300px;
+	overflow:hidden}	
+	
+/*2.4 左側區塊---------------------------*/
+#contenter{
+	display:block;
+	width:962px;
+	padding-top:30px;
+	margin: 0 auto}
+#cont_left{
+	display:block;
+	float:left;
+	width:185px;
+	padding:0 20px 0 0}
+#plan_info{ display:block; padding-bottom:30px}
+#plan_info img{/* padding-bottom:15px*/}
+#plan_info img:hover, #plan_info img:active{
+	-webkit-box-shadow: 0 0 10px rgba(0, 125, 230, .8); 
+	-moz-box-shadow: 0 0 10px rgba(0, 125, 230, .8); 
+	box-shadow: 0 0 10px rgba(0, 125, 230, .8);
+	behavior: url(ie_css3.htc);
+	/*-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=6, Color='#6FA2D0')";*/}
+#plan_info p{
+	padding-top:15px;
+	font-size:0.813em;
+	line-height:20px;
+	color:#777;}
+#banner_list ul{ padding-bottom:20px}
+#banner_list li{padding-bottom:15px}
+
+/*2.5 主要內容---------------------------*/
+#cont_right{
+	display:block;
+	float:right;
+	width:745px;}
+#tool_bar{ height:40px}
+#tool_bar ul{ padding-left:519px}
+#tool_bar li{ float:left}
+#tool_bar .tool_fav a{
+	display:block;
+	width:40px;
+	height:25px;
+	background: url(../images/icon.png) no-repeat;
+	padding:5px 0 0 30px;
+	font-size:0.813em;
+	color:#7a7a7a;
+	text-decoration:none}
+#tool_bar .tool_fav a:hover{
+	background: url(../images/icon.png) 0 -30px no-repeat;
+	color:#f50;}
+#tool_bar .tool_send a{
+	display:block;
+	width:40px;
+	height:25px;
+	background: url(../images/icon.png) 0 -60px no-repeat;
+	padding:5px 0 0 30px;
+	font-size:0.813em;
+	color:#7a7a7a;
+	text-decoration:none}
+#tool_bar .tool_send a:hover{
+	background: url(../images/icon.png) 0 -90px no-repeat;
+	color:#f50;}
+#tool_bar .tool_download a{
+	display:block;
+	width:55px;
+	height:25px;
+	background: url(../images/icon.png) 0 -120px no-repeat;
+	padding:5px 0 0 30px;
+	font-size:0.813em;
+	color:#7a7a7a;
+	text-decoration:none}
+#tool_bar .tool_download a:hover{
+	background: url(../images/icon.png) 0 -150px no-repeat;
+	color:#f50;}
+
+#plan_info2{ display:block; width:745px; clear:both; margin-bottom:20px}
+#plan_info2 p{font-size:0.813em; line-height:22px; color:#777}
+
+#class_list{display:block; width:745px}
+#tab_bar{display:block; border-bottom:1px solid #eeeded; margin:0 auto /*margin:0 50px 15px 0*/}
+#tab_bar img{ float:left}
+.tab_title{
+	display:block;
+	float:left;
+	height:25px;
+	background:url(../images/bg_tab_02.png) repeat-x;
+	font-size:0.813em;
+	font-weight:bold;
+	color:#5d798c;
+	padding-top:10px}
+.tab_title a:link {text-decoration:none; color:#5d798c}
+.tab_title a:visited {text-decoration:none; color:#666}
+.tab_title a:hover {text-decoration:none; color:#F50}
+
+.classbox{ display:block; width:735px; margin:0 auto}
+/*.pics a:hover, a.pics:hover{
+	-webkit-box-shadow:#6FA2D0 0 0 10px; 
+	-moz-box-shadow:#6FA2D0 0 0 10px; 
+	box-shadow:#6FA2D0 0 0 10px;
+	behavior: url(PIE.htc);}*/
+.classbox img:hover{
+	-webkit-box-shadow:#67ACEA 0 0 10px; 
+	-moz-box-shadow:#67ACEA 0 0 10px; 
+	box-shadow:#67ACEA 0 0 10px;
+	behavior: url(PIE.htc);
+	/*-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=6, Color='#6FA2D0')";*/}
+.class_info{
+	display:block;
+	width:735px;
+	min-height:55px;
+	background:url(../images/bg_classtitle.png) no-repeat;
+	padding-top:22px}
+.class_info h3{
+	font-size:0.938em;
+	color:#FFF;
+	padding-left:30px;
+	letter-spacing:1px}
+.info_box{
+	display:block;
+	width:719px;
+	padding:15px 0 20px 20px;
+	font-size:0.813em;
+	line-height:22px}
+.info_box img{
+	display:block;
+	float:left;
+	padding:5px;
+	background:#FFF;
+	border:1px solid #CCC;
+	margin:0 15px 15px 0}
+
+.class_group{ 
+    display:block;
+	width:719px;
+	padding:0 0 0 20px}
+.item_title{
+	display:block;
+	padding:5px 0;
+	background:url(../images/icon_bookmark.jpg) 620px 0 no-repeat} 	
+.item_title h4{
+	font-size:0.938em; 
+	text-align: right;
+	letter-spacing:1px}
+.class_item{
+	font-size:0.813em;
+	line-height:23px;
+	padding-bottom:15px}
+.class_item h5{
+	font-size:1.25em;
+	font-weight:normal}
+.class_item p{ padding:3px 0}	
+.class_item a:link {text-decoration:none; color:#0058a6}
+.class_item a:visited {text-decoration:none; color:#666}
+.class_item a:hover {text-decoration:none; color:#F50}
+.item_foto, item_txt{ display:block; float:left}
+.item_txt2{ display:block; float:left; width:68%}
+.item_foto{ position:relative}
+.item_foto p{ 
+    display:block; 
+	position:absolute; 
+	top:109px;
+	left:5px;
+	font-size:0.875em; 
+	width:90px; 
+	height:22px;
+	background:url(../images/bg_ttip.png) no-repeat;
+	text-align:center;
+	color:#CCC}
+.item_foto2{ display:block; float:right}	
+.item_foto img, .item_foto2 img{ 
+    padding:5px; 
+	background:#FFF; 
+	border:1px solid #CCC}	
+.item_foto img{margin:0 15px 10px 0}
+.item_foto2 img{margin:0 0 10px 15px}	
+	
+.item_line{ 
+    display:block; 
+	width:612px; 
+	height:34px; 
+	margin:0 auto;
+	background:url(../images/bg_shdowline.png) no-repeat}
+.readmore{
+	display: inline-block;
+	width:62px;
+	height:18px;
+	background:url(../images/btn_readmore.png) no-repeat;
+	font-size:0.875em;
+	padding-left:10px;
+	line-height:18px}
+a.readmore:link {text-decoration:none; color:#858484}
+a.readmore:visited {text-decoration:none; color:#9a9a9a}
+a.readmore:hover {text-decoration:none; color:#F50}	
+.ttip{color:#df6603; padding:0 3px}	
+
+/*2.6 留言區塊---------------------------*/
+#message_box{
+	display:block;
+	width:650px;
+	margin:0 auto;
+	padding:20px 0}
+#message_box h3{
+	display:block;
+	background:url(../images/bg_message_title.png) no-repeat;
+	width:186px;
+	height:38px;
+	text-indent:-9999px}
+.message_form{
+	width:600px;
+	margin-left:58px}
+.message_form th{ vertical-align:middle}
+.message_form td{padding:5px; font-size:0.813em;}
+.text_area{
+	display:block;
+	border:none;
+	background:url(../images/bg_from_01.png) no-repeat;
+	width:462px;
+	height:20px;
+	padding:5px 10px;
+	font-size:1em;}
+.text_area2{
+	display:block;
+	width:455px;
+	height:140px;
+	border:none}	
+.bg_text_area2{
+	display:block;
+	border:none;
+	background:url(../images/bg_from_02.png) no-repeat;
+	width:458px;
+	height:155px;
+	padding:10px}
+.text_area3{
+	display:block;
+	border:none;
+	background: url(../images/bg_from_04.png) no-repeat;
+	width:198px;
+	height:30px;
+	padding:3px 10px;
+	font-size:1em;}		
+	
+.btn_send{
+	display:block;
+	background:url(../images/btn_gray.png) no-repeat;
+	width:120px;
+	height:35px;
+	border:none;
+	text-align:center;
+	color:#656565;
+	font-size:1em;
+	font-weight:bold;
+	margin:10px auto;
+	cursor:pointer}
+.btn_send:hover{text-decoration:none; color:#F50; cursor:pointer}
+
+#flashBg {
+	display:block;
+	clear: both;
+	width:962px;
+	height: 300px;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;}
+/*#flashLine {background: url(../images/touming.png) repeat-x center bottom;height: 388px;width: 100%;clear: both;}*/
+#flash{
+	clear: both;
+	display:block;
+	position: relative;
+	width: 962px;
+	height: 300px;
+	overflow: hidden;
+	margin: 0 auto;
+	padding:0;}
+#flash a {
+	width: 962px;
+	height: 300px;
+	/*display: none;*/}
+#flash img {width: 962px; height: 300px;}
+.flash_bar {
+	width:517px;
+	padding-left: 445px;
+	z-index: 69;
+	height: 17px;
+	overflow: hidden;
+	position: absolute;
+	padding-top: 26px!important;
+	padding-top: 25px;
+    bottom:0;
+	left:0;
+	text-align: center;}
+.flash_bar .dq {
+    display: block;
+	float: left;
+	width: 12px;
+	height: 12px;
+	margin:2px 4px;
+	cursor: pointer;
+	background: url(../images/pagination.png) no-repeat 0px -12px; 
+	overflow:hidden;
+    _background: none; 
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://vizo.retail20.cn/images/pagination.png" ,sizingMethod="crop");}
+.flash_bar .no {
+	display: block;
+	float: left;
+	width: 12px;
+	height: 12px;
+	margin:2px 4px;
+	cursor: pointer;
+    background:url(../images/pagination.png) no-repeat 0px 0px; 
+	overflow:hidden;
+    _background: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://vizo.retail20.cn/images/pagination.png" ,sizingMethod="crop");}

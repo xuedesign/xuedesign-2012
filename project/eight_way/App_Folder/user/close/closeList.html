@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><!-- InstanceBegin template="/Templates/page_temp.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8" lang="zh-tw">
+<meta name="Author" content="e-innovator" />
+<link rel="shortcut icon"  href="../images/favicon.ico"/>
+<link rel="icon" href="../images/favicon.ico"/>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>::八方雲集進銷存管理系統::</title>
+<!-- InstanceEndEditable -->
+<link rel="stylesheet" href="../../css/reset.css" />
+<link rel="stylesheet" href="../../css/xue-content_201311.css"/>
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<header>
+   <div class="btn_hide">
+     <span id="leftFrame_display">隱藏選單</span>
+     <input type="hidden" name="left_staus" id="left_staus" value="打開">
+   </div>  
+   <div class="box_loginfo">
+      歡迎登入，騰冠科技
+      <a href="#" title="登出" class="mybtn btn_red">登出</a>
+   </div>
+</header>
+
+
+<section class="main_content">
+<!-- InstanceBeginEditable name="main_content" -->
+  
+  <div class="page_title">
+      <h3 class="lay-left">店休列表</h3>
+      <ul class="lay-right">
+          <li><a href="#box_add" title="新增" class="mybtn btn_gray fancybox">新增</a></li>
+      </ul>
+  </div>
+   
+  
+  <link rel="stylesheet" href="../../css/jquery.fancybox.css"><!-- lightbox效果 -->
+  <script src="../../scripts/jquery.fancybox.pack.js"></script><!-- lightbox效果 -->
+  <script src="../../scripts/web_set.js"></script><!-- 綜合效果 -->
+  <div class="table-bg clean">
+    <table width="100%" class="mytable_list-02">
+      <thead>
+        <tr>
+          <th>店休日期</th>
+          <th>店名</th>
+          <th class="w100">取消</th>
+        </tr>
+      </thead>
+      <tbody>   
+        <tr>
+          <td>2013-12-15</td>
+          <td>中山店</td>
+          <td><input name="" type="button" class="btn_gray-02" value="取消"></td>
+        </tr>
+        <tr>
+          <td>2013-12-15</td>
+          <td>中山店</td>
+          <td><input name="" type="button" class="btn_gray-02" value="取消"></td>
+        </tr>
+        <tr>
+          <td>2013-12-15</td>
+          <td>中山店</td>
+          <td><input name="" type="button" class="btn_gray-02" value="取消"></td>
+        </tr>
+        <tr>
+          <td>2013-12-15</td>
+          <td>中山店</td>
+          <td><input name="" type="button" class="btn_gray-02" value="取消"></td>
+        </tr>
+        <tr>
+          <td>2013-12-15</td>
+          <td>中山店</td>
+          <td><input name="" type="button" class="btn_gray-02" value="取消"></td>
+        </tr>
+        <tr>
+          <td>2013-12-15</td>
+          <td>中山店</td>
+          <td><input name="" type="button" class="btn_gray-02" value="取消"></td>
+        </tr>
+        <tr>
+          <td>2013-12-15</td>
+          <td>中山店</td>
+          <td><input name="" type="button" class="btn_gray-02" value="取消"></td>
+        </tr>
+        <tr>
+          <td>2013-12-15</td>
+          <td>中山店</td>
+          <td><input name="" type="button" class="btn_gray-02" value="取消"></td>
+        </tr>
+        <tr>
+          <td>2013-12-15</td>
+          <td>中山店</td>
+          <td><input name="" type="button" class="btn_gray-02" value="取消"></td>
+        </tr>
+        <tr>
+          <td>2013-12-15</td>
+          <td>中山店</td>
+          <td><input name="" type="button" class="btn_gray-02" value="取消"></td>
+        </tr>
+       </tbody>
+      </table>
+    </div>
+    
+    <div class="sabrosus"><!-- 頁碼組 -->
+        <span class="disabled">上一頁</span>
+        <span class="current">1</span><!-- span class="current"為目前頁面數 -->
+        <a href="#?page=2" title="第2頁">2</a>
+        <a href="#?page=3" title="第3頁">3</a>
+        <a href="#?page=4" title="第4頁">4</a>
+        <a href="#?page=5" title="第5頁">5</a>
+        <a href="#?page=6" title="第6頁">6</a>
+        <a href="#?page=7" title="第7頁">7</a>
+        <a href="#?page=2" title="下一頁">下一頁</a>
+    </div>
+    <p class="addup">共<span>9999</span>筆資料</p>
+    <br class="clean" />  
+    
+    
+    <div id="box_add"><!-- 新增區塊 -->
+      <link href="http://code.jquery.com/ui/jquery-ui-git.css" rel="stylesheet"/>
+	  <script src="http://code.jquery.com/ui/jquery-ui-git.js"></script>
+      <script src="http://mybidrobot.allalla.com/jquery/jquery.ui.datepicker-zh-TW.js"></script>
+	  <script>
+         $(function() {
+         $( "#startDate" ).datepicker({
+         showOn: "button",
+         buttonImage: "../../images/calendar.gif",
+         buttonImageOnly: true
+          });
+         $( "#dueDate" ).datepicker({
+         showOn: "button",
+         buttonImage: "../../images/calendar.gif",
+         buttonImageOnly: true
+          });
+		});
+      </script>	
+      
+       <form action="" method="post">
+       <table width="100%" class="mytable_search-02">
+          <tr>
+            <th colspan="2">新增店休日期</th>
+          </tr>
+          <tr>
+            <td colspan="2">店休日期：<input id="startDate" name="startDate" type="text" class="mytxtarea w200"></td>
+          </tr>
+        </table>
+        </form>
+        
+        <div class="down_btn">
+            <input name="" type="button" class="btn_gray-02" value="確定">
+            <input name="" type="button" class="btn_gray-02" value="取消">
+        </div>
+       <br class="clean"/>
+    </div>
+    
+<!-- InstanceEndEditable -->
+</section>
+
+
+<script src="../../scripts/hide_show.js"></script><!-- 隱藏選單 -->
+</body>
+<!-- InstanceEnd --></html>

@@ -1,0 +1,526 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/edit_pass-tw.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8" lang="en">
+<meta name="description" content=""/>
+<meta name="keywords" content="passpac, pass, "/>
+<meta name="Author" content="QZ Tap inc." />
+<link rel="shortcut icon"  href="../../../images/favicon.ico"/>
+<link rel="icon" href="../../../images/favicon.ico"/>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Passpac Web</title>
+<!-- InstanceEndEditable -->
+<link href="../../../css/reset.css" rel="stylesheet">
+<link href="../../../css/xue201304-tw.css" rel="stylesheet"/>
+<link href="../../../css/passet-tw.css" rel="stylesheet"/>
+<link href="../../../css/jquery.fancybox.css" rel="stylesheet"/>
+<link href="../../../css/tooltipster.css" rel="stylesheet"/>
+<link href="http://code.jquery.com/ui/jquery-ui-git.css" rel="stylesheet"/>
+<script src="../../../script/jquery.min.js"></script>
+<script src="http://code.jquery.com/ui/jquery-ui-git.js"></script>
+<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if IE 6]>
+	<script src="http://letskillie6.googlecode.com/svn/trunk/2/zh_TW.js"></script>
+<![endif]-->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<div id="wrap">
+  <div id="main_content" class="clearfix"> 
+     
+     
+     <header>
+        <h1><a href="../../index.html" title="返回首頁">Passpac</a></h1>
+        <h2>NFC for SmartPhone</h2>
+        <div id="top_right">
+           <div id="top_login">
+               您好! <a href="../account/info_brand.html" title="to my accout">QZ Tap</a>
+              <a href="../../index.html" title="登出" class="btn_login">登出</a>
+              <!--<span>│</span>
+              <a href="../index.html" title="英文版" class="btn_en">英</a>
+              <a href="../tw/index.html" title="中文版" class="btn_ch">中</a>-->
+           </div>
+         <nav>
+          <ul>
+              <li><a href="../profile/What_PassPac.html" title="o2o平台" class="nav_01">o2o平台</a></li>
+              <li><a href="pass_select.html" title="票劵製作" class="nav_02 navin">票劵製作</a></li>
+              <li><a href="../account/pass_manager.html" title="票劵管理" class="nav_03">票劵管理</a></li>
+              <li><a href="../account/info_brand.html" title="我的帳戶" class="nav_04">我的帳戶</a></li>
+              <li><a href="../mobile/app_info.html" title="APP下載" class="nav_05">APP下載</a></li>
+            <li><a href="../deal/nfc_deal.html" title="NFC專案" class="nav_06">NFC專案</a></li>
+          </ul>
+          </nav>
+          </div>
+        <br class="clean" />
+     </header>
+     
+     <div id="mid_block">
+       <section id="pass_edit-top">
+        <div class="editop_left">
+          <!-- InstanceBeginEditable name="pass_title" -->
+          <h3>[ 編輯 ] 活動門票</h3>
+          <!-- InstanceEndEditable -->
+          <p>通過本票劵編輯器可以輕鬆建立各式票劵，符合Apple Passbook標準，方便使用且優化消費體驗，吸引絡繹不絕的客源。</p>
+        </div>
+        <div class="editop_right">
+          <div class="select_in">
+            <h4>目前選擇</h4>
+            <!-- InstanceBeginEditable name="pass_now" -->
+            <a href="edit_event.html" title="活動門票" class="btn_pass-02 passin">活動門票</a>
+            <!-- InstanceEndEditable -->
+          </div>
+          <div class="select_other">
+            <h4>選擇其他</h4>
+            <ul>
+              <!-- InstanceBeginEditable name="pass_select" -->
+                <li><a href="#box_outedit-01" class="btn_pass-01 fancybox screenshot" rel="../../../images/preview_coupan-tw.jpg">優惠劵</a></li>
+                <li><a href="#box_outedit-03" class="btn_pass-03 fancybox screenshot" rel="../../../images/preview_store-tw.jpg">通用票卡</a></li>
+                 <li><a href="#box_outedit-04" class="btn_pass-04 fancybox screenshot" rel="../../../images/preview_generic-tw.jpg">活動門票</a></li>
+                <li><a href="#box_outedit-05" class="btn_pass-05 fancybox screenshot" rel="../../../images/preview_boarding-tw.jpg">交通票劵</a></li>
+              <!-- InstanceEndEditable -->
+            </ul>
+          </div>
+        </div>
+        <br class="clean" />   
+       </section>
+       
+       <section id="pass_edit-main">
+          <div class="pass_show"><!-- pass卡預覽區 -->
+          
+          <!-- InstanceBeginEditable name="pass_show" -->
+             <div class="pass_bg" style="background-color:#f9fa7b; background:url(../../../images/bg_eventcard.jpg)">
+           <div class="blur">
+           <div class="pass_mask-02">
+               <div class="coupon_top">
+                 <div class="coupon_logo"><img id="pass-logo" src="../../../images/logo-sample_01.png" alt="*"></div>
+                 <h5 id="logo-text" style="color:#32591e">PacMarketing</h5>
+               </div>
+               <div class="bg_line"></div>
+               <div class="event_primary"> 
+                 <h4 id="primary_label" style="color:#343537">說明會名稱</h4>
+                 <p id="primary_value" style="color:#6008b1">Facebook行銷說明會</p>
+                 <h5 id="secondary_label" style="color:#343537">參加人姓名</h4>
+                 <p id="secondary_value" class="secon_value" style="color:#6008b1">柯柏司(Pass Pac)</p>
+               </div>
+               <div class="coupon_secondary pdtop_02">
+                 <div class="secondary_02 pdright">
+                   <h5 id="aux01-label" style="color:#343537">報到時間</h5>
+                   <p id="aux01-value" style="color:#6008b1">2013/08/13 09:30</p>
+                 </div>
+                 <div class="secondary_02 pdright">
+                   <h5 id="aux02-label" style="color:#343537">報到地點</h5>
+                   <p id="aux02-value" style="color:#6008b1">O2O行銷會議室</p>
+                 </div>
+                 <div class="secondary_02">
+                   <h5 id="aux03-label" style="color:#343537">地址</h5>
+                   <p id="aux03-value" style="color:#6008b1">台北市信義區基隆路200-1號2樓</p>
+                 </div>
+               </div>
+               <div class="pass_barcode"> <img src="../../../images/pic_qrcode.jpg" width="117" height="117" alt="*">
+                 <p id="barcode-text">PacMarketing</p>
+               </div>
+             </div>
+            </div> 
+           </div>
+          <!-- InstanceEndEditable -->
+           
+           <a href="#box_save" class="btn_save fancybox">儲存票劵</a> 
+           <a href="#box_send" class="btn_distribution fancybox">發佈票劵</a> 
+          </div>
+                 
+       
+          <div class="pass_tools"><!-- pass卡編輯區 -->
+             <div class="abgne_tab">
+		        <ul class="tabs">
+		          <!-- InstanceBeginEditable name="pass_tools" -->
+		            <li><a href="#tab1" class="tabicon_01" title="編輯票卡描述">編輯票卡描述</a></li>
+		            <li><a href="#tab2" class="tabicon_08" title="編輯視覺元素">編輯視覺元素</a></li>
+		            <li><a href="#tab3" class="tabicon_02" title="編輯色彩">編輯色彩</a></li>
+		            <li><a href="#tab4" class="tabicon_03" title="編輯主項目內容">編輯主項目內容</a></li>
+		            <li><a href="#tab5" class="tabicon_04" title="編輯次項目內容">編輯次項目內容</a></li>
+                    <li><a href="#tab9" class="tabicon_09" title="編輯輔助項目內容">編輯輔助項目內容</a></li>
+                    <li><a href="#tab6" class="tabicon_05" title="編輯二維條碼">編輯二維條碼</a></li>
+                    <li><a href="#tab7" class="tabicon_06" title="編輯背面資訊">編輯背面資訊</a></li>
+                  <!-- InstanceEndEditable -->
+	           </ul>
+		        
+               <!-- InstanceBeginEditable name="pass_edit" -->
+		        <form action="" method="get">
+		          <div class="tab_container">
+		            <div id="tab1" class="tab_content">
+		              <h4>編輯票卡描述</h4>
+		              <div class="note_bar">編輯完任何設定請記得存檔。</div>
+		              <div class="box_input">
+		                <h5>票卡描述</h5>
+		                <p>請為你的票卡建立一個簡短的描述。</p>
+		                <div class="input_value"> <span>描述票卡內容</span>
+		                  <textarea id="input-backvalue-01" name="textarea" cols="" rows="3" class="textarea_01"></textarea>
+		                  <a href="#" class="tooltip btn_help" title="<p>您只會在編輯頁面中看到，具有票卡備忘的功能。</p>">說明</a> <br class="clean" />
+	                    </div>
+	                  </div>
+	                </div>
+		            <div id="tab2" class="tab_content">
+		              <h4>編輯視覺元素</h4>
+		              <div class="box_input">
+		                <h5>視覺外觀</h5>
+		                <div class="input_value"> <span>商標</span>
+                          <div class="picup">
+		                     <input id="file_logo" type="file"><a href="#" title="刪除" class="btn_del">刪除</a>
+                          </div>   
+		                  <a href="#" class="tooltip btn_help" title="<p>顯示於票卡正面，位置在左上方位置。您可以透過純粹文字或是圖片與文字的組合來表示發行單位。</p>">說明</a> <br class="clean" />
+	                    </div>
+		                <div class="input_value"> <span>品牌名稱</span>
+		                  <input id="input-logotext" name="input-logotext" type="text" class="textarea_01 input_note" value="PacMarketing">
+		                  <a href="#" class="tooltip btn_help" title="<p>請填入品牌名稱，方便使用者辨識。</p>">說明</a> <br class="clean" />
+	                    </div>
+                        <div class="input_value"> <span>背景圖</span>
+                          <div class="picup">
+		                     <input id="file_Strip" type="file"><a href="#" title="delete" class="btn_del">刪除</a>
+                          </div>   
+		                  <a href="#" class="tooltip btn_help" title="<p>背景圖建議尺寸，寬320像素，高480像素。</p>">Help</a> <br class="clean" />
+	                    </div>
+		                <p class="sub_note">背景圖建議尺寸，寬320像素，高480像素。背景圖與背景顏色只能二選一呈現。</p>
+		              </div>
+	                </div>
+                    
+		            <div id="tab3" class="tab_content">
+		              <h4>編輯色彩</h4>
+		              <div class="box_input">
+		                <h5>色彩選擇</h5>
+		                <p>您可以在各顏色設定欄位透過操作游標直接選擇您喜愛的顏色。</p>
+		                <div class="input_value"> <span>背景顏色</span>
+		                  <input id="color_bg" name="color_bg" type="text" value="#f9fa7b" class="iColorPicker textarea_02">
+		                  <a href="#" class="tooltip btn_help" title="<p>您可以在各顏色設定欄位透過操作游標直接選擇您喜愛的顏色。</p>">說明</a> <br class="clean" />
+	                    </div>
+		                <div class="input_value"> <span>標籤顏色</span>
+		                  <input id="color_label" name="color_label" type="text" value="#343537" class="iColorPicker textarea_02">
+		                  <a href="#" class="tooltip btn_help" title="<p>您可以在各顏色設定欄位透過操作游標直接選擇您喜愛的顏色。</p>">說明</a> <br class="clean" />
+	                    </div>
+		                <div class="input_value"> <span>文字顏色</span>
+		                  <input id="color_value" name="color_value" type="text" value="#6008b1" class="iColorPicker textarea_02">
+		                  <a href="#" class="tooltip btn_help" title="<p>您可以在各顏色設定欄位透過操作游標直接選擇您喜愛的顏色。</p>">說明</a> <br class="clean" />
+	                    </div>
+	                  </div>
+	                </div>
+		            <div id="tab4" class="tab_content">
+		              <div class="tip_coupon-08"></div>
+		              <h4>編輯主項目內容</h4>
+		              <!--<div class="note_bar">Optional field — Appears in the center over the strip image</div>-->
+		              <div class="box_input">
+		                <h5>主項目內容</h5>
+		                <p>顯示於正面上方位置</p>
+		                <div class="input_value"> <span>項目名稱</span>
+		                  <input id="input-prilabel" name="Primary-Label" type="text" class="textarea_01" value="說明會名稱">
+		                  <a href="#" class="tooltip btn_help" title="<p>標籤系文字，顯示於正面上方位置。</p>">說明</a> <br class="clean" />
+	                    </div>
+		                <div class="input_value"> <span>項目值</span>
+		                  <input id="input-privalue" name="Primary-Value" type="text" class="textarea_01" value="Facebook行銷說明會">
+		                  <a href="#" class="tooltip btn_help" title="<p>文字系文字，顯示於正面上方位置。</p>">說明</a> <br class="clean" />
+	                    </div>
+	                  </div>
+	                </div>
+		            
+                    <div id="tab5" class="tab_content">
+		              <div class="tip_coupon-09"></div>
+		              <h4>編輯次項目內容</h4>
+		              <!--<div class="note_bar">Optional field — Appears on the left under the Strip Image</div>-->
+		              <div class="box_input">
+		                <h5>次項目內容</h5>
+		                <p>顯示於正面中間位置</p>
+		                <div class="input_value"> <span>項目名稱</span>
+		                  <input id="input-seclabel" name="Sec_Left_Label" type="text" class="textarea_01" value="參加人姓名">
+		                  <a href="#" class="tooltip btn_help" title="<p>標籤系文字，顯示於正面中間位置。</p>">說明</a> <br class="clean" />
+	                    </div>
+		                <div class="input_value"> <span>項目值</span>
+		                  <input id="input-secvalue" name="Sec_Left_value" type="text" class="textarea_01" value="柯柏司(Pass Pac)">
+		                  <a href="#" class="tooltip btn_help" title="<p>文字系文字，顯示於正面中間位置。</p>">說明</a> <br class="clean" />
+	                    </div>
+	                  </div>
+		            </div>
+                    
+                    <div id="tab9" class="tab_content">
+		              <div class="tip_coupon-10"></div>
+		              <h4>編輯輔助項目內容</h4>
+		              <div class="box_input">
+		                <h5>輔助項目內容 1 of 3</h5>
+		                <p>顯示於正面下方的左側位置</p>
+		                <div class="input_value"> <span>項目名稱</span>
+		                  <input id="input-auxlabel-01" name="Sec_Left_Label" type="text" class="textarea_01" value="報到時間">
+		                  <a href="#" class="tooltip btn_help" title="<p>標籤系文字，顯示於正面下方的左側位置。</p>">說明</a> <br class="clean" />
+	                    </div>
+		                <div class="input_value"> <span>項目值</span>
+		                  <input id="input-auxvalue-01" name="Sec_Left_value" type="text" class="textarea_01" value="2013/08/13 09:30">
+		                  <a href="#" class="tooltip btn_help" title="<p>文字系文字，顯示於正面下方的左側位置。</p>">說明</a> <br class="clean" />
+	                    </div>
+	                  </div>
+		              <div class="box_input">
+		                <h5>輔助項目內容  2 of 3</h5>
+		                <p>顯示於正面下方的中間位置</p>
+		                <div class="input_value"> <span>項目名稱</span>
+		                  <input id="input-auxlabel-02" name="Sec_Right_Label" type="text" class="textarea_01" value="報到地點">
+		                  <a href="#" class="tooltip btn_help" title="<p>標籤系文字，顯示於正面下方的中間位置。</p>">說明</a> <br class="clean" />
+	                    </div>
+		                <div class="input_value"> <span>項目值</span>
+		                  <input id="input-auxvalue-02" name="Sec_Right_Value" type="text" class="textarea_01" value="O2O行銷會議室">
+		                  <a href="#" class="tooltip btn_help" title="<p>文字系文字，顯示於正面下方的中間位置。</p>">說明</a> <br class="clean" />
+	                    </div>
+	                  </div>
+                      <div class="box_input">
+		                <h5>輔助項目內容  2 of 3</h5>
+		                <p>顯示於正面下方的右側位置</p>
+		                <div class="input_value"> <span>項目名稱</span>
+		                  <input id="input-auxlabel-03" name="Sec_Right_Label" type="text" class="textarea_01" value="地址">
+		                  <a href="#" class="tooltip btn_help" title="<p>標籤系文字，顯示於正面下方的右側位置。</p>">說明</a> <br class="clean" />
+	                    </div>
+		                <div class="input_value"> <span>項目值</span>
+		                  <input id="input-auxvalue-03" name="Sec_Right_Value" type="text" class="textarea_01" value="台北市信義區基隆路200-1號2樓">
+		                  <a href="#" class="tooltip btn_help" title="<p>文字系文字，顯示於正面下方的右側位置。</p>">說明</a> <br class="clean" />
+	                    </div>
+	                  </div>
+	                </div>
+                    
+                   <div id="tab6" class="tab_content">
+		              <div class="tip_coupon-03"></div>
+		              <h4>編輯二維條碼</h4>
+		              <!--<div class="note_bar">Optional field — Appears at the bottom of the pass</div>-->
+		              <div class="box_input">
+		                <h5>二維條碼</h5>
+		                <div class="input_value"> <span>條碼下方文字</span>
+		                  <input id="input-altext" name="Barcode_Alt Text" type="text" class="textarea_01" value="PacMarketing">
+		                  <a href="#" class="tooltip btn_help" title="<p>你可以隨意編輯此文字。</p>">說明</a> <br class="clean" />
+	                    </div>
+	                  </div>
+	                </div>
+		            
+                    <div id="tab7" class="tab_content">
+		              <div class="tip_coupon-04">
+		                <div id="scrollbar1">
+		                  <div class="scrollbar">
+		                    <div class="track">
+		                      <div class="thumb">
+		                        <div class="end"></div>
+	                          </div>
+	                        </div>
+	                      </div>
+		                  <div class="viewport">
+		                    <div class="overview">
+		                      <div class="sample_btn"></div>
+		                      <div class="back_content">
+		                        <h5 id="backlabel_01">注意事項</h5>
+		                        <p id="backvalue_01">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae velit at velit pretium sodales. Maecenas egestas imperdiet mauris, vel elementum turpis iaculis eu. Duis egestas augue quis ante ornare eu tincidunt magna interdum.</p>
+		                        <span></span>
+		                        <h5 id="backlabel_02">商家資訊</h5>
+		                        <p id="backvalue_02">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque eget mauris libero. Nulla sit amet felis in sem posuere laoreet ut quis elit. Aenean mauris massa, pretium non bibendum eget, elementum sed nibh. Nulla ac felis et purus adipiscing rutrum. Pellentesque a bibendum sapien.</p>
+		                        <span></span> </div>
+	                        </div>
+	                      </div>
+	                    </div>
+	                  </div>
+		              <h4>編輯背面資訊</h4>
+		              <!--<div class="note_bar">Optional field — Appears on the back of the pass</div>-->
+		              <div class="box_input">
+		                <h5>背面資訊 1 of 2</h5>
+		                <p>背面資訊欄位不限字數。</p>
+		                <div class="input_value"> <span>項目名稱</span>
+		                  <input id="input-backlabel-01" name="Back Field_Label-01" type="text" class="textarea_01" value="注意事項">
+		                  <a href="#" class="tooltip btn_help" title="<p>標籤系文字。您可於背面新增多組項目名稱與項目值的組合，以補充本票卡對使用者而言可能會感興趣的更多資訊。</p>">說明</a> <br class="clean" />
+	                    </div>
+		                <div class="input_value"> <span>項目值</span>
+		                  <textarea id="input-backvalue-01" name="textarea" cols="" rows="5" class="textarea_01">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae velit at velit pretium sodales. Maecenas egestas imperdiet mauris, vel elementum turpis iaculis eu. Duis egestas augue quis ante ornare eu tincidunt magna interdum.
+                          </textarea>
+		                  <a href="#" class="tooltip btn_help" title="<p>文字系文字，顯示於項目名稱之下，補充票卡更多資訊。</p>">說明</a> <br class="clean" />
+	                    </div>
+	                  </div>
+		              <div class="box_input">
+		                <h5>背面資訊  2 of 2</h5>
+		                <p>背面資訊欄位不限字數。</p>
+		                <div class="input_value"> <span>項目名稱</span>
+		                  <input id="input-backlabel-02" name="Back Field_Label-02" type="text" class="textarea_01" value="商家資訊">
+		                  <a href="#" class="tooltip btn_help" title="<p>標籤系文字。您可於背面新增多組項目名稱與項目值的組合，以補充本票卡對使用者而言可能會感興趣的更多資訊。</p>">說明</a> <br class="clean" />
+	                    </div>
+		                <div class="input_value"> <span>項目值</span>
+		                  <textarea id="input-backvalue-02" name="textarea" cols="" rows="5" class="textarea_01">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque eget mauris libero. Nulla sit amet felis in sem posuere laoreet ut quis elit. Aenean mauris massa, pretium non bibendum eget, elementum sed nibh. Nulla ac felis et purus adipiscing rutrum. Pellentesque a bibendum sapien.
+                          </textarea>
+		                  <a href="#" class="tooltip btn_help" title="<p>文字系文字，顯示於項目名稱之下，補充票卡更多資訊。</p>">說明</a> <br class="clean" />
+	                    </div>
+	                  </div>
+	                </div>
+                    
+                  </div>
+	            </form>
+	           <!-- InstanceEndEditable -->
+               
+            </div>
+         </div>
+          
+          
+          <!-- InstanceBeginEditable name="page_leave" -->
+          <div id="box_outedit-01" class="box_light">
+           <h3>請注意</h3>
+           <div class="mylightbox bg_pop-02">
+               <p class="notee"><span class="icon_info"></span>本張票卡資訊尚未儲存，離開頁面將導致資料遺失。</p>
+               <a href="edit_coupon.html" class="btn_blue_02">不儲存，直接離開</a> 
+               <a href="#box_save" class="fancybox btn_blue_02">是的，我要儲存</a> 
+               <br class="clean" />
+           </div>
+         </div>
+          <div id="box_outedit-03" class="box_light">
+            <h3>請注意</h3>
+            <div class="mylightbox bg_pop-02">
+               <p class="notee"><span class="icon_info"></span>本張票卡資訊尚未儲存，離開頁面將導致資料遺失。</p>
+              <a href="edit_store.html" class="btn_blue_02 ppl-03">不儲存，直接離開</a> 
+              <a href="#box_save" class="fancybox btn_blue_02 ppl-03">是的，我要儲存</a> 
+              <br class="clean" />
+            </div>
+          </div>
+          <div id="box_outedit-04" class="box_light">
+            <h3>請注意</h3>
+            <div class="mylightbox bg_pop-02">
+               <p class="notee"><span class="icon_info"></span>本張票卡資訊尚未儲存，離開頁面將導致資料遺失。</p>
+              <a href="edit_generic.html" class="btn_blue_02 ppl-03">不儲存，直接離開</a> 
+              <a href="#box_save" class="fancybox btn_blue_02 ppl-03">是的，我要儲存</a> 
+              <br class="clean" />
+            </div>
+          </div>
+          <div id="box_outedit-05" class="box_light">
+            <h3>請注意</h3>
+            <div class="mylightbox bg_pop-02">
+               <p class="notee"><span class="icon_info"></span>本張票卡資訊尚未儲存，離開頁面將導致資料遺失。</p>
+              <a href="edit_boarding.html" class="btn_blue_02 ppl-03">不儲存，直接離開</a> 
+              <a href="#box_save" class="fancybox btn_blue_02 ppl-03">是的，我要儲存</a> 
+              <br class="clean" />
+            </div>
+          </div>
+          <div id="box_save" class="box_light">
+            <h3>儲存票劵</h3>
+            <div class="mylightbox bg_pop-01">
+              <h4>檔案名稱</h4>
+              <input name="myfile" type="text" class="textarea_03" placeholder="請輸入檔案名稱">
+              <br class="clean"/>
+              <a href="edit_store.html" class="btn_blue ppl-03">儲存</a> </div>
+          </div>
+          <!-- InstanceEndEditable -->
+          
+          
+         <div id="box_send" class="box_light-02">
+           <h3>散佈票劵</h3>
+           <div class="dete_set">
+              <h4>開始日期</h4>
+                <input id="datepicker-01" name="startdate" type="text" class="textarea_03" placeholder="請選擇日期">
+                
+              <h4>結束日期</h4>
+                <input id="datepicker-02" name="expirydate" type="text" class="textarea_03" placeholder="請選擇日期">
+                
+              <h4>發行數量</h4>
+                 <input id="datepicker-02" name="expirydate" type="text" class="textarea_03" placeholder="請輸入數量" value="1">
+           </div>
+           <div class="distribu_set">
+	            <div class="mylightbox">
+                   <input name="select_send" type="radio" class="send_item" value="email">
+                   <h4>Email</h4>
+                   <input name="myemail" type="text" class="textarea_03" placeholder="Enter Your Email">
+                   <p>可寄送本張票劵給自己或指定某人，但收件者必須有已安裝Passbook (ios6)的iPhone 或 iPod裝置，才能檢視此票劵。</p>
+                   <a href="#" class="btn_blue">發送Email</a> 
+                </div>
+                <div class="mylightbox">
+                   <input name="select_send" type="radio" class="send_item" value="facebook">
+                   <h4>Facebook</h4>
+                   <span class="fbfn">FB 粉絲頁名稱</span>
+                   <p>可散佈票劵至Facebook粉絲頁中，但使用者必須有已安裝Passbook (ios6)的iPhone 或 iPod裝置，才能檢視此票劵。</p>
+                   <a href="#" class="btn_blue">發佈票劵</a>   
+                </div>
+            </div>
+            <br class="clean" />    
+          </div>
+           
+         <br class="clean" />   
+       </section>
+     </div>
+     
+   </div>   
+</div>
+
+<footer>
+  <div id="down_block">
+    <p class="down_left">&copy;2013 <a href="http://www.qztap.com/" title="Qztap Inc." rel="external">QzTap Inc.,</a> All Rights Reserved.</p>
+    <ul class="down_right">
+       <li><a href="../profile/What_PassPac.html" title="O2O平台">O2O平台</a>│</li>
+       <li><a href="pass_select.html" title="製作票劵">製作票劵</a>│</li>
+       <li><a href="../account/pass_manager.html" title="票劵管理">票劵管理</a>│</li>
+       <li><a href="../account/info_brand.html" title="我的帳戶">我的帳戶</a>│</li>
+       <li><a href="../mobile/app_info.html" title="APP下載">APP下載</a>│</li>
+       <li><a href="../deal/nfc_deal.html" title="NFC專案">NFC專案</a>│</li>
+       <li><a href="../profile/faq.html" title="常見問題">常見問題</a>│</li>
+       <li><a href="../profile/contact.html" title="聯絡我們">聯絡我們</a>│</li>
+       <li><a href="http://www.qztap.com/" title="部落格" rel="external">部落格</a></li>
+    </ul>
+  </div>  
+</footer>
+
+<!-- InstanceBeginEditable name="pass_scriptedit" -->
+<script src="../../../script/passedit_event.js"></script><!-- 票卡編輯 -->
+<script src="../../../script/blur.js"></script>
+<script>
+		$(function(){
+		// 套上模糊效果, 模糊度 10
+		$('.blur').blurjs({
+			source: $('.blur').parent(),
+			overlay: 'rgba(255,255,255,0.1)',
+			radius: 10
+		});
+	});
+	</script>
+<!-- InstanceEndEditable --> 
+
+<script>
+   $(function() {
+    $( "#datepicker-01" ).datepicker();
+	$( "#datepicker-02" ).datepicker();
+   });
+</script>
+<script src="../../../script/tinyscrollbar.js"></script><!-- 視窗拉BAR -->
+<script><!-- 視窗拉BAR -->
+		$(document).ready(function(){
+			$('#scrollbar1').tinyscrollbar();	
+		});
+</script>		
+<script><!-- 頁籤切換 -->
+   $(function(){
+		var _showTab = 0;
+		var $defaultLi = $('ul.tabs li').eq(_showTab).addClass('active');
+		$($defaultLi.find('a').attr('href')).siblings().hide();
+		
+		$('ul.tabs li').click(function() {
+			var $this = $(this),
+				_clickTab = $this.find('a').attr('href');
+			$this.addClass('active').siblings('.active').removeClass('active');
+			$(_clickTab).stop(false, true).fadeIn().siblings().hide();
+
+			return false;
+		}).find('a').focus(function(){
+			this.blur();
+		});
+	});	  
+</script>
+<script src="../../../script/screenshot.js"></script><!-- 滑過預覽-->
+<script src="../../../script/iColorPicker-tw.js"></script><!-- 選色器 -->
+<script src="../../../script/jquery.tooltipster.min.js"></script><!-- 提示框 -->
+<script> $(document).ready(function() { $('.tooltip').tooltipster(); }) </script><!-- 提示框 -->
+<script src="../../../script/jquery.placeholder.js"></script><!-- 輸入框提醒文字 -->
+<script src="../../../script/jquery.fancybox.pack.js"></script><!-- Lightbox -->
+<script>
+		$(document).ready(function() {
+			$('.fancybox').fancybox();
+            $(".fancybox-effects-a").fancybox({
+				helpers:{
+					title:{type : 'outside'},
+					overlay:{speedOut : 0}  }  });  });
+</script>
+<script src="../../../script/jquery.lazyload.js"></script><!-- 圖片延遲載入 -->
+<script src="../../../script/other_set.js"></script>
+</body>
+<!-- InstanceEnd --></html>

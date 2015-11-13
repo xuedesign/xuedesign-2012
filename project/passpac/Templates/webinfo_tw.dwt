@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" lang="en">
+<meta name="description" content=""/>
+<meta name="keywords" content="passpac, pass, "/>
+<meta name="Author" content="QZ Tap inc." />
+<link rel="shortcut icon"  href="../images/favicon.ico"/>
+<link rel="icon" href="../images/favicon.ico"/>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>PassPac Web</title>
+<!-- TemplateEndEditable -->
+<link href="../css/reset.css" rel="stylesheet">
+<link href="../css/xue201304-tw.css" rel="stylesheet"/>
+<link href="../css/passinfo-tw.css" rel="stylesheet"/>
+<link rel="canonical" href="http://www.qztap.com/" />
+<script src="../script/jquery.min.js"></script>
+<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if IE 6]>
+	<script src="http://letskillie6.googlecode.com/svn/trunk/2/zh_TW.js"></script>
+<![endif]-->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div id="wrap">
+  <div id="main_content" class="clearfix"> 
+     
+     
+     <header>
+        <h1><a href="../tw/index.html" title="返回首頁">PassPac</a></h1>
+        <h2>NFC for SmartPhone</h2>
+        <div id="top_right">
+          <div id="top_login">
+              <a href="#" title="Login with Facebook" class="btn_login2" rel="external">Login with Facebook</a>
+              <!--<span>│</span>-->
+              <!-- 登入後狀態
+              Hi! <a href="content/account/company_info.html" title="to my accout">QZ Tap</a>
+              <a href="index.html" title="logout" class="btn_login">Logout</a>
+              <span>│</span>
+              
+              <a href="../index.html" title="英文版" class="btn_en">英</a>
+              <a href="../tw/index.html" title="中文版" class="btn_ch">中</a>-->
+           </div>
+           <!-- TemplateBeginEditable name="main_nav" -->
+           <nav>
+             <ul>
+               <li><a href="../tw/content/profile/What_PassPac.html" title="o2o平台" class="nav_01 navin">o2o平台</a></li>
+               <li><a href="../tw/content/creator/pass_select.html" title="票劵製作" class="nav_02">票劵製作</a></li>
+               <li><a href="../tw/content/account/pass_manager.html" title="票劵管理" class="nav_03">票劵管理</a></li>
+               <li><a href="../tw/content/account/info_brand.html" title="我的帳戶" class="nav_04">我的帳戶</a></li>
+               <li><a href="../tw/content/mobile/app_info.html" title="APP下載" class="nav_05">APP下載</a></li>
+               <li><a href="../tw/content/deal/nfc_deal.html" title="NFC專案" class="nav_06">NFC專案</a></li>
+             </ul>
+           </nav>
+           <!-- TemplateEndEditable -->
+          </div>
+        <br class="clean" />
+     </header> 
+     
+     
+     
+     <div id="mid_block">
+     <!-- TemplateBeginEditable name="main_content" -->
+       
+      <div id="web_info">
+         <h3>O2O平台</h3>
+         <div id="about_box">
+           <h4>什麼是O2O?</h4>
+           <p>O2O 行銷是為Online 到Offline 是為實體與虛擬世界的行銷整合，也就是網路上的人流轉換到實體通路來應用，達到銷售產品的目標，在PassPac 提供的行銷工具，就是具經營的Facebook 社群網站的粉絲團人流轉化到實體通路來運作。</p>
+           <img src="../images/what_01.jpg" width="665" height="364" alt="What is O2O">
+           <h4>什麼是pass?</h4>
+           <p>Pass(電子票劵)是指我們日常生活中的紙張或塑膠形態的卡片等有價的證券轉化成電腦或手機螢幕可以呈現之電子形式之有價證券, 包含了5種的形式。</p>
+           <img src="../images/what_02.jpg" width="689" height="192" alt="pass_sample">
+           <h4>Pass 如何運作?</h4>
+           <h5>【產生Pass】 範例式Pass編輯, 簡單操作! 與世界聯結, 一鍵搞定</h5>
+           <h5>【使用Pass】 QR Code及NFC Adaper 驗證方法, 任我選擇</h5>
+           <img src="../images/what_03.jpg" width="671" height="367" alt="How it work"> </div>
+       </div>
+     <!-- TemplateEndEditable -->
+     
+     </div>
+  </div>   
+</div>
+
+<footer>
+  <div id="down_block">
+    <p class="down_left">&copy;2013 <a href="http://www.qztap.com/" title="Qztap Inc." rel="external">QzTap Inc.,</a> All Rights Reserved.</p>
+    <ul class="down_right">
+       <li><a href="../tw/content/profile/What_PassPac.html" title="O2O平台">O2O平台</a>│</li>
+       <li><a href="../tw/content/creator/pass_select.html" title="製作票劵">製作票劵</a>│</li>
+       <li><a href="../tw/content/account/pass_manager.html" title="票劵管理">票劵管理</a>│</li>
+       <li><a href="../tw/content/account/info_brand.html" title="我的帳戶">我的帳戶</a>│</li>
+       <li><a href="../tw/content/mobile/app_info.html" title="APP下載">APP下載</a>│</li>
+       <li><a href="../tw/content/deal/nfc_deal.html" title="NFC專案">NFC專案</a>│</li>
+       <li><a href="../tw/content/profile/faq.html" title="常見問題">常見問題</a>│</li>
+       <li><a href="../tw/content/profile/contact.html" title="聯絡我們">聯絡我們</a>│</li>
+       <li><a href="http://www.qztap.com/" title="部落格" rel="external">部落格</a></li>
+    </ul>
+  </div>  
+</footer>
+
+<!-- TemplateBeginEditable name="scriptbox" -->
+<script src="../script/jquery.lazyload.js"></script>
+<script src="../script/other_set.js"></script>
+<!-- TemplateEndEditable -->
+</body>
+</html>

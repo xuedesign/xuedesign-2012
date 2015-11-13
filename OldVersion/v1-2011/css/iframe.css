@@ -1,0 +1,99 @@
+/*=======================================
+This CSS editing completed by Elmo Wu 
+@2011/06 Xuedesign studio. All rights reserved
+=========================================*/
+
+/*==================== layout ====================*/
+body{
+	margin: 0;
+	padding:0;
+	font-family:"微軟正黑體","Microsoft JhengHei","新細明體","PMingLiU", Helvetica, Arial, sans-serif;
+	font-size:100%;
+	line-height:22px;
+	color:#444343}
+a:link {text-decoration:none; color:#dd8824}
+a:visited {text-decoration:none; color:#999}
+a:hover {text-decoration: underline; color:#F50}
+form{margin:0; padding:0}
+image{border:0}
+
+/*==================== 頁面主體 ====================*/
+#wrap{
+	display:block;
+	position:relative;
+	width:800px;
+	height:600px;
+	margin:0 auto;
+	background:url(../images/bg_iframe.png) no-repeat}
+
+/*==================== 圖片輪播 ====================*/
+#elmo_album{
+	width: 738px;	/* 圖片的寬 */
+	height: 489px;	/* 圖片的高 + 30 */
+	margin:0 0 0 30px;
+	padding-top:12px}
+.abgne-player {
+	width: 738px;	/* 圖片的寬 */
+	height: 471px;	/* 圖片的高 */
+	position: relative;
+	overflow: hidden}
+.abgne-player ul.abgne-list {
+	position: absolute;
+	width: 9999px;
+	height: 100%}
+.abgne-player ul.abgne-list li {
+	float: left;
+	width: 738px;	/* 圖片的寬 */
+	height: 100%}
+.abgne-player ul.abgne-list img{
+	width: 100%;
+	height: 100%;
+	border: 0}
+.abgne-control {
+	height: 24px;
+	margin-top:10px;
+	padding: 3px 3px 3px 0;
+	color: #fff;
+	font-size: 13px}
+.abgne-control ul {float: left}
+.abgne-control ul li {
+	float: left;
+	padding: 0 5px;
+	line-height: 20px;
+	margin: 2px;
+	background: #febf01;
+	border:1px solid #febf01;
+	cursor: pointer}
+.abgne-control ul.numbers {
+	margin-left: 13px}
+.abgne-control ul li.current {
+	background: #fff;
+	border:1px solid #febf01;
+	color:#e3ab02}
+.abgne-control ul li.hover {
+	background: #F60;
+	color:#FFF}
+
+/*作品說明*/
+#album_info{
+	display:block;
+	width:540px;
+	margin:25px 0 0 65px;
+	padding-left:45px;
+	background:url(../images/bg_arrorglay.png) no-repeat 0 3px}
+#album_info p{ font-size:0.813em; line-height:20px; margin:0; padding:0}
+
+#gotourl{
+	display:block;
+	position:absolute;
+	top:500px;
+	right:40px;
+	background:url(../images/btn_gotourl.png) no-repeat #febf01;
+	width:58px;
+	height:22px;
+	padding-left:30px;
+	font-size:0.813em;
+	color:#FFF}
+#gotourl a:link {text-decoration:none; color:#fff}
+#gotourl a:visited {text-decoration:none; color:#fff}
+#gotourl a:hover {text-decoration: underline; color:#F50}	

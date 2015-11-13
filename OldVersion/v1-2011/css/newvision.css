@@ -1,0 +1,121 @@
+/**********************************************************************************************
+
+	Title: CSS for xuedeisgn
+	Author: Elmo Wu (by xuedesign studio)
+	Date: 2011 / 12 
+
+**********************************************************************************************/
+
+body{
+	margin: 0;
+	padding:0;
+	background: url(../images/new/bg_website.png);
+	font-family:/*"微軟正黑體","Microsoft JhengHei","新細明體","PMingLiU",*/Helvetica, Arial, sans-serif;
+	font-size:100%;
+	line-height:20px;
+	color:#565555}
+a:link {text-decoration:underline; color:#00adee}
+a:visited {text-decoration:underline; color:#8c8c8c}
+a:hover {text-decoration:none; color:#F50}
+form{margin:0; padding:0}
+image{border:0}
+
+.clean{ clear:both}
+.hidden{ display:none}
+
+/*頁首*/
+#wrap{
+	display:block;
+	position:relative;
+	width:994px;
+	margin:0 auto}
+#header{
+	display:block;
+	width:994px;}
+#header .header_left{
+	display:block;
+	float:left;
+	width:100px}	
+#header .header_left h1{
+	display:block;
+	background:url(../images/new/logo.png) no-repeat;
+	width:100px;
+	height:155px;
+	text-indent:-9999px}
+#header .header_right{
+	display:block;
+	float:right;}
+#header .header_right ul{padding-right:15px}
+#header .header_right li{
+	display:inline;
+	margin-left:10px;
+	font-size:0.813em;
+	padding-bottom:5px;
+	border-bottom:3px solid #20effc;}
+#header .header_right a:link {text-decoration:none; color:#FFF}
+#header .header_right a:visited {text-decoration:none; color:#FFF}
+#header .header_right a:hover {text-decoration:none; color:#20effc}	
+#bodyer{
+	display:block;
+	width:825px;
+	margin:0 auto}
+#bodyer .banner{
+	display:block;
+	position:absolute;
+	width:825px;
+	height:270px;
+	top:130px;
+	left:90px;
+	background:url(../images/new/show.png) no-repeat;
+	text-indent:-9999px}
+#bodyer .subtitle{
+	display:block;
+	position:absolute;
+	top:400px;
+	left:230px;
+	width:825px;
+	font-size:1.5em;
+	line-height:25px;
+	color:#003}	
+#bodyer .timebar{
+	display:block;
+	width:825px;
+	padding-top:290px}
+
+
+/*完美底部佈局---------------------------*/
+html, body, #wrap {height: 100%;}
+body > #wrap {height: auto; min-height: 100%;}
+#main_content{padding-bottom:40px}
+.clearfix:after {content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+/*版權列---------------------------*/
+#footer{ 
+    display:block;
+    position: relative;
+    width:100%;
+    background:url(../images/new/bg_footer.png);
+    margin-top: -40px;
+    height:40px; 
+    clear:both}
+#footer_main{ display:block; width:994px; margin:0 auto}
+#footer_main p{ margin:0; padding:0}
+#copyright{
+	display:block;
+	width:649px;
+	margin:0 auto;
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:1.125em; 
+	text-align: center; 
+	color:#FFF;
+	padding:10px 50px 0 0;
+	letter-spacing:1px}	

@@ -1,0 +1,161 @@
+/*=======================================
+This CSS editing completed by Elmo Wu 
+@2011/02 IIFUN Inc. All rights reserved
+=========================================*/
+
+body{
+	margin: 0;
+	padding:0;
+	background: url(../images/bg_site.png) #e6e6e6;
+	font-family:"微軟正黑體","Microsoft JhengHei","新細明體","PMingLiU", Helvetica, Arial, sans-serif;
+	font-size:100%;
+	line-height:20px;
+	color:#43394b}
+a:link {text-decoration: none; color:#3a334e}
+a:visited {text-decoration: none; color:#7D7D79}
+a:hover {text-decoration: none; color:#F60}
+form{margin:0; padding:0}
+image{border:0}
+
+.clean{ clear:both}
+.hidden{ display:none}
+
+#wrap{
+	display:block;
+	width:994px;
+	margin:0 auto}
+#elmo_box{
+	display:block;
+	width:838px;
+	background:url(../images/bg_pagewhite.png) repeat-y;
+	margin:0 auto}
+#header{
+	display:block;
+	background: url(../images/bg_header.png);
+	width:796px;
+	height:82px;
+	margin:0 auto}
+#logo{ 
+    display:block; 
+	float:left;
+	padding:0 10px 0 15px}
+#logo h1 a{
+	display:block;
+	background:url(../images/logo.png);
+	width:280px;
+	height:81px;
+	text-indent:-9999px}
+#logo h2{ display:none}
+#submenu{
+	display:block;
+	float:right;
+	background:url(../images/bg_submenu.jpg);
+	width:252px;
+	height:27px;
+	text-align:right;
+	padding:25px 20px 0 0;
+	font-size:0.813em}
+#submenu img{ vertical-align: middle; padding-right:5px}	
+
+#banner{
+	display:block;
+	width:790px;
+	margin:0 auto}
+
+/*內文區塊*/	
+#bodyer{
+	display:block;
+	width:796px;
+	margin:0 auto}
+#paty_info{ display:block; width:796px}
+#paty_info h3{
+	display:block;
+	width:796px;
+	height:54px;
+	background:url(../images/bg_singup_title_01.png);
+	text-indent:-9999px}
+#paty_info p{
+	font-size:0.813em;
+	line-height:22px;
+	padding:5px 25px 0 50px}
+.my_table{ width:680px; margin:5px 25px 0 70px}
+.my_table td{
+	padding:8px;
+	font-size:0.813em;
+	border-bottom:1px dashed #666}
+.my_table .ttd{
+	width:14%;
+	background:url(../images/icon_newstitle.png) no-repeat;
+	background-position:0 12px;
+	padding-left:20px;
+	color:#ad5080;
+	font-weight:bold}
+	
+/*報名資料*/
+.my_table2{ width:680px; margin:5px 25px 0 70px}
+.my_table2 td{
+	padding:8px;
+	font-size:0.813em;
+	border-bottom:1px dashed #666}
+.my_table2 .ttd{
+	width:14%;
+	background:url(../images/icon_newstitle.png) no-repeat;
+	background-position:0 13px;
+	padding-left:20px;
+	color:#ad5080;
+	font-weight:bold;
+	vertical-align:top}
+.my_table2 .my_txtarea{
+	width:250px;
+	padding:3px;
+	border:1px solid #CCC;
+	color:#4F082D}
+.my_table2 .my_txtarea2{
+	width:250px;
+	padding:3px;
+	border:1px solid #CCC;
+	color:#4F082D}				
+	
+#paty_add{display:block;width:796px; margin-top:15px}
+#paty_add h3{
+	display:block;
+	width:796px;
+	height:54px;
+	background:url(../images/bg_singup_title_02.png);
+	text-indent:-9999px}
+	
+#down_btn{
+	display:block;
+	width:516px;
+	text-align:center;
+	margin-top:10px;
+	padding-left:280px}
+.btn_back2{
+	display:block;
+	float:left;
+	width:115px;
+	height:27px;
+	background:url(../images/btn_ppcloud.png) no-repeat;
+	font-size:0.813em;
+	letter-spacing:5px;
+	text-align:center;
+	text-decoration:none; 
+	color:#FFF;
+	padding-top:2px;
+	margin-right:5px;
+	border:none;
+	cursor:pointer}				
+	
+/*版權列*/				
+#footer{
+	display:block;
+	width:808px;
+	height:66px;
+	background: url(../images/bg_signup_foot.png);
+	padding:45px 30px 0 0;
+	text-align:right;
+	font-size:0.75em;
+	color:#FFF}
+#footer a:link {text-decoration:none; color:#FFF}
+#footer a:visited {text-decoration:none; color:#FFF}
+#footer a:hover {text-decoration: underline; color:#F60}									
